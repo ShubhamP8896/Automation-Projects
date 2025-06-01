@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod"/>
+	  <class name="design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update"/>
+	  <class name="design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password"/>
+	  <class name="design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage"/>
+	  <class name="design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage"/>
+	  <class name="design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage"/>
+	  <class name="design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock"/> 
+      <class name="design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports"/>     
+      <class name="design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates"/>
+      <!--class name="design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary"/-->
+      <class name="design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage"/>
+      <class name="design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

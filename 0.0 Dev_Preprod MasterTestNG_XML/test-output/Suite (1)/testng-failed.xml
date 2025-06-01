@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (1)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="magpreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <methods>
+          <include name="SetUp"/>
+          <include name="JobListPageActions_Rec"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- magpreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+      <class name="magpreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage">
+        <methods>
+          <include name="SettingsPage"/>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- magpreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (1)] -->

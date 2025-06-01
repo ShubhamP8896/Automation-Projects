@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-20T07:55:51 IST" name="Suite" finished-at="2025-02-20T08:01:56 IST" duration-ms="365427">
+    <groups>
+    </groups>
+    <test started-at="2025-02-20T07:55:51 IST" name="Test" finished-at="2025-02-20T08:01:56 IST" duration-ms="365427">
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@1ed4ae0f]" started-at="2025-02-20T07:58:26 IST" name="SetUp" finished-at="2025-02-20T07:58:43 IST" duration-ms="16673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadReccomdSummaryRep()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@1ed4ae0f]" started-at="2025-02-20T07:58:43 IST" name="DownloadReccomdSummaryRep" finished-at="2025-02-20T07:58:53 IST" duration-ms="9874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadReccomdSummaryRep -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@1ed4ae0f]" started-at="2025-02-20T07:58:53 IST" name="teardown" finished-at="2025-02-20T07:58:55 IST" duration-ms="1709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadReccomdSummaryRep status=SUCCESS method=TC030_Rec_ReccomdSummaryRP_Download.DownloadReccomdSummaryRep()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@11392934]" started-at="2025-02-20T07:59:24 IST" name="SetUp" finished-at="2025-02-20T07:59:34 IST" duration-ms="10047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobSettingsPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@11392934]" started-at="2025-02-20T07:59:34 IST" name="JobSettingsPage" finished-at="2025-02-20T07:59:48 IST" duration-ms="13769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobSettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@11392934]" started-at="2025-02-20T07:59:48 IST" name="teardown" finished-at="2025-02-20T07:59:50 IST" duration-ms="1647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobSettingsPage status=SUCCESS method=TC039_Rec_JobSettingsPage.JobSettingsPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@11392934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@26d9b808]" started-at="2025-02-20T07:56:15 IST" name="SetUp" finished-at="2025-02-20T07:56:25 IST" duration-ms="9475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RecruiterLogin()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@26d9b808]" started-at="2025-02-20T07:56:25 IST" name="RecruiterLogin" finished-at="2025-02-20T07:56:38 IST" duration-ms="13287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecruiterLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@26d9b808]" started-at="2025-02-20T07:56:38 IST" name="teardown" finished-at="2025-02-20T07:56:39 IST" duration-ms="1335" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecruiterLogin status=SUCCESS method=TC020_Login_RecruiterModule.RecruiterLogin()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@26d9b808] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0)" class="menu-icn" id="manu-icn-exp-col">...</a> is not clickable at point (68, 2). Other element would receive the click: <li class="profile-name">...</li>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d7b922ce665d71f05fe69107860d20, clickElement {id=f.92440BA1188388F9AC787DD748AAFD57.d.E6709E7F4400E4B40937984DEE1908E3.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59892/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (08d7b922ce665d71f05fe69107860d20)] -> xpath: //a [@class='menu-icn']]
+Session ID: 08d7b922ce665d71f05fe69107860d20]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="menu-icn" id="manu-icn-exp-col">...</a> is not clickable at point (68, 2). Other element would receive the click: <li class="profile-name">...</li>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [08d7b922ce665d71f05fe69107860d20, clickElement {id=f.92440BA1188388F9AC787DD748AAFD57.d.E6709E7F4400E4B40937984DEE1908E3.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59892/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (08d7b922ce665d71f05fe69107860d20)] -> xpath: //a [@class='menu-icn']]
+Session ID: 08d7b922ce665d71f05fe69107860d20
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at alcoa_RecMod_POM_classes.Rec_JobListPage_POM_Class.Sidebar(Rec_JobListPage_POM_Class.java:324)
+at alcoa.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:123)
+at alcoa.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@2e8c1c9b]" started-at="2025-02-20T08:01:18 IST" name="SetUp" finished-at="2025-02-20T08:01:29 IST" duration-ms="10871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPageActions()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@2e8c1c9b]" started-at="2025-02-20T08:01:29 IST" name="CandidatesPageActions" finished-at="2025-02-20T08:01:54 IST" duration-ms="25748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPageActions -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@2e8c1c9b]" started-at="2025-02-20T08:01:54 IST" name="teardown" finished-at="2025-02-20T08:01:56 IST" duration-ms="1985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPageActions status=SUCCESS method=TC056_CadidatesPageActios.CandidatesPageActions()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@2e8c1c9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@54e1c68b]" started-at="2025-02-20T07:55:51 IST" name="SetUp" finished-at="2025-02-20T07:55:55 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TermsPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@54e1c68b]" started-at="2025-02-20T07:55:55 IST" name="TermsPage" finished-at="2025-02-20T07:56:15 IST" duration-ms="19666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@54e1c68b]" started-at="2025-02-20T07:56:15 IST" name="teardown" finished-at="2025-02-20T07:56:15 IST" duration-ms="528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsPage status=SUCCESS method=TC001Open_Terms_Page.TermsPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@54e1c68b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@76a4ebf2]" started-at="2025-02-20T08:00:46 IST" name="SetUp" finished-at="2025-02-20T08:01:01 IST" duration-ms="15458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@76a4ebf2]" started-at="2025-02-20T08:01:01 IST" name="CandidatesPage" finished-at="2025-02-20T08:01:16 IST" duration-ms="14457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@76a4ebf2]" started-at="2025-02-20T08:01:16 IST" name="teardown" finished-at="2025-02-20T08:01:18 IST" duration-ms="2239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPage status=SUCCESS method=TC055_Rec_CandidatesPage.CandidatesPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@76a4ebf2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@f78a47e]" started-at="2025-02-20T07:56:39 IST" name="SetUp" finished-at="2025-02-20T07:56:49 IST" duration-ms="10158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobListPageActions_Rec()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@f78a47e]" started-at="2025-02-20T07:56:49 IST" name="JobListPageActions_Rec" finished-at="2025-02-20T07:57:20 IST" duration-ms="30658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobListPageActions_Rec -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@f78a47e]" started-at="2025-02-20T07:57:20 IST" name="teardown" finished-at="2025-02-20T07:57:21 IST" duration-ms="1376" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobListPageActions_Rec status=SUCCESS method=TC021_JobListPage_Actions.JobListPageActions_Rec()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@f78a47e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="javascript:void(0)" class="menu-icn" id="manu-icn-exp-col">...</a> is not clickable at point (68, 2). Other element would receive the click: <li class="profile-name">...</li>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43521e210a58bbd9a791aea02c258a49, clickElement {id=f.0E6E0B5B439B4B3C717ED5CD8B0322A7.d.5F5FC5E661E0A95B6B9589418B3F47EC.e.331}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60166/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (43521e210a58bbd9a791aea02c258a49)] -> xpath: //a [@class='menu-icn']]
+Session ID: 43521e210a58bbd9a791aea02c258a49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="javascript:void(0)" class="menu-icn" id="manu-icn-exp-col">...</a> is not clickable at point (68, 2). Other element would receive the click: <li class="profile-name">...</li>
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [43521e210a58bbd9a791aea02c258a49, clickElement {id=f.0E6E0B5B439B4B3C717ED5CD8B0322A7.d.5F5FC5E661E0A95B6B9589418B3F47EC.e.331}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60166/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (43521e210a58bbd9a791aea02c258a49)] -> xpath: //a [@class='menu-icn']]
+Session ID: 43521e210a58bbd9a791aea02c258a49
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at alcoa_RecMod_POM_classes.Rec_JobListPage_POM_Class.Sidebar(Rec_JobListPage_POM_Class.java:324)
+at alcoa.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:123)
+at alcoa.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@644baf4a]" started-at="2025-02-20T07:57:21 IST" name="SetUp" finished-at="2025-02-20T07:57:38 IST" duration-ms="16120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenUserCreationPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@644baf4a]" started-at="2025-02-20T07:57:38 IST" name="OpenUserCreationPage" finished-at="2025-02-20T07:57:53 IST" duration-ms="15024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUserCreationPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@644baf4a]" started-at="2025-02-20T07:57:53 IST" name="teardown" finished-at="2025-02-20T07:57:54 IST" duration-ms="1792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenUserCreationPage status=SUCCESS method=TC022_Rec_UserCreationPage.OpenUserCreationPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@7526515b]" started-at="2025-02-20T07:57:54 IST" name="SetUp" finished-at="2025-02-20T07:58:12 IST" duration-ms="17891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadRawReport()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@7526515b]" started-at="2025-02-20T07:58:12 IST" name="DownloadRawReport" finished-at="2025-02-20T07:58:24 IST" duration-ms="12124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadRawReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@7526515b]" started-at="2025-02-20T07:58:24 IST" name="teardown" finished-at="2025-02-20T07:58:26 IST" duration-ms="1903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadRawReport status=SUCCESS method=TC029_Rec_RawReport_Dowload.DownloadRawReport()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@7526515b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@54c5a2ff]" started-at="2025-02-20T07:58:55 IST" name="SetUp" finished-at="2025-02-20T07:59:11 IST" duration-ms="16108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SettingsPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@54c5a2ff]" started-at="2025-02-20T07:59:11 IST" name="SettingsPage" finished-at="2025-02-20T07:59:23 IST" duration-ms="11871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@54c5a2ff]" started-at="2025-02-20T07:59:23 IST" name="teardown" finished-at="2025-02-20T07:59:24 IST" duration-ms="1672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SettingsPage status=SUCCESS method=TC037_Rec_SettingsPage.SettingsPage()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@6e6f2380]" started-at="2025-02-20T08:00:18 IST" name="SetUp" finished-at="2025-02-20T08:00:28 IST" duration-ms="10508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VideoInterviewConfig()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@6e6f2380]" started-at="2025-02-20T08:00:28 IST" name="VideoInterviewConfig" finished-at="2025-02-20T08:00:44 IST" duration-ms="15894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoInterviewConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@6e6f2380]" started-at="2025-02-20T08:00:44 IST" name="teardown" finished-at="2025-02-20T08:00:46 IST" duration-ms="1638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VideoInterviewConfig status=SUCCESS method=TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@6e6f2380] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig -->
+      <class name="alcoa.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6892b3b6]" started-at="2025-02-20T07:59:50 IST" name="SetUp" finished-at="2025-02-20T08:00:06 IST" duration-ms="16332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ScoreRepreConfig()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6892b3b6]" started-at="2025-02-20T08:00:06 IST" name="ScoreRepreConfig" finished-at="2025-02-20T08:00:16 IST" duration-ms="9848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreRepreConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6892b3b6]" started-at="2025-02-20T08:00:16 IST" name="teardown" finished-at="2025-02-20T08:00:18 IST" duration-ms="1731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScoreRepreConfig status=SUCCESS method=TC042_Rec_ScoreReprePage.ScoreRepreConfig()[pri:0, instance:alcoa.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6892b3b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- alcoa.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

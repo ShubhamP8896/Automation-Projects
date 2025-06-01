@@ -1,0 +1,368 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 13 16:39:52 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>541 seconds (541202 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.teardown()'><b>teardown</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec<br>Parameters: [TestResult name=AddSupportRecruiterUtility status=FAILURE method=TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility()[pri:0, instance:kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@2af004b] output={null}]</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;030fcf7918&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a42cef682a44740b47c42a34f618dfa, clickElement {id=f.FB262DAD82F4C4112025AB965B4CD9D2.d.333AC59798B0069582A93116AD6952DC.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53379/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9a42cef682a44740b47c42a34f618dfa)] -&gt; xpath: //span [text() = &apos;Sign out&apos;]]
+Session ID: 9a42cef682a44740b47c42a34f618dfa
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at kpmgpoc_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+	at kpmgpoc.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:124)
+	at kpmgpoc.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:114)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1712597146", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1712597146'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;030fcf7918&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a42cef682a44740b47c42a34f618dfa, clickElement {id=f.FB262DAD82F4C4112025AB965B4CD9D2.d.333AC59798B0069582A93116AD6952DC.e.100}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53379/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9a42cef682a44740b47c42a34f618dfa)] -&gt; xpath: //span [text() = &apos;Sign out&apos;]]
+Session ID: 9a42cef682a44740b47c42a34f618dfa
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at kpmgpoc_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+	at kpmgpoc.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:124)
+	at kpmgpoc.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:114)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>20</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@2af004b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility()'><b>AddSupportRecruiterUtility</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;030fcf7918&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a42cef682a44740b47c42a34f618dfa, clickElement {id=f.FB262DAD82F4C4112025AB965B4CD9D2.d.333AC59798B0069582A93116AD6952DC.e.99}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53379/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9a42cef682a44740b47c42a34f618dfa)] -&gt; xpath: (//a [text() = &apos;Add Support Recruiter&apos;])[2]]
+Session ID: 9a42cef682a44740b47c42a34f618dfa
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at kpmgpoc_RecMod_POM_classes.Rec_JobListPage_POM_Class.AddSupportRecruiterUtility(Rec_JobListPage_POM_Class.java:504)
+	at kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility(TC048_Rec_UtilitiesAddSupportRec.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1641292405", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1641292405'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;030fcf7918&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a42cef682a44740b47c42a34f618dfa, clickElement {id=f.FB262DAD82F4C4112025AB965B4CD9D2.d.333AC59798B0069582A93116AD6952DC.e.99}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53379}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53379/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9a42cef682a44740b47c42a34f618dfa)] -&gt; xpath: (//a [text() = &apos;Add Support Recruiter&apos;])[2]]
+Session ID: 9a42cef682a44740b47c42a34f618dfa
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at kpmgpoc_RecMod_POM_classes.Rec_JobListPage_POM_Class.AddSupportRecruiterUtility(Rec_JobListPage_POM_Class.java:504)
+	at kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility(TC048_Rec_UtilitiesAddSupportRec.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>24</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@2af004b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage.SettingsPage()'><b>SettingsPage</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage</td>
+<td></td>
+<td>11</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@470734c3</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios.CandidatesPageActions()'><b>CandidatesPageActions</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios</td>
+<td></td>
+<td>12</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@5d0bf09b</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule.RecruiterLogin()'><b>RecruiterLogin</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule</td>
+<td></td>
+<td>8</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@5b1669c0</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage.JobSettingsPage()'><b>JobSettingsPage</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage</td>
+<td></td>
+<td>10</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@2cf3d63b</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download.DownloadReccomdSummaryRep()'><b>DownloadReccomdSummaryRep</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download</td>
+<td></td>
+<td>9</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@4b741d6d</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage.ScoreRepreConfig()'><b>ScoreRepreConfig</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage</td>
+<td></td>
+<td>9</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@173ed316</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh.JobRefreshUtility()'><b>JobRefreshUtility</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh</td>
+<td></td>
+<td>8</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@76b1e9b8</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload.SkillUploadUtility()'><b>SkillUploadUtility</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload</td>
+<td></td>
+<td>8</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@74ea2410</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage.OpenAddSupportRecPage()'><b>OpenAddSupportRecPage</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage</td>
+<td></td>
+<td>12</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@7d0b7e3c</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock.ScoreLockUtility()'><b>ScoreLockUtility</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock</td>
+<td></td>
+<td>7</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@27406a17</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings.JobWizardSettingsPage()'><b>JobWizardSettingsPage</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings</td>
+<td></td>
+<td>7</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@7674f035</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions_Rec()'><b>JobListPageActions_Rec</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions</td>
+<td></td>
+<td>12</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@78e4deb0</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page.TermsPage()'><b>TermsPage</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page</td>
+<td></td>
+<td>14</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@534a5a98</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity.SkillAffinityUtility()'><b>SkillAffinityUtility</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity</td>
+<td></td>
+<td>9</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@17f62e33</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload.DownloadRawReport()'><b>DownloadRawReport</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload</td>
+<td></td>
+<td>11</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@15bb5034</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage.LinkedInConfig()'><b>LinkedInConfig</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage</td>
+<td></td>
+<td>9</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@69e153c5</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()'><b>VideoInterviewConfig</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig</td>
+<td></td>
+<td>12</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@25ce9dc4</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage.OpenUserCreationPage()'><b>OpenUserCreationPage</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage</td>
+<td></td>
+<td>15</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@6e9175d8</td></tr>
+<tr>
+<td title='kpmgpoc.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage.CandidatesPage()'><b>CandidatesPage</b><br>Test class: kpmgpoc.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage</td>
+<td></td>
+<td>9</td>
+<td>kpmgpoc.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@248e319b</td></tr>
+</table><p>
+</body>
+</html>

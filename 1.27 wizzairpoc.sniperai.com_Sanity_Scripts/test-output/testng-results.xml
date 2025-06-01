@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-13T18:30:22 IST" name="Default suite" finished-at="2025-01-13T18:30:53 IST" duration-ms="31003">
+    <groups>
+    </groups>
+    <test started-at="2025-01-13T18:30:22 IST" name="Default test" finished-at="2025-01-13T18:30:53 IST" duration-ms="31003">
+      <class name="e2exchange.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:e2exchange.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@54a7079e]" started-at="2025-01-13T18:30:22 IST" name="SetUp" finished-at="2025-01-13T18:30:31 IST" duration-ms="8673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobOpeningsPage()[pri:0, instance:e2exchange.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@54a7079e]" started-at="2025-01-13T18:30:31 IST" name="JobOpeningsPage" finished-at="2025-01-13T18:30:51 IST" duration-ms="20610" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at e2exchange.sniperai.com_utility_Classes.E2exchange_Excel_Data_UtilityClass.getNextEmptyRow(E2exchange_Excel_Data_UtilityClass.java:64)
+at e2exchange.sniperai.com_utility_Classes.E2exchange_Excel_Data_UtilityClass.writeResult(E2exchange_Excel_Data_UtilityClass.java:49)
+at e2exchange.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage.JobOpeningsPage(TC004Verify_JobOpeningsPage.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobOpeningsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:e2exchange.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@54a7079e]" started-at="2025-01-13T18:30:51 IST" name="teardown" finished-at="2025-01-13T18:30:53 IST" duration-ms="1588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobOpeningsPage status=FAILURE method=TC004Verify_JobOpeningsPage.JobOpeningsPage()[pri:0, instance:e2exchange.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@54a7079e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- e2exchange.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

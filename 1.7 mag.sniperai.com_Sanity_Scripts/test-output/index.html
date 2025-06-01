@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Shubz008\eclipse-workspace\1.7 mag.sniperai.com_Sanity_Scripts\mag_Sanity_TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 1 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec" class="method navigator-link" hash-for-method="AddSupportRecruiterUtility">AddSupportRecruiterUtility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage" class="method navigator-link" hash-for-method="CandidatesPage">CandidatesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios" class="method navigator-link" hash-for-method="CandidatesPageActions">CandidatesPageActions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload" class="method navigator-link" hash-for-method="DownloadRawReport">DownloadRawReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download" class="method navigator-link" hash-for-method="DownloadReccomdSummaryRep">DownloadReccomdSummaryRep</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions" class="method navigator-link" hash-for-method="JobListPageActions_Rec">JobListPageActions_Rec</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh" class="method navigator-link" hash-for-method="JobRefreshUtility">JobRefreshUtility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage" class="method navigator-link" hash-for-method="JobSettingsPage">JobSettingsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage" class="method navigator-link" hash-for-method="OpenUserCreationPage">OpenUserCreationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule" class="method navigator-link" hash-for-method="RecruiterLogin">RecruiterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage" class="method navigator-link" hash-for-method="ScoreRepreConfig">ScoreRepreConfig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage" class="method navigator-link" hash-for-method="SettingsPage">SettingsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity" class="method navigator-link" hash-for-method="SkillAffinityUtility">SkillAffinityUtility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload" class="method navigator-link" hash-for-method="SkillUploadUtility">SkillUploadUtility</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page" class="method navigator-link" hash-for-method="TermsPage">TermsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mag.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig" class="method navigator-link" hash-for-method="VideoInterviewConfig">VideoInterviewConfig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddSupportRecruiterUtility">
+                  </a> <!-- AddSupportRecruiterUtility -->
+                  <span class="method-name">AddSupportRecruiterUtility</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a [text() = &apos;Add Support Recruiter&apos;])[2]&quot;}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;030fcf7918&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0709067aebfdf5ac45352a3b3271691, findElement {using=xpath, value=(//a [text() = &apos;Add Support Recruiter&apos;])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49514}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49514/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0709067aebfdf5ac45352a3b3271691
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at mag_RecMod_POM_classes.Rec_JobListPage_POM_Class.AddSupportRecruiterUtility(Rec_JobListPage_POM_Class.java:504)
+	at mag.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility(TC048_Rec_UtilitiesAddSupportRec.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JobListPageActions_Rec">
+                  </a> <!-- JobListPageActions_Rec -->
+                  <span class="method-name">JobListPageActions_Rec</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SkillUploadUtility">
+                  </a> <!-- SkillUploadUtility -->
+                  <span class="method-name">SkillUploadUtility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JobRefreshUtility">
+                  </a> <!-- JobRefreshUtility -->
+                  <span class="method-name">JobRefreshUtility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RecruiterLogin">
+                  </a> <!-- RecruiterLogin -->
+                  <span class="method-name">RecruiterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownloadRawReport">
+                  </a> <!-- DownloadRawReport -->
+                  <span class="method-name">DownloadRawReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DownloadReccomdSummaryRep">
+                  </a> <!-- DownloadReccomdSummaryRep -->
+                  <span class="method-name">DownloadReccomdSummaryRep</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TermsPage">
+                  </a> <!-- TermsPage -->
+                  <span class="method-name">TermsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SettingsPage">
+                  </a> <!-- SettingsPage -->
+                  <span class="method-name">SettingsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OpenUserCreationPage">
+                  </a> <!-- OpenUserCreationPage -->
+                  <span class="method-name">OpenUserCreationPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScoreRepreConfig">
+                  </a> <!-- ScoreRepreConfig -->
+                  <span class="method-name">ScoreRepreConfig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CandidatesPageActions">
+                  </a> <!-- CandidatesPageActions -->
+                  <span class="method-name">CandidatesPageActions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SkillAffinityUtility">
+                  </a> <!-- SkillAffinityUtility -->
+                  <span class="method-name">SkillAffinityUtility</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CandidatesPage">
+                  </a> <!-- CandidatesPage -->
+                  <span class="method-name">CandidatesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VideoInterviewConfig">
+                  </a> <!-- VideoInterviewConfig -->
+                  <span class="method-name">VideoInterviewConfig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mag.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JobSettingsPage">
+                  </a> <!-- JobSettingsPage -->
+                  <span class="method-name">JobSettingsPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Shubz008\eclipse-workspace\1.7 mag.sniperai.com_Sanity_Scripts\mag_Sanity_TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage&quot;/&gt;
+      &lt;class name=&quot;mag.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (16 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddSupportRecruiterUtility')
+data.setCell(0, 2, 'mag.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec')
+data.setCell(0, 3, 22588);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CandidatesPage')
+data.setCell(1, 2, 'mag.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage')
+data.setCell(1, 3, 16122);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'JobListPageActions_Rec')
+data.setCell(2, 2, 'mag.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions')
+data.setCell(2, 3, 14720);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'CandidatesPageActions')
+data.setCell(3, 2, 'mag.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios')
+data.setCell(3, 3, 14587);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TermsPage')
+data.setCell(4, 2, 'mag.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page')
+data.setCell(4, 3, 14091);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SettingsPage')
+data.setCell(5, 2, 'mag.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage')
+data.setCell(5, 3, 13409);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'OpenUserCreationPage')
+data.setCell(6, 2, 'mag.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage')
+data.setCell(6, 3, 12261);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DownloadRawReport')
+data.setCell(7, 2, 'mag.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload')
+data.setCell(7, 3, 11837);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VideoInterviewConfig')
+data.setCell(8, 2, 'mag.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig')
+data.setCell(8, 3, 10534);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DownloadReccomdSummaryRep')
+data.setCell(9, 2, 'mag.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download')
+data.setCell(9, 3, 10495);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'SkillAffinityUtility')
+data.setCell(10, 2, 'mag.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity')
+data.setCell(10, 3, 9323);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'JobRefreshUtility')
+data.setCell(11, 2, 'mag.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh')
+data.setCell(11, 3, 9261);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'RecruiterLogin')
+data.setCell(12, 2, 'mag.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule')
+data.setCell(12, 3, 9024);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'JobSettingsPage')
+data.setCell(13, 2, 'mag.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage')
+data.setCell(13, 3, 7656);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'SkillUploadUtility')
+data.setCell(14, 2, 'mag.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload')
+data.setCell(14, 3, 7459);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ScoreRepreConfig')
+data.setCell(15, 2, 'mag.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage')
+data.setCell(15, 3, 7138);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TermsPage</span>
+                <span class="method-start">9287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=TermsPage status=SUCCESS method=TC001Open_Terms_Page.TermsPage()[pri:0, instance:ma...)</span>
+                <span class="method-start">23382 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">23837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">RecruiterLogin</span>
+                <span class="method-start">32553 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=RecruiterLogin status=SUCCESS method=TC020_Login_RecruiterModule.RecruiterLogin()[p...)</span>
+                <span class="method-start">41579 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">43312 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JobListPageActions_Rec</span>
+                <span class="method-start">50843 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=JobListPageActions_Rec status=SUCCESS method=TC021_JobListPage_Actions.JobListPageA...)</span>
+                <span class="method-start">65565 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">67206 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OpenUserCreationPage</span>
+                <span class="method-start">78464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=OpenUserCreationPage status=SUCCESS method=TC022_Rec_UserCreationPage.OpenUserCreat...)</span>
+                <span class="method-start">90726 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">92173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DownloadRawReport</span>
+                <span class="method-start">105922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=DownloadRawReport status=SUCCESS method=TC029_Rec_RawReport_Dowload.DownloadRawRepo...)</span>
+                <span class="method-start">117761 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">120574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DownloadReccomdSummaryRep</span>
+                <span class="method-start">134124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=DownloadReccomdSummaryRep status=SUCCESS method=TC030_Rec_ReccomdSummaryRP_Download...)</span>
+                <span class="method-start">144620 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">146017 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SettingsPage</span>
+                <span class="method-start">165549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=SettingsPage status=SUCCESS method=TC037_Rec_SettingsPage.SettingsPage()[pri:0, ins...)</span>
+                <span class="method-start">178959 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">180611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JobSettingsPage</span>
+                <span class="method-start">193126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=JobSettingsPage status=SUCCESS method=TC039_Rec_JobSettingsPage.JobSettingsPage()[p...)</span>
+                <span class="method-start">200785 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">202203 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ScoreRepreConfig</span>
+                <span class="method-start">212510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=ScoreRepreConfig status=SUCCESS method=TC042_Rec_ScoreReprePage.ScoreRepreConfig()[...)</span>
+                <span class="method-start">219649 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">221142 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VideoInterviewConfig</span>
+                <span class="method-start">229201 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=VideoInterviewConfig status=SUCCESS method=TC043_Rec_VideoInterviewConfig.VideoInte...)</span>
+                <span class="method-start">239735 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">241111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SkillUploadUtility</span>
+                <span class="method-start">254842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=SkillUploadUtility status=SUCCESS method=TC044_Rec_UtilitiesSkillUpload.SkillUpload...)</span>
+                <span class="method-start">262302 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">263743 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SkillAffinityUtility</span>
+                <span class="method-start">271551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=SkillAffinityUtility status=SUCCESS method=TC045_UtilitiesSkillAffinity.SkillAffini...)</span>
+                <span class="method-start">280874 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">282390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">JobRefreshUtility</span>
+                <span class="method-start">291179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=JobRefreshUtility status=SUCCESS method=TC046_Rec_UtilitiesJobRefresh.JobRefreshUti...)</span>
+                <span class="method-start">300441 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">301759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddSupportRecruiterUtility</span>
+                <span class="method-start">311092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown([TestResult name=AddSupportRecruiterUtility status=FAILURE method=TC048_Rec_UtilitiesAddSupportRec.A...)</span>
+                <span class="method-start">333706 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">354061 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CandidatesPage</span>
+                <span class="method-start">363137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=CandidatesPage status=SUCCESS method=TC055_Rec_CandidatesPage.CandidatesPage()[pri:...)</span>
+                <span class="method-start">379260 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">mag.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">380890 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CandidatesPageActions</span>
+                <span class="method-start">390152 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=CandidatesPageActions status=SUCCESS method=TC056_CadidatesPageActios.CandidatesPag...)</span>
+                <span class="method-start">404740 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

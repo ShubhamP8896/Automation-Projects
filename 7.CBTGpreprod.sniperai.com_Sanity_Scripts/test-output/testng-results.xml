@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-18T17:20:54 IST" name="Default suite" finished-at="2024-11-18T17:21:44 IST" duration-ms="50054">
+    <groups>
+    </groups>
+    <test started-at="2024-11-18T17:20:54 IST" name="Default test" finished-at="2024-11-18T17:21:44 IST" duration-ms="50054">
+      <class name="cbtgpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:cbtgpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@54a7079e]" started-at="2024-11-18T17:20:54 IST" name="SetUp" finished-at="2024-11-18T17:21:14 IST" duration-ms="19444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPage()[pri:0, instance:cbtgpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@54a7079e]" started-at="2024-11-18T17:21:14 IST" name="CandidatesPage" finished-at="2024-11-18T17:21:37 IST" duration-ms="22891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:cbtgpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@54a7079e]" started-at="2024-11-18T17:21:37 IST" name="teardown" finished-at="2024-11-18T17:21:44 IST" duration-ms="7653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPage status=SUCCESS method=TC055_Rec_CandidatesPage.CandidatesPage()[pri:0, instance:cbtgpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@54a7079e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- cbtgpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

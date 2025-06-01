@@ -1,0 +1,455 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>40/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 01 20:40:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1806 seconds (1806745 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download.HideUnhideReport()'><b>HideUnhideReport</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download</td>
+<td><div><pre>java.lang.AssertionError: Hide Unhide Report page is not opened : Test case is failed
+	at design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download.HideUnhideReport(TC031_Rec_HideUhideRep_Download.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1683791631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1683791631'><pre>java.lang.AssertionError: Hide Unhide Report page is not opened : Test case is failed
+	at org.testng.Assert.fail(Assert.java:99)
+	at design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download.HideUnhideReport(TC031_Rec_HideUhideRep_Download.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>6</td>
+<td>design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@15043a2f</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download.InterviewSchedulerReport()'><b>InterviewSchedulerReport</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download</td>
+<td><div><pre>java.lang.AssertionError: Interview Scheduler Report page is not opened : Test case is failed
+	at design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download.InterviewSchedulerReport(TC035_Rec_InterviewRep_Download.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace95040332", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace95040332'><pre>java.lang.AssertionError: Interview Scheduler Report page is not opened : Test case is failed
+	at org.testng.Assert.fail(Assert.java:99)
+	at design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download.InterviewSchedulerReport(TC035_Rec_InterviewRep_Download.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>18</td>
+<td>design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@7f485fda</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions()'><b>JobListPageActions</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa570984d8664a47aba7269ffa5414bb, clickElement {id=f.0149C0D141B39D49204CACEE4072CB55.d.60E60EFB74DA9AF9E837D81D8D3334EF.e.609}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52826/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fa570984d8664a47aba7269ffa5414bb)] -&gt; xpath: //li [text () = &apos;3&apos;]]
+Session ID: fa570984d8664a47aba7269ffa5414bb
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.PaginationFirst(Rec_JobListPage_POM_Class.java:728)
+	at design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions(TC021_JobListPage_Actions.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1542221", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1542221'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=127.0.6533.100)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fa570984d8664a47aba7269ffa5414bb, clickElement {id=f.0149C0D141B39D49204CACEE4072CB55.d.60E60EFB74DA9AF9E837D81D8D3334EF.e.609}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52826/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fa570984d8664a47aba7269ffa5414bb)] -&gt; xpath: //li [text () = &apos;3&apos;]]
+Session ID: fa570984d8664a47aba7269ffa5414bb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.PaginationFirst(Rec_JobListPage_POM_Class.java:728)
+	at design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions(TC021_JobListPage_Actions.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@75437611</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button.ForgotPassword()'><b>ForgotPassword</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button</td>
+<td></td>
+<td>10</td>
+<td>design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@53045c6c</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage.OpenBotCandidatesPage()'><b>OpenBotCandidatesPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage</td>
+<td></td>
+<td>22</td>
+<td>design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@79e4c792</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates.RSplusCadidates()'><b>RSplusCadidates</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates</td>
+<td></td>
+<td>6</td>
+<td>design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@8458f04</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage.JobsPageGTesting()'><b>JobsPageGTesting</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage</td>
+<td></td>
+<td>11</td>
+<td>design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@712625fd</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage.RSplusCofig()'><b>RSplusCofig</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@18271936</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage.OpenJobsPage()'><b>OpenJobsPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@33065d67</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage.SignUp()'><b>SignUp</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage</td>
+<td></td>
+<td>9</td>
+<td>design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@5149d738</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password.ChangePassword()'><b>ChangePassword</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password</td>
+<td></td>
+<td>43</td>
+<td>design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@548d708a</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download.FailedEmailReport()'><b>FailedEmailReport</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download@1349883</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule.RecruiterLogin()'><b>RecruiterLogin</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule</td>
+<td></td>
+<td>6</td>
+<td>design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@742ff096</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility()'><b>AddSupportRecruiterUtility</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec</td>
+<td></td>
+<td>8</td>
+<td>design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@909217e</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings.JobWizardSettingsPage()'><b>JobWizardSettingsPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@35dab4eb</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage.OpenContactsPage()'><b>OpenContactsPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage</td>
+<td></td>
+<td>5</td>
+<td>design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@cb0755b</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod.AppliedJobsFromDB()'><b>AppliedJobsFromDB</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod</td>
+<td></td>
+<td>13</td>
+<td>design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod@3a7442c7</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage.ScoreRepreConfig()'><b>ScoreRepreConfig</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage</td>
+<td></td>
+<td>8</td>
+<td>design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@3ba987b8</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient.AddCliet()'><b>AddCliet</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient</td>
+<td></td>
+<td>9</td>
+<td>design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@48075da3</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page.TermsPage()'><b>TermsPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page</td>
+<td></td>
+<td>12</td>
+<td>design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@1c7696c6</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage.OpenUserCreationPage()'><b>OpenUserCreationPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage</td>
+<td></td>
+<td>16</td>
+<td>design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@350aac89</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting.ApplicationsPageTesting()'><b>ApplicationsPageTesting</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting</td>
+<td></td>
+<td>12</td>
+<td>design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@7bba5817</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download.DownloadReccomdSummaryRep()'><b>DownloadReccomdSummaryRep</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download</td>
+<td></td>
+<td>5</td>
+<td>design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@4c60d6e9</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports.RSplusReports()'><b>RSplusReports</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@606e4010</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()'><b>VideoInterviewConfig</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@3f191845</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock.ScoreLockUtility()'><b>ScoreLockUtility</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock</td>
+<td></td>
+<td>16</td>
+<td>design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@72035809</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary.ClietSummary()'><b>ClietSummary</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary</td>
+<td></td>
+<td>6</td>
+<td>design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@68c9133c</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage.LinkedInConfig()'><b>LinkedInConfig</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage</td>
+<td></td>
+<td>8</td>
+<td>design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@2d901eb0</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download.SuccessEmailReport()'><b>SuccessEmailReport</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download@4a83a74a</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage.SettingsPage()'><b>SettingsPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage</td>
+<td></td>
+<td>17</td>
+<td>design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@d737b89</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload.DownloadRawReport()'><b>DownloadRawReport</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload</td>
+<td></td>
+<td>9</td>
+<td>design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@196a42c3</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open.OpenDashboardPage()'><b>OpenDashboardPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open</td>
+<td></td>
+<td>15</td>
+<td>design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@28261e8e</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity.SkillAffinityUtility()'><b>SkillAffinityUtility</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity</td>
+<td></td>
+<td>6</td>
+<td>design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@72cc7e6f</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload.SkillUploadUtility()'><b>SkillUploadUtility</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@5f049ea1</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage.OpenAddSupportRecPage()'><b>OpenAddSupportRecPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage</td>
+<td></td>
+<td>13</td>
+<td>design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@1c5920df</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module.CandidateLogin()'><b>CandidateLogin</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module</td>
+<td></td>
+<td>1</td>
+<td>design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@6bbe85a8</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage.CandidatesPage()'><b>CandidatesPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage</td>
+<td></td>
+<td>11</td>
+<td>design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@7a35b0f5</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage.OpenEquitibleHiringPage()'><b>OpenEquitibleHiringPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@17f9d882</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update.ProfilePageUpdate()'><b>ProfilePageUpdate</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update</td>
+<td></td>
+<td>15</td>
+<td>design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@4be29ed9</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage.JobSettingsPage()'><b>JobSettingsPage</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage</td>
+<td></td>
+<td>39</td>
+<td>design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@8519cb4</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios.CandidatesPageActions()'><b>CandidatesPageActions</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios</td>
+<td></td>
+<td>23</td>
+<td>design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@5e2c3d18</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh.JobRefreshUtility()'><b>JobRefreshUtility</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh</td>
+<td></td>
+<td>7</td>
+<td>design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@5afa3c9</td></tr>
+<tr>
+<td title='design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download.ChatotHistoryReport()'><b>ChatotHistoryReport</b><br>Test class: design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download</td>
+<td></td>
+<td>6</td>
+<td>design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@4b29d1d2</td></tr>
+</table><p>
+</body>
+</html>

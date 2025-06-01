@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download">
+        <methods>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+          <include name="InterviewSchedulerReport"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download">
+        <methods>
+          <include name="HideUnhideReport"/>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <methods>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+          <include name="JobListPageActions"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

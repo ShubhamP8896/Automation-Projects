@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-07T19:52:49 IST" name="Suite" finished-at="2024-10-07T19:58:15 IST" duration-ms="326192">
+    <groups>
+    </groups>
+    <test started-at="2024-10-07T19:52:49 IST" name="Test" finished-at="2024-10-07T19:58:15 IST" duration-ms="326192">
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@f78a47e]" started-at="2024-10-07T19:56:06 IST" name="SetUp" finished-at="2024-10-07T19:56:28 IST" duration-ms="21327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ScoreRepreConfig()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@f78a47e]" started-at="2024-10-07T19:56:28 IST" name="ScoreRepreConfig" finished-at="2024-10-07T19:56:41 IST" duration-ms="13463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreRepreConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@f78a47e]" started-at="2024-10-07T19:56:41 IST" name="teardown" finished-at="2024-10-07T19:56:45 IST" duration-ms="3682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScoreRepreConfig status=SUCCESS method=TC042_Rec_ScoreReprePage.ScoreRepreConfig()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@f78a47e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@6d4d66d2]" started-at="2024-10-07T19:57:43 IST" name="SetUp" finished-at="2024-10-07T19:57:57 IST" duration-ms="13582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPageActions()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@6d4d66d2]" started-at="2024-10-07T19:57:57 IST" name="CandidatesPageActions" finished-at="2024-10-07T19:58:12 IST" duration-ms="15120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPageActions -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@6d4d66d2]" started-at="2024-10-07T19:58:12 IST" name="teardown" finished-at="2024-10-07T19:58:15 IST" duration-ms="2838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPageActions status=SUCCESS method=TC056_CadidatesPageActios.CandidatesPageActions()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@26d9b808]" started-at="2024-10-07T19:55:41 IST" name="SetUp" finished-at="2024-10-07T19:55:53 IST" duration-ms="12213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SettingsPage()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@26d9b808]" started-at="2024-10-07T19:55:53 IST" name="SettingsPage" finished-at="2024-10-07T19:56:04 IST" duration-ms="11543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@26d9b808]" started-at="2024-10-07T19:56:04 IST" name="teardown" finished-at="2024-10-07T19:56:06 IST" duration-ms="1793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SettingsPage status=SUCCESS method=TC037_Rec_SettingsPage.SettingsPage()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@26d9b808] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@46cdf8bd]" started-at="2024-10-07T19:54:10 IST" name="SetUp" finished-at="2024-10-07T19:54:21 IST" duration-ms="11106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobListPageActions_Rec()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@46cdf8bd]" started-at="2024-10-07T19:54:21 IST" name="JobListPageActions_Rec" finished-at="2024-10-07T19:54:40 IST" duration-ms="19131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobListPageActions_Rec -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@46cdf8bd]" started-at="2024-10-07T19:54:40 IST" name="teardown" finished-at="2024-10-07T19:54:43 IST" duration-ms="2785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobListPageActions_Rec status=SUCCESS method=TC021_JobListPage_Actions.JobListPageActions_Rec()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@46cdf8bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@1ed4ae0f]" started-at="2024-10-07T19:56:45 IST" name="SetUp" finished-at="2024-10-07T19:56:57 IST" duration-ms="11760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VideoInterviewConfig()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@1ed4ae0f]" started-at="2024-10-07T19:56:57 IST" name="VideoInterviewConfig" finished-at="2024-10-07T19:57:13 IST" duration-ms="16326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoInterviewConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@1ed4ae0f]" started-at="2024-10-07T19:57:13 IST" name="teardown" finished-at="2024-10-07T19:57:17 IST" duration-ms="3952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VideoInterviewConfig status=SUCCESS method=TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@54c5a2ff]" started-at="2024-10-07T19:57:17 IST" name="SetUp" finished-at="2024-10-07T19:57:31 IST" duration-ms="14090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPage()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@54c5a2ff]" started-at="2024-10-07T19:57:31 IST" name="CandidatesPage" finished-at="2024-10-07T19:57:40 IST" duration-ms="9180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@54c5a2ff]" started-at="2024-10-07T19:57:40 IST" name="teardown" finished-at="2024-10-07T19:57:43 IST" duration-ms="3231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPage status=SUCCESS method=TC055_Rec_CandidatesPage.CandidatesPage()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@740cae06]" started-at="2024-10-07T19:55:16 IST" name="SetUp" finished-at="2024-10-07T19:55:28 IST" duration-ms="12288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadRawReport()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@740cae06]" started-at="2024-10-07T19:55:28 IST" name="DownloadRawReport" finished-at="2024-10-07T19:55:39 IST" duration-ms="10784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadRawReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@740cae06]" started-at="2024-10-07T19:55:39 IST" name="teardown" finished-at="2024-10-07T19:55:41 IST" duration-ms="2006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadRawReport status=SUCCESS method=TC029_Rec_RawReport_Dowload.DownloadRawReport()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@740cae06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@f0c8a99]" started-at="2024-10-07T19:54:43 IST" name="SetUp" finished-at="2024-10-07T19:54:58 IST" duration-ms="15860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenUserCreationPage()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@f0c8a99]" started-at="2024-10-07T19:54:58 IST" name="OpenUserCreationPage" finished-at="2024-10-07T19:55:14 IST" duration-ms="15015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUserCreationPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@f0c8a99]" started-at="2024-10-07T19:55:14 IST" name="teardown" finished-at="2024-10-07T19:55:16 IST" duration-ms="2146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenUserCreationPage status=SUCCESS method=TC022_Rec_UserCreationPage.OpenUserCreationPage()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@b9b00e0]" started-at="2024-10-07T19:52:49 IST" name="SetUp" finished-at="2024-10-07T19:53:05 IST" duration-ms="15867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TermsPage()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@b9b00e0]" started-at="2024-10-07T19:53:05 IST" name="TermsPage" finished-at="2024-10-07T19:53:32 IST" duration-ms="27547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@b9b00e0]" started-at="2024-10-07T19:53:33 IST" name="teardown" finished-at="2024-10-07T19:53:34 IST" duration-ms="1164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsPage status=SUCCESS method=TC001Open_Terms_Page.TermsPage()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page -->
+      <class name="socgenindia.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@2a7f1f10]" started-at="2024-10-07T19:53:34 IST" name="SetUp" finished-at="2024-10-07T19:53:54 IST" duration-ms="20027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RecruiterLogin()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@2a7f1f10]" started-at="2024-10-07T19:53:54 IST" name="RecruiterLogin" finished-at="2024-10-07T19:54:07 IST" duration-ms="13537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecruiterLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@2a7f1f10]" started-at="2024-10-07T19:54:07 IST" name="teardown" finished-at="2024-10-07T19:54:10 IST" duration-ms="2134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecruiterLogin status=SUCCESS method=TC020_Login_RecruiterModule.RecruiterLogin()[pri:0, instance:socgenindia.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@2a7f1f10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- socgenindia.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

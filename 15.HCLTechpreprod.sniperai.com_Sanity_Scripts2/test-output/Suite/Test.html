@@ -1,0 +1,372 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 15 20:11:47 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>633 seconds (633820 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.teardown()'><b>teardown</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec<br>Parameters: [TestResult name=AddSupportRecruiterUtility status=FAILURE method=TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility()[pri:0, instance:hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@2cf3d63b] output={null}]</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [755a91c699006249fca73a463d48a737, clickElement {id=f.B750ABD7AF25FA556FAAD59D3D1D4E2A.d.A76F4B937B153B6581ACB3250C3A97AD.e.149}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53354/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (755a91c699006249fca73a463d48a737)] -&gt; xpath: //span [text() = &apos;Sign out&apos;]]
+Session ID: 755a91c699006249fca73a463d48a737
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+	at hcltechpreprod.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:125)
+	at hcltechpreprod.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:115)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 39 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace859653366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace859653366'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=128.0.6613.120)
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [755a91c699006249fca73a463d48a737, clickElement {id=f.B750ABD7AF25FA556FAAD59D3D1D4E2A.d.A76F4B937B153B6581ACB3250C3A97AD.e.149}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53354/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (755a91c699006249fca73a463d48a737)] -&gt; xpath: //span [text() = &apos;Sign out&apos;]]
+Session ID: 755a91c699006249fca73a463d48a737
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+	at hcltechpreprod.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:125)
+	at hcltechpreprod.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:115)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>20</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@2cf3d63b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility()'><b>AddSupportRecruiterUtility</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a [text() = &apos;Add Support Recruiter&apos;])[2]&quot;}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [755a91c699006249fca73a463d48a737, findElement {using=xpath, value=(//a [text() = &apos;Add Support Recruiter&apos;])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53354/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 755a91c699006249fca73a463d48a737
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.AddSupportRecruiterUtility(Rec_JobListPage_POM_Class.java:504)
+	at hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility(TC048_Rec_UtilitiesAddSupportRec.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1513743700", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1513743700'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//a [text() = &apos;Add Support Recruiter&apos;])[2]&quot;}
+  (Session info: chrome=128.0.6613.120)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.23&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [755a91c699006249fca73a463d48a737, findElement {using=xpath, value=(//a [text() = &apos;Add Support Recruiter&apos;])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.120, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53354}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53354/devtoo..., se:cdpVersion: 128.0.6613.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 755a91c699006249fca73a463d48a737
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.AddSupportRecruiterUtility(Rec_JobListPage_POM_Class.java:504)
+	at hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility(TC048_Rec_UtilitiesAddSupportRec.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>26</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@2cf3d63b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios.CandidatesPageActions()'><b>CandidatesPageActions</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios</td>
+<td></td>
+<td>34</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@74ea2410</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page.TermsPage()'><b>TermsPage</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page</td>
+<td></td>
+<td>31</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@242b836</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule.RecruiterLogin()'><b>RecruiterLogin</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule</td>
+<td></td>
+<td>10</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@6e6f2380</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates.RSplusCadidates()'><b>RSplusCadidates</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates</td>
+<td></td>
+<td>7</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@173ed316</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity.SkillAffinityUtility()'><b>SkillAffinityUtility</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity</td>
+<td></td>
+<td>7</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@2eae8e6e</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload.DownloadRawReport()'><b>DownloadRawReport</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload</td>
+<td></td>
+<td>19</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@53fe15ff</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage.CandidatesPage()'><b>CandidatesPage</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage</td>
+<td></td>
+<td>6</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@25ce9dc4</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage.SettingsPage()'><b>SettingsPage</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage</td>
+<td></td>
+<td>13</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@449a4f23</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload.SkillUploadUtility()'><b>SkillUploadUtility</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload</td>
+<td></td>
+<td>8</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@4b741d6d</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage.OpenUserCreationPage()'><b>OpenUserCreationPage</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage</td>
+<td></td>
+<td>18</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@2e8c1c9b</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage.LinkedInConfig()'><b>LinkedInConfig</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage</td>
+<td></td>
+<td>7</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@7d0b7e3c</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh.JobRefreshUtility()'><b>JobRefreshUtility</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh</td>
+<td></td>
+<td>11</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@8f2ef19</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock.ScoreLockUtility()'><b>ScoreLockUtility</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock</td>
+<td></td>
+<td>14</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@470734c3</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage.RSplusCofig()'><b>RSplusCofig</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage</td>
+<td></td>
+<td>15</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@7674f035</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage.JobSettingsPage()'><b>JobSettingsPage</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage</td>
+<td></td>
+<td>11</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@1530c739</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings.JobWizardSettingsPage()'><b>JobWizardSettingsPage</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings</td>
+<td></td>
+<td>6</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@6e9175d8</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports.RSplusReports()'><b>RSplusReports</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports</td>
+<td></td>
+<td>13</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@69e153c5</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage.ScoreRepreConfig()'><b>ScoreRepreConfig</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage</td>
+<td></td>
+<td>6</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@15bb5034</td></tr>
+<tr>
+<td title='hcltechpreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions_Rec()'><b>JobListPageActions_Rec</b><br>Test class: hcltechpreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions</td>
+<td></td>
+<td>6</td>
+<td>hcltechpreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@76a4ebf2</td></tr>
+</table><p>
+</body>
+</html>

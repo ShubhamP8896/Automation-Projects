@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod"/>
+	  <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update"/>
+	  <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password"/>
+	  <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage"/>
+	  <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage"/>
+	  <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage"/> 
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock"/> 
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage"/>
+      <class name="johnclementspreprod.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

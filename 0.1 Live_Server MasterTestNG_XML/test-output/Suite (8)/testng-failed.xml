@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (8)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="natwest.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig">
+        <methods>
+          <include name="VideoInterviewConfig"/>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- natwest.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig -->
+      <class name="natwest.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+        <methods>
+          <include name="RecruiterLogin"/>
+          <include name="teardown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- natwest.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (8)] -->

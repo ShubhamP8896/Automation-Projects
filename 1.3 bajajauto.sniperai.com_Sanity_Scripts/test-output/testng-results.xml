@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-20T08:05:28 IST" name="Suite" finished-at="2025-02-20T08:10:54 IST" duration-ms="326360">
+    <groups>
+    </groups>
+    <test started-at="2025-02-20T08:05:28 IST" name="Test" finished-at="2025-02-20T08:10:54 IST" duration-ms="326360">
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@11392934]" started-at="2025-02-20T08:08:42 IST" name="SetUp" finished-at="2025-02-20T08:08:55 IST" duration-ms="12693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobSettingsPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@11392934]" started-at="2025-02-20T08:08:55 IST" name="JobSettingsPage" finished-at="2025-02-20T08:09:05 IST" duration-ms="9858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobSettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@11392934]" started-at="2025-02-20T08:09:05 IST" name="teardown" finished-at="2025-02-20T08:09:07 IST" duration-ms="2091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobSettingsPage status=SUCCESS method=TC039_Rec_JobSettingsPage.JobSettingsPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@11392934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@54c5a2ff]" started-at="2025-02-20T08:08:16 IST" name="SetUp" finished-at="2025-02-20T08:08:29 IST" duration-ms="13047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SettingsPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@54c5a2ff]" started-at="2025-02-20T08:08:29 IST" name="SettingsPage" finished-at="2025-02-20T08:08:41 IST" duration-ms="11648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@54c5a2ff]" started-at="2025-02-20T08:08:41 IST" name="teardown" finished-at="2025-02-20T08:08:42 IST" duration-ms="1662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SettingsPage status=SUCCESS method=TC037_Rec_SettingsPage.SettingsPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@76a4ebf2]" started-at="2025-02-20T08:09:58 IST" name="SetUp" finished-at="2025-02-20T08:10:13 IST" duration-ms="14438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@76a4ebf2]" started-at="2025-02-20T08:10:13 IST" name="CandidatesPage" finished-at="2025-02-20T08:10:22 IST" duration-ms="9403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@76a4ebf2]" started-at="2025-02-20T08:10:22 IST" name="teardown" finished-at="2025-02-20T08:10:24 IST" duration-ms="1718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPage status=SUCCESS method=TC055_Rec_CandidatesPage.CandidatesPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@76a4ebf2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@644baf4a]" started-at="2025-02-20T08:06:52 IST" name="SetUp" finished-at="2025-02-20T08:07:07 IST" duration-ms="15672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenUserCreationPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@644baf4a]" started-at="2025-02-20T08:07:07 IST" name="OpenUserCreationPage" finished-at="2025-02-20T08:07:22 IST" duration-ms="14880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUserCreationPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@644baf4a]" started-at="2025-02-20T08:07:22 IST" name="teardown" finished-at="2025-02-20T08:07:24 IST" duration-ms="2067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenUserCreationPage status=SUCCESS method=TC022_Rec_UserCreationPage.OpenUserCreationPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@7526515b]" started-at="2025-02-20T08:07:24 IST" name="SetUp" finished-at="2025-02-20T08:07:37 IST" duration-ms="12719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadRawReport()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@7526515b]" started-at="2025-02-20T08:07:37 IST" name="DownloadRawReport" finished-at="2025-02-20T08:07:48 IST" duration-ms="10466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadRawReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@7526515b]" started-at="2025-02-20T08:07:48 IST" name="teardown" finished-at="2025-02-20T08:07:49 IST" duration-ms="1831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadRawReport status=SUCCESS method=TC029_Rec_RawReport_Dowload.DownloadRawReport()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@7526515b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@1ed4ae0f]" started-at="2025-02-20T08:07:49 IST" name="SetUp" finished-at="2025-02-20T08:08:00 IST" duration-ms="10569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadReccomdSummaryRep()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@1ed4ae0f]" started-at="2025-02-20T08:08:00 IST" name="DownloadReccomdSummaryRep" finished-at="2025-02-20T08:08:14 IST" duration-ms="14156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadReccomdSummaryRep -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@1ed4ae0f]" started-at="2025-02-20T08:08:14 IST" name="teardown" finished-at="2025-02-20T08:08:16 IST" duration-ms="1796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadReccomdSummaryRep status=SUCCESS method=TC030_Rec_ReccomdSummaryRP_Download.DownloadReccomdSummaryRep()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@f78a47e]" started-at="2025-02-20T08:06:15 IST" name="SetUp" finished-at="2025-02-20T08:06:27 IST" duration-ms="12484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobListPageActions_Rec()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@f78a47e]" started-at="2025-02-20T08:06:27 IST" name="JobListPageActions_Rec" finished-at="2025-02-20T08:06:49 IST" duration-ms="22008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobListPageActions_Rec -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@f78a47e]" started-at="2025-02-20T08:06:49 IST" name="teardown" finished-at="2025-02-20T08:06:52 IST" duration-ms="2513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobListPageActions_Rec status=SUCCESS method=TC021_JobListPage_Actions.JobListPageActions_Rec()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@f78a47e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@2e8c1c9b]" started-at="2025-02-20T08:10:24 IST" name="SetUp" finished-at="2025-02-20T08:10:34 IST" duration-ms="10153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPageActions()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@2e8c1c9b]" started-at="2025-02-20T08:10:34 IST" name="CandidatesPageActions" finished-at="2025-02-20T08:10:52 IST" duration-ms="18375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPageActions -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@2e8c1c9b]" started-at="2025-02-20T08:10:52 IST" name="teardown" finished-at="2025-02-20T08:10:54 IST" duration-ms="2117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPageActions status=SUCCESS method=TC056_CadidatesPageActios.CandidatesPageActions()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@2e8c1c9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@26d9b808]" started-at="2025-02-20T08:05:51 IST" name="SetUp" finished-at="2025-02-20T08:06:01 IST" duration-ms="9549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RecruiterLogin()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@26d9b808]" started-at="2025-02-20T08:06:01 IST" name="RecruiterLogin" finished-at="2025-02-20T08:06:13 IST" duration-ms="12151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecruiterLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@26d9b808]" started-at="2025-02-20T08:06:13 IST" name="teardown" finished-at="2025-02-20T08:06:15 IST" duration-ms="1710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecruiterLogin status=SUCCESS method=TC020_Login_RecruiterModule.RecruiterLogin()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@26d9b808] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@54e1c68b]" started-at="2025-02-20T08:05:28 IST" name="SetUp" finished-at="2025-02-20T08:05:34 IST" duration-ms="5850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TermsPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@54e1c68b]" started-at="2025-02-20T08:05:34 IST" name="TermsPage" finished-at="2025-02-20T08:05:51 IST" duration-ms="16808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@54e1c68b]" started-at="2025-02-20T08:05:51 IST" name="teardown" finished-at="2025-02-20T08:05:51 IST" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsPage status=SUCCESS method=TC001Open_Terms_Page.TermsPage()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@54e1c68b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6892b3b6]" started-at="2025-02-20T08:09:07 IST" name="SetUp" finished-at="2025-02-20T08:09:24 IST" duration-ms="17277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ScoreRepreConfig()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6892b3b6]" started-at="2025-02-20T08:09:24 IST" name="ScoreRepreConfig" finished-at="2025-02-20T08:09:33 IST" duration-ms="8967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreRepreConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6892b3b6]" started-at="2025-02-20T08:09:33 IST" name="teardown" finished-at="2025-02-20T08:09:35 IST" duration-ms="2046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScoreRepreConfig status=SUCCESS method=TC042_Rec_ScoreReprePage.ScoreRepreConfig()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6892b3b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage -->
+      <class name="bajajauto.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@6e6f2380]" started-at="2025-02-20T08:09:35 IST" name="SetUp" finished-at="2025-02-20T08:09:46 IST" duration-ms="10296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VideoInterviewConfig()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@6e6f2380]" started-at="2025-02-20T08:09:46 IST" name="VideoInterviewConfig" finished-at="2025-02-20T08:09:56 IST" duration-ms="10737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoInterviewConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@6e6f2380]" started-at="2025-02-20T08:09:56 IST" name="teardown" finished-at="2025-02-20T08:09:58 IST" duration-ms="2011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VideoInterviewConfig status=SUCCESS method=TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()[pri:0, instance:bajajauto.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@6e6f2380] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- bajajauto.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

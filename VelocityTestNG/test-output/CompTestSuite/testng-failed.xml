@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CompTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CompatibilityTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="sauceDemo.TestClass_Copy.TC003LogoutFunctionality_Copy">
+        <methods>
+          <include name="SetUpMethod"/>
+          <include name="TearDownMethod"/>
+          <include name="LogOutTestScenario"/>
+        </methods>
+      </class> <!-- sauceDemo.TestClass_Copy.TC003LogoutFunctionality_Copy -->
+    </classes>
+  </test> <!-- CompatibilityTest(failed) -->
+</suite> <!-- Failed suite [CompTestSuite] -->

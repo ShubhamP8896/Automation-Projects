@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Master Suite" parallel="false">
+    
+    <!-- You can include or exclude suites here -->
+    <suite-files>
+		<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.design.sniperai.com_Sanity_Scripts\Design_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\2.sftest.sniperai.com_Sanity_Scripts\sftest_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\3.afgPreprod.sniperai.com_Sanity_Scripts\afgPreprod_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\4.afgDev.sniperai.com_Sanity_Scripts\afgDev_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\5.ixceedpreprod.sniperai.com_Sanity_Scripts\IxceedPreprod_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\6.JCpreprod.sniperai.com_Sanity_Scripts\JCPreprod_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\7.CBTGpreprod.sniperai.com_Sanity_Scripts\CBTGPreprod_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\8.EdgeGrouppreprod.sniperai.com_Sanity_Scripts\EdgeGroupPreprod_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\9.MAGpreprod.sniperai.com_Sanity_Scripts\TestNG Suite\MAGPreprod_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\10.RSTpreprod.sniperai.com_Sanity_Scripts\RSTPreprod_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\11.Alcoapreprod.sniperai.com_Sanity_Scripts\AlcoaPreprod_Sanity_TestSuite.xml"/>
+   		<suite-file path="C:\Users\Shubz008\eclipse-workspace\12.BajajAutopreprod.sniperai.com_Sanity_Scripts\BajajAutoPreprod_Sanity_TestSuite.xml"/>
+		<suite-file path="C:\Users\Shubz008\eclipse-workspace\13.PTTEPpreprod.sniperai.com_Sanity_Scripts\PTTEPPreprod_Sanity_TestSuite.xml"/>
+		<suite-file path="C:\Users\Shubz008\eclipse-workspace\14.GlobalLogicDev.sniperai.com_Sanity_Scripts\GlobalLogicDev_Sanity_TestSuite.xml"/>
+		<suite-file path="C:\Users\Shubz008\eclipse-workspace\15.HCLTechpreprod.sniperai.com_Sanity_Scripts2\HCLTechPreprod_Sanity_TestSuite.xml"/>
+    </suite-files>
+</suite>

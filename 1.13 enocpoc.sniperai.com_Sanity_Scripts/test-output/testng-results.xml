@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-02T18:57:23 IST" name="Failed suite [Suite]" finished-at="2024-10-02T18:57:59 IST" duration-ms="35760">
+    <groups>
+    </groups>
+    <test started-at="2024-10-02T18:57:23 IST" name="Test(failed)" finished-at="2024-10-02T18:57:59 IST" duration-ms="35760">
+      <class name="enocpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:enocpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@2dc54ad4]" started-at="2024-10-02T18:57:24 IST" name="SetUp" finished-at="2024-10-02T18:57:45 IST" duration-ms="21597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadRawReport()[pri:0, instance:enocpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@2dc54ad4]" started-at="2024-10-02T18:57:45 IST" name="DownloadRawReport" finished-at="2024-10-02T18:57:57 IST" duration-ms="11967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadRawReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:enocpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@2dc54ad4]" started-at="2024-10-02T18:57:57 IST" name="teardown" finished-at="2024-10-02T18:57:59 IST" duration-ms="2131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadRawReport status=SUCCESS method=TC029_Rec_RawReport_Dowload.DownloadRawReport()[pri:0, instance:enocpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- enocpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

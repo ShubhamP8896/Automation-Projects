@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 15 21:55:57 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>428 seconds (428525 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity.SkillAffinityUtility()'><b>SkillAffinityUtility</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity</td>
+<td></td>
+<td>5</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@5b1669c0</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility()'><b>AddSupportRecruiterUtility</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec</td>
+<td></td>
+<td>5</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@7d0b7e3c</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage.CandidatesPage()'><b>CandidatesPage</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage</td>
+<td></td>
+<td>6</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@15bb5034</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage.OpenAddSupportRecPage()'><b>OpenAddSupportRecPage</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage</td>
+<td></td>
+<td>4</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@2a265ea9</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage.SettingsPage()'><b>SettingsPage</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage</td>
+<td></td>
+<td>6</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@2e8c1c9b</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule.RecruiterLogin()'><b>RecruiterLogin</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule</td>
+<td></td>
+<td>2</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@1ed4ae0f</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload.DownloadRawReport()'><b>DownloadRawReport</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload</td>
+<td></td>
+<td>8</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@11392934</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload.SkillUploadUtility()'><b>SkillUploadUtility</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload</td>
+<td></td>
+<td>4</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@1530c739</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage.OpenUserCreationPage()'><b>OpenUserCreationPage</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage</td>
+<td></td>
+<td>16</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@6d4d66d2</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage.JobSettingsPage()'><b>JobSettingsPage</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage</td>
+<td></td>
+<td>4</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@53fe15ff</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh.JobRefreshUtility()'><b>JobRefreshUtility</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh</td>
+<td></td>
+<td>4</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@78e4deb0</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock.ScoreLockUtility()'><b>ScoreLockUtility</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock</td>
+<td></td>
+<td>8</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@6e9175d8</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions_Rec()'><b>JobListPageActions_Rec</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions</td>
+<td></td>
+<td>5</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@54c5a2ff</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage.ScoreRepreConfig()'><b>ScoreRepreConfig</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage</td>
+<td></td>
+<td>6</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@449a4f23</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios.CandidatesPageActions()'><b>CandidatesPageActions</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios</td>
+<td></td>
+<td>30</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@4b741d6d</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download.DownloadReccomdSummaryRep()'><b>DownloadReccomdSummaryRep</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download</td>
+<td></td>
+<td>5</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@6892b3b6</td></tr>
+<tr>
+<td title='rstpreprod.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page.TermsPage()'><b>TermsPage</b><br>Test class: rstpreprod.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page</td>
+<td></td>
+<td>10</td>
+<td>rstpreprod.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@7db12bb6</td></tr>
+</table><p>
+</body>
+</html>

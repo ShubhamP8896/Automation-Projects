@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-01T00:13:00 IST" name="Suite" finished-at="2024-10-01T00:13:52 IST" duration-ms="51816">
+    <groups>
+    </groups>
+    <test started-at="2024-10-01T00:13:00 IST" name="Test" finished-at="2024-10-01T00:13:52 IST" duration-ms="51816">
+      <class name="deveregrouppoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:deveregrouppoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@4b8ee4de]" started-at="2024-10-01T00:13:00 IST" name="SetUp" finished-at="2024-10-01T00:13:07 IST" duration-ms="7116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TermsPage()[pri:0, instance:deveregrouppoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@4b8ee4de]" started-at="2024-10-01T00:13:07 IST" name="TermsPage" finished-at="2024-10-01T00:13:24 IST" duration-ms="17206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:deveregrouppoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@4b8ee4de]" started-at="2024-10-01T00:13:24 IST" name="teardown" finished-at="2024-10-01T00:13:25 IST" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsPage status=SUCCESS method=TC001Open_Terms_Page.TermsPage()[pri:0, instance:deveregrouppoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@4b8ee4de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- deveregrouppoc.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page -->
+      <class name="deveregrouppoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:deveregrouppoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@368247b9]" started-at="2024-10-01T00:13:25 IST" name="SetUp" finished-at="2024-10-01T00:13:41 IST" duration-ms="15891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RecruiterLogin()[pri:0, instance:deveregrouppoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@368247b9]" started-at="2024-10-01T00:13:41 IST" name="RecruiterLogin" finished-at="2024-10-01T00:13:49 IST" duration-ms="8659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecruiterLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:deveregrouppoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@368247b9]" started-at="2024-10-01T00:13:49 IST" name="teardown" finished-at="2024-10-01T00:13:52 IST" duration-ms="2313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecruiterLogin status=SUCCESS method=TC020_Login_RecruiterModule.RecruiterLogin()[pri:0, instance:deveregrouppoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@368247b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- deveregrouppoc.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 05 17:45:01 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>397 seconds (397328 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage.ScoreRepreConfig()'><b>ScoreRepreConfig</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage</td>
+<td></td>
+<td>9</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@6d4d66d2</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage.OpenUserCreationPage()'><b>OpenUserCreationPage</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage</td>
+<td></td>
+<td>10</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@26d9b808</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage.SettingsPage()'><b>SettingsPage</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage</td>
+<td></td>
+<td>10</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@644baf4a</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule.RecruiterLogin()'><b>RecruiterLogin</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule</td>
+<td></td>
+<td>10</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@f0c8a99</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page.TermsPage()'><b>TermsPage</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page</td>
+<td></td>
+<td>21</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@7d4f9aae</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage.JobSettingsPage()'><b>JobSettingsPage</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage</td>
+<td></td>
+<td>9</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@7526515b</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage.CandidatesPage()'><b>CandidatesPage</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage</td>
+<td></td>
+<td>8</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@11392934</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios.CandidatesPageActions()'><b>CandidatesPageActions</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios</td>
+<td></td>
+<td>13</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@6892b3b6</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload.DownloadRawReport()'><b>DownloadRawReport</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload</td>
+<td></td>
+<td>10</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@f78a47e</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()'><b>VideoInterviewConfig</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig</td>
+<td></td>
+<td>10</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@2a265ea9</td></tr>
+<tr>
+<td title='natwest.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions_Rec()'><b>JobListPageActions_Rec</b><br>Test class: natwest.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions</td>
+<td></td>
+<td>12</td>
+<td>natwest.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@740cae06</td></tr>
+</table><p>
+</body>
+</html>

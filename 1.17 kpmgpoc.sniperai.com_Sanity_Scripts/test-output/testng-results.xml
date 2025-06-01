@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-13T17:16:08 IST" name="Default suite" finished-at="2025-01-13T17:16:56 IST" duration-ms="48150">
+    <groups>
+    </groups>
+    <test started-at="2025-01-13T17:16:08 IST" name="Default test" finished-at="2025-01-13T17:16:56 IST" duration-ms="48150">
+      <class name="kpmgpoc.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:kpmgpoc.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@54a7079e]" started-at="2025-01-13T17:16:08 IST" name="SetUp" finished-at="2025-01-13T17:16:33 IST" duration-ms="24643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusCofig()[pri:0, instance:kpmgpoc.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@54a7079e]" started-at="2025-01-13T17:16:33 IST" name="RSplusCofig" finished-at="2025-01-13T17:16:53 IST" duration-ms="19782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusCofig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:kpmgpoc.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@54a7079e]" started-at="2025-01-13T17:16:53 IST" name="teardown" finished-at="2025-01-13T17:16:56 IST" duration-ms="3644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusCofig status=SUCCESS method=TC049_Rec_RsplusCofiguratiosPage.RSplusCofig()[pri:0, instance:kpmgpoc.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@54a7079e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- kpmgpoc.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

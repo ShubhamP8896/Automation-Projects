@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-20T08:19:48 IST" name="Suite" finished-at="2025-02-20T08:29:55 IST" duration-ms="606765">
+    <groups>
+    </groups>
+    <test started-at="2025-02-20T08:19:48 IST" name="Test" finished-at="2025-02-20T08:29:55 IST" duration-ms="606765">
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@5d0bf09b]" started-at="2025-02-20T08:29:18 IST" name="SetUp" finished-at="2025-02-20T08:29:37 IST" duration-ms="19420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPageActions()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@5d0bf09b]" started-at="2025-02-20T08:29:37 IST" name="CandidatesPageActions" finished-at="2025-02-20T08:29:51 IST" duration-ms="13617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPageActions -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@5d0bf09b]" started-at="2025-02-20T08:29:51 IST" name="teardown" finished-at="2025-02-20T08:29:55 IST" duration-ms="4317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPageActions status=SUCCESS method=TC056_CadidatesPageActios.CandidatesPageActions()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@5d0bf09b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@534a5a98]" started-at="2025-02-20T08:19:48 IST" name="SetUp" finished-at="2025-02-20T08:19:55 IST" duration-ms="6897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TermsPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@534a5a98]" started-at="2025-02-20T08:19:55 IST" name="TermsPage" finished-at="2025-02-20T08:20:13 IST" duration-ms="17351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@534a5a98]" started-at="2025-02-20T08:20:13 IST" name="teardown" finished-at="2025-02-20T08:20:13 IST" duration-ms="500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsPage status=SUCCESS method=TC001Open_Terms_Page.TermsPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@534a5a98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@17f62e33]" started-at="2025-02-20T08:26:24 IST" name="SetUp" finished-at="2025-02-20T08:26:33 IST" duration-ms="9382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusReports()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@17f62e33]" started-at="2025-02-20T08:26:33 IST" name="RSplusReports" finished-at="2025-02-20T08:26:46 IST" duration-ms="13192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusReports -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@17f62e33]" started-at="2025-02-20T08:26:46 IST" name="teardown" finished-at="2025-02-20T08:26:48 IST" duration-ms="2268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusReports status=SUCCESS method=TC050_Rec_RsplusReports.RSplusReports()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@17f62e33] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@2cf3d63b]" started-at="2025-02-20T08:23:34 IST" name="SetUp" finished-at="2025-02-20T08:23:48 IST" duration-ms="13899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobSettingsPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@2cf3d63b]" started-at="2025-02-20T08:23:48 IST" name="JobSettingsPage" finished-at="2025-02-20T08:23:57 IST" duration-ms="9018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobSettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@2cf3d63b]" started-at="2025-02-20T08:23:57 IST" name="teardown" finished-at="2025-02-20T08:23:59 IST" duration-ms="2241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobSettingsPage status=SUCCESS method=TC039_Rec_JobSettingsPage.JobSettingsPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@2cf3d63b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@248e319b]" started-at="2025-02-20T08:28:47 IST" name="SetUp" finished-at="2025-02-20T08:29:06 IST" duration-ms="18708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@248e319b]" started-at="2025-02-20T08:29:06 IST" name="CandidatesPage" finished-at="2025-02-20T08:29:16 IST" duration-ms="9706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@248e319b]" started-at="2025-02-20T08:29:16 IST" name="teardown" finished-at="2025-02-20T08:29:18 IST" duration-ms="2238" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPage status=SUCCESS method=TC055_Rec_CandidatesPage.CandidatesPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@248e319b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@74ea2410]" started-at="2025-02-20T08:25:58 IST" name="SetUp" finished-at="2025-02-20T08:26:14 IST" duration-ms="15279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusCofig()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@74ea2410]" started-at="2025-02-20T08:26:14 IST" name="RSplusCofig" finished-at="2025-02-20T08:26:21 IST" duration-ms="7566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusCofig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@74ea2410]" started-at="2025-02-20T08:26:21 IST" name="teardown" finished-at="2025-02-20T08:26:24 IST" duration-ms="2291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusCofig status=SUCCESS method=TC049_Rec_RsplusCofiguratiosPage.RSplusCofig()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@74ea2410] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@69e153c5]" started-at="2025-02-20T08:24:32 IST" name="SetUp" finished-at="2025-02-20T08:24:47 IST" duration-ms="15704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LinkedInConfig()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@69e153c5]" started-at="2025-02-20T08:24:47 IST" name="LinkedInConfig" finished-at="2025-02-20T08:24:57 IST" duration-ms="9713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedInConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@69e153c5]" started-at="2025-02-20T08:24:57 IST" name="teardown" finished-at="2025-02-20T08:25:02 IST" duration-ms="4876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkedInConfig status=SUCCESS method=TC041_Rec_LinkedInConfigPage.LinkedInConfig()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@69e153c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@7d0b7e3c]" started-at="2025-02-20T08:21:42 IST" name="SetUp" finished-at="2025-02-20T08:21:51 IST" duration-ms="9588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenAddSupportRecPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@7d0b7e3c]" started-at="2025-02-20T08:21:51 IST" name="OpenAddSupportRecPage" finished-at="2025-02-20T08:22:10 IST" duration-ms="18365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddSupportRecPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@7d0b7e3c]" started-at="2025-02-20T08:22:10 IST" name="teardown" finished-at="2025-02-20T08:22:13 IST" duration-ms="3331" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenAddSupportRecPage status=SUCCESS method=TC024_Rec_AddSupportRecruiterPage.OpenAddSupportRecPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@7d0b7e3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@76b1e9b8]" started-at="2025-02-20T08:26:48 IST" name="SetUp" finished-at="2025-02-20T08:26:59 IST" duration-ms="10239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusCadidates()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@76b1e9b8]" started-at="2025-02-20T08:26:59 IST" name="RSplusCadidates" finished-at="2025-02-20T08:27:23 IST" duration-ms="24697" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'RS Plus Candidates']"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32b6ccdc0ed28576b70c3939dac8cd37, findElement {using=xpath, value=//a [text() = 'RS Plus Candidates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64058/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32b6ccdc0ed28576b70c3939dac8cd37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'RS Plus Candidates']"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32b6ccdc0ed28576b70c3939dac8cd37, findElement {using=xpath, value=//a [text() = 'RS Plus Candidates']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64058/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 32b6ccdc0ed28576b70c3939dac8cd37
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at ixceed_RecMod_POM_classes.Rec_JobListPage_POM_Class.RSPlusCandidates(Rec_JobListPage_POM_Class.java:528)
+at ixceed.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates.RSplusCadidates(TC051_RsplusCandidates.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusCadidates -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@76b1e9b8]" started-at="2025-02-20T08:27:23 IST" name="teardown" finished-at="2025-02-20T08:27:44 IST" duration-ms="20467" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusCadidates status=FAILURE method=TC051_RsplusCandidates.RSplusCadidates()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@76b1e9b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32b6ccdc0ed28576b70c3939dac8cd37, clickElement {id=f.65522E99D066B8B8B34A6582AEB96247.d.9096A79691847EDEF8C833CC1CB8EFF0.e.138}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64058/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (32b6ccdc0ed28576b70c3939dac8cd37)] -> xpath: //span [text() = 'Sign out']]
+Session ID: 32b6ccdc0ed28576b70c3939dac8cd37]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32b6ccdc0ed28576b70c3939dac8cd37, clickElement {id=f.65522E99D066B8B8B34A6582AEB96247.d.9096A79691847EDEF8C833CC1CB8EFF0.e.138}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64058/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (32b6ccdc0ed28576b70c3939dac8cd37)] -> xpath: //span [text() = 'Sign out']]
+Session ID: 32b6ccdc0ed28576b70c3939dac8cd37
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at ixceed_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+at ixceed.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:124)
+at ixceed.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:114)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@173ed316]" started-at="2025-02-20T08:25:02 IST" name="SetUp" finished-at="2025-02-20T08:25:14 IST" duration-ms="11687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ScoreRepreConfig()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@173ed316]" started-at="2025-02-20T08:25:14 IST" name="ScoreRepreConfig" finished-at="2025-02-20T08:25:26 IST" duration-ms="12842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreRepreConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@173ed316]" started-at="2025-02-20T08:25:26 IST" name="teardown" finished-at="2025-02-20T08:25:29 IST" duration-ms="2197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScoreRepreConfig status=SUCCESS method=TC042_Rec_ScoreReprePage.ScoreRepreConfig()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@173ed316] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@25ce9dc4]" started-at="2025-02-20T08:25:29 IST" name="SetUp" finished-at="2025-02-20T08:25:45 IST" duration-ms="16546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VideoInterviewConfig()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@25ce9dc4]" started-at="2025-02-20T08:25:45 IST" name="VideoInterviewConfig" finished-at="2025-02-20T08:25:55 IST" duration-ms="10385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoInterviewConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@25ce9dc4]" started-at="2025-02-20T08:25:55 IST" name="teardown" finished-at="2025-02-20T08:25:58 IST" duration-ms="2989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VideoInterviewConfig status=SUCCESS method=TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@25ce9dc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@2af004b]" started-at="2025-02-20T08:28:15 IST" name="SetUp" finished-at="2025-02-20T08:28:33 IST" duration-ms="18483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ClietSummary()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@2af004b]" started-at="2025-02-20T08:28:33 IST" name="ClietSummary" finished-at="2025-02-20T08:28:43 IST" duration-ms="9757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClietSummary -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@2af004b]" started-at="2025-02-20T08:28:43 IST" name="teardown" finished-at="2025-02-20T08:28:47 IST" duration-ms="4171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClietSummary status=SUCCESS method=TC054_Rec_ClientSummary.ClietSummary()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@2af004b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@7674f035]" started-at="2025-02-20T08:23:59 IST" name="SetUp" finished-at="2025-02-20T08:24:20 IST" duration-ms="21380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobWizardSettingsPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@7674f035]" started-at="2025-02-20T08:24:20 IST" name="JobWizardSettingsPage" finished-at="2025-02-20T08:24:29 IST" duration-ms="8914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobWizardSettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@7674f035]" started-at="2025-02-20T08:24:29 IST" name="teardown" finished-at="2025-02-20T08:24:32 IST" duration-ms="2296" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobWizardSettingsPage status=SUCCESS method=TC040_Rec_JobWizardSettings.JobWizardSettingsPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@7674f035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@5b1669c0]" started-at="2025-02-20T08:20:13 IST" name="SetUp" finished-at="2025-02-20T08:20:28 IST" duration-ms="14608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RecruiterLogin()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@5b1669c0]" started-at="2025-02-20T08:20:28 IST" name="RecruiterLogin" finished-at="2025-02-20T08:20:36 IST" duration-ms="8314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecruiterLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@5b1669c0]" started-at="2025-02-20T08:20:36 IST" name="teardown" finished-at="2025-02-20T08:20:39 IST" duration-ms="2507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecruiterLogin status=SUCCESS method=TC020_Login_RecruiterModule.RecruiterLogin()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@5b1669c0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@4b741d6d]" started-at="2025-02-20T08:22:38 IST" name="SetUp" finished-at="2025-02-20T08:22:53 IST" duration-ms="14624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadReccomdSummaryRep()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@4b741d6d]" started-at="2025-02-20T08:22:53 IST" name="DownloadReccomdSummaryRep" finished-at="2025-02-20T08:23:01 IST" duration-ms="8377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadReccomdSummaryRep -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@4b741d6d]" started-at="2025-02-20T08:23:01 IST" name="teardown" finished-at="2025-02-20T08:23:04 IST" duration-ms="2378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadReccomdSummaryRep status=SUCCESS method=TC030_Rec_ReccomdSummaryRP_Download.DownloadReccomdSummaryRep()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@4b741d6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@78e4deb0]" started-at="2025-02-20T08:20:39 IST" name="SetUp" finished-at="2025-02-20T08:20:56 IST" duration-ms="17321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobListPageActions_Rec()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@78e4deb0]" started-at="2025-02-20T08:20:56 IST" name="JobListPageActions_Rec" finished-at="2025-02-20T08:21:11 IST" duration-ms="15420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobListPageActions_Rec -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@78e4deb0]" started-at="2025-02-20T08:21:11 IST" name="teardown" finished-at="2025-02-20T08:21:14 IST" duration-ms="2410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobListPageActions_Rec status=SUCCESS method=TC021_JobListPage_Actions.JobListPageActions_Rec()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@78e4deb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@15bb5034]" started-at="2025-02-20T08:22:13 IST" name="SetUp" finished-at="2025-02-20T08:22:22 IST" duration-ms="8501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadRawReport()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@15bb5034]" started-at="2025-02-20T08:22:22 IST" name="DownloadRawReport" finished-at="2025-02-20T08:22:35 IST" duration-ms="13956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadRawReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@15bb5034]" started-at="2025-02-20T08:22:35 IST" name="teardown" finished-at="2025-02-20T08:22:38 IST" duration-ms="2883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadRawReport status=SUCCESS method=TC029_Rec_RawReport_Dowload.DownloadRawReport()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@15bb5034] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@27406a17]" started-at="2025-02-20T08:27:44 IST" name="SetUp" finished-at="2025-02-20T08:28:00 IST" duration-ms="16475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AddCliet()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@27406a17]" started-at="2025-02-20T08:28:00 IST" name="AddCliet" finished-at="2025-02-20T08:28:10 IST" duration-ms="9914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCliet -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@27406a17]" started-at="2025-02-20T08:28:10 IST" name="teardown" finished-at="2025-02-20T08:28:15 IST" duration-ms="4447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCliet status=SUCCESS method=TC053_Rec_AddClient.AddCliet()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@27406a17] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@6e9175d8]" started-at="2025-02-20T08:21:14 IST" name="SetUp" finished-at="2025-02-20T08:21:28 IST" duration-ms="13848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenUserCreationPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@6e9175d8]" started-at="2025-02-20T08:21:28 IST" name="OpenUserCreationPage" finished-at="2025-02-20T08:21:37 IST" duration-ms="9834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUserCreationPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@6e9175d8]" started-at="2025-02-20T08:21:37 IST" name="teardown" finished-at="2025-02-20T08:21:42 IST" duration-ms="4241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenUserCreationPage status=SUCCESS method=TC022_Rec_UserCreationPage.OpenUserCreationPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@6e9175d8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage -->
+      <class name="ixceed.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@470734c3]" started-at="2025-02-20T08:23:04 IST" name="SetUp" finished-at="2025-02-20T08:23:13 IST" duration-ms="9680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SettingsPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@470734c3]" started-at="2025-02-20T08:23:13 IST" name="SettingsPage" finished-at="2025-02-20T08:23:32 IST" duration-ms="18096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@470734c3]" started-at="2025-02-20T08:23:32 IST" name="teardown" finished-at="2025-02-20T08:23:34 IST" duration-ms="2271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SettingsPage status=SUCCESS method=TC037_Rec_SettingsPage.SettingsPage()[pri:0, instance:ixceed.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- ixceed.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

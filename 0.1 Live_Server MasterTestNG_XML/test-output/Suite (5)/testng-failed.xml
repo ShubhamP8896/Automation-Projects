@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (5)]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="enocpoc.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage">
+        <methods>
+          <include name="OpenUserCreationPage"/>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- enocpoc.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage -->
+      <class name="enocpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <methods>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+          <include name="DownloadRawReport"/>
+        </methods>
+      </class> <!-- enocpoc.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (5)] -->

@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="37" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-23T06:58:35 IST" name="Suite" finished-at="2025-04-23T07:27:49 IST" duration-ms="1753180">
+    <groups>
+    </groups>
+    <test started-at="2025-04-23T06:58:35 IST" name="Test" finished-at="2025-04-23T07:27:49 IST" duration-ms="1753180">
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@4c60d6e9]" started-at="2025-04-23T07:17:46 IST" name="SetUp" finished-at="2025-04-23T07:18:18 IST" duration-ms="32020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadRawReport()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@4c60d6e9]" started-at="2025-04-23T07:18:18 IST" name="DownloadRawReport" finished-at="2025-04-23T07:18:32 IST" duration-ms="14603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadRawReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@4c60d6e9]" started-at="2025-04-23T07:18:32 IST" name="teardown" finished-at="2025-04-23T07:18:33 IST" duration-ms="1129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadRawReport status=SUCCESS method=TC029_Rec_RawReport_Dowload.DownloadRawReport()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@4c60d6e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@7f485fda]" started-at="2025-04-23T07:20:48 IST" name="SetUp" finished-at="2025-04-23T07:21:03 IST" duration-ms="15902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenDashboardPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@7f485fda]" started-at="2025-04-23T07:21:03 IST" name="OpenDashboardPage" finished-at="2025-04-23T07:21:14 IST" duration-ms="10688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenDashboardPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@7f485fda]" started-at="2025-04-23T07:21:14 IST" name="teardown" finished-at="2025-04-23T07:21:15 IST" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenDashboardPage status=SUCCESS method=TC036_Rec_DashboardPage_Open.OpenDashboardPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@7f485fda] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@8458f04]" started-at="2025-04-23T07:27:04 IST" name="SetUp" finished-at="2025-04-23T07:27:12 IST" duration-ms="8289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@8458f04]" started-at="2025-04-23T07:27:12 IST" name="CandidatesPage" finished-at="2025-04-23T07:27:29 IST" duration-ms="17401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@8458f04]" started-at="2025-04-23T07:27:29 IST" name="teardown" finished-at="2025-04-23T07:27:30 IST" duration-ms="425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPage status=SUCCESS method=TC055_Rec_CandidatesPage.CandidatesPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@8458f04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@909217e]" started-at="2025-04-23T07:25:51 IST" name="SetUp" finished-at="2025-04-23T07:26:06 IST" duration-ms="14252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusCofig()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@909217e]" started-at="2025-04-23T07:26:06 IST" name="RSplusCofig" finished-at="2025-04-23T07:26:16 IST" duration-ms="10097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusCofig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@909217e]" started-at="2025-04-23T07:26:16 IST" name="teardown" finished-at="2025-04-23T07:26:16 IST" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusCofig status=SUCCESS method=TC049_Rec_RsplusCofiguratiosPage.RSplusCofig()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@909217e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@5149d738]" started-at="2025-04-23T07:01:01 IST" name="SetUp" finished-at="2025-04-23T07:01:06 IST" duration-ms="5149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SignUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@5149d738]" started-at="2025-04-23T07:01:06 IST" name="SignUp" finished-at="2025-04-23T07:01:24 IST" duration-ms="17807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@5149d738]" started-at="2025-04-23T07:01:24 IST" name="teardown" finished-at="2025-04-23T07:01:25 IST" duration-ms="967" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUp status=SUCCESS method=TC003VerifySignUpPage.SignUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@5149d738] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@8519cb4]" started-at="2025-04-23T07:22:06 IST" name="SetUp" finished-at="2025-04-23T07:22:20 IST" duration-ms="13847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobWizardSettingsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@8519cb4]" started-at="2025-04-23T07:22:20 IST" name="JobWizardSettingsPage" finished-at="2025-04-23T07:22:30 IST" duration-ms="9685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobWizardSettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@8519cb4]" started-at="2025-04-23T07:22:30 IST" name="teardown" finished-at="2025-04-23T07:22:30 IST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobWizardSettingsPage status=SUCCESS method=TC040_Rec_JobWizardSettings.JobWizardSettingsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@8519cb4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@4b29d1d2]" started-at="2025-04-23T07:20:17 IST" name="SetUp" finished-at="2025-04-23T07:20:36 IST" duration-ms="19345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="InterviewSchedulerReport()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@4b29d1d2]" started-at="2025-04-23T07:20:36 IST" name="InterviewSchedulerReport" finished-at="2025-04-23T07:20:47 IST" duration-ms="10839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InterviewSchedulerReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@4b29d1d2]" started-at="2025-04-23T07:20:47 IST" name="teardown" finished-at="2025-04-23T07:20:48 IST" duration-ms="576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InterviewSchedulerReport status=SUCCESS method=TC035_Rec_InterviewRep_Download.InterviewSchedulerReport()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@4b29d1d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@7bba5817]" started-at="2025-04-23T07:09:35 IST" name="SetUp" finished-at="2025-04-23T07:09:57 IST" duration-ms="21604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobsPageGTesting()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@7bba5817]" started-at="2025-04-23T07:09:57 IST" name="JobsPageGTesting" finished-at="2025-04-23T07:10:29 IST" duration-ms="31937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobsPageGTesting -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@7bba5817]" started-at="2025-04-23T07:10:29 IST" name="teardown" finished-at="2025-04-23T07:10:54 IST" duration-ms="25359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobsPageGTesting status=SUCCESS method=TC017_Actions_JobsPage.JobsPageGTesting()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@7bba5817] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@2d901eb0]" started-at="2025-04-23T07:22:55 IST" name="SetUp" finished-at="2025-04-23T07:23:06 IST" duration-ms="10733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ScoreRepreConfig()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@2d901eb0]" started-at="2025-04-23T07:23:06 IST" name="ScoreRepreConfig" finished-at="2025-04-23T07:23:18 IST" duration-ms="12815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreRepreConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@2d901eb0]" started-at="2025-04-23T07:23:18 IST" name="teardown" finished-at="2025-04-23T07:23:19 IST" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScoreRepreConfig status=SUCCESS method=TC042_Rec_ScoreReprePage.ScoreRepreConfig()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@2d901eb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@18271936]" started-at="2025-04-23T07:26:16 IST" name="SetUp" finished-at="2025-04-23T07:26:27 IST" duration-ms="10641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusReports()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@18271936]" started-at="2025-04-23T07:26:27 IST" name="RSplusReports" finished-at="2025-04-23T07:26:38 IST" duration-ms="11600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusReports -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@18271936]" started-at="2025-04-23T07:26:38 IST" name="teardown" finished-at="2025-04-23T07:26:39 IST" duration-ms="407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusReports status=SUCCESS method=TC050_Rec_RsplusReports.RSplusReports()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@18271936] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@6bbe85a8]" started-at="2025-04-23T07:01:25 IST" name="SetUp" finished-at="2025-04-23T07:01:30 IST" duration-ms="5398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobOpeningsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@6bbe85a8]" started-at="2025-04-23T07:01:30 IST" name="JobOpeningsPage" finished-at="2025-04-23T07:01:50 IST" duration-ms="20087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobOpeningsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@6bbe85a8]" started-at="2025-04-23T07:01:50 IST" name="teardown" finished-at="2025-04-23T07:02:00 IST" duration-ms="9514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobOpeningsPage status=SUCCESS method=TC004Verify_JobOpeningsPage.JobOpeningsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@6bbe85a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@d737b89]" started-at="2025-04-23T07:21:42 IST" name="SetUp" finished-at="2025-04-23T07:21:56 IST" duration-ms="14765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobSettingsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@d737b89]" started-at="2025-04-23T07:21:56 IST" name="JobSettingsPage" finished-at="2025-04-23T07:22:06 IST" duration-ms="9275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobSettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@d737b89]" started-at="2025-04-23T07:22:06 IST" name="teardown" finished-at="2025-04-23T07:22:06 IST" duration-ms="435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobSettingsPage status=SUCCESS method=TC039_Rec_JobSettingsPage.JobSettingsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@d737b89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@548d708a]" started-at="2025-04-23T07:06:16 IST" name="SetUp" finished-at="2025-04-23T07:06:48 IST" duration-ms="31653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ProfilePageUpdate()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@548d708a]" started-at="2025-04-23T07:06:48 IST" name="ProfilePageUpdate" finished-at="2025-04-23T07:07:16 IST" duration-ms="28252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfilePageUpdate -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@548d708a]" started-at="2025-04-23T07:07:16 IST" name="teardown" finished-at="2025-04-23T07:07:26 IST" duration-ms="9709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProfilePageUpdate status=SUCCESS method=TC013_Can_Profile_Update.ProfilePageUpdate()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@548d708a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@3f191845]" started-at="2025-04-23T07:23:46 IST" name="SetUp" finished-at="2025-04-23T07:24:01 IST" duration-ms="15667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SkillUploadUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@3f191845]" started-at="2025-04-23T07:24:01 IST" name="SkillUploadUtility" finished-at="2025-04-23T07:24:11 IST" duration-ms="9501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkillUploadUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@3f191845]" started-at="2025-04-23T07:24:11 IST" name="teardown" finished-at="2025-04-23T07:24:11 IST" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SkillUploadUtility status=SUCCESS method=TC044_Rec_UtilitiesSkillUpload.SkillUploadUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@3f191845] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@28261e8e]" started-at="2025-04-23T07:21:15 IST" name="SetUp" finished-at="2025-04-23T07:21:30 IST" duration-ms="14974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SettingsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@28261e8e]" started-at="2025-04-23T07:21:30 IST" name="SettingsPage" finished-at="2025-04-23T07:21:41 IST" duration-ms="10972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@28261e8e]" started-at="2025-04-23T07:21:41 IST" name="teardown" finished-at="2025-04-23T07:21:42 IST" duration-ms="1043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SettingsPage status=SUCCESS method=TC037_Rec_SettingsPage.SettingsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@28261e8e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod@4be29ed9]" started-at="2025-04-23T07:02:59 IST" name="SetUp" finished-at="2025-04-23T07:06:16 IST" duration-ms="196750" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5182c246ae432606da246013e166bdae, clickElement {id=f.8FEC3A6572E87EAC80CFE49096DB1392.d.36D0118698C76F9A4EAA298D558C02FA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52232/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5182c246ae432606da246013e166bdae)] -> xpath: (//input [@id='login'])]
+Session ID: 5182c246ae432606da246013e166bdae]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5182c246ae432606da246013e166bdae, clickElement {id=f.8FEC3A6572E87EAC80CFE49096DB1392.d.36D0118698C76F9A4EAA298D558C02FA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52232/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5182c246ae432606da246013e166bdae)] -> xpath: (//input [@id='login'])]
+Session ID: 5182c246ae432606da246013e166bdae
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:418)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at demov1_Sanity_POM_Classes.LoginPage.LoginButton(LoginPage.java:153)
+at demov1.sniperai.com_Sanity_test_classes.A002_BaseTestClass_Can_Design.performLogin(A002_BaseTestClass_Can_Design.java:59)
+at demov1.sniperai.com_Sanity_test_classes.A002_BaseTestClass_Can_Design.SetUp(A002_BaseTestClass_Can_Design.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1888)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2023)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:401)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AppliedJobsFromDB()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod@4be29ed9]" started-at="2025-04-23T07:06:16 IST" name="AppliedJobsFromDB" finished-at="2025-04-23T07:06:16 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5182c246ae432606da246013e166bdae, clickElement {id=f.8FEC3A6572E87EAC80CFE49096DB1392.d.36D0118698C76F9A4EAA298D558C02FA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52232/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5182c246ae432606da246013e166bdae)] -> xpath: (//input [@id='login'])]
+Session ID: 5182c246ae432606da246013e166bdae]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5182c246ae432606da246013e166bdae, clickElement {id=f.8FEC3A6572E87EAC80CFE49096DB1392.d.36D0118698C76F9A4EAA298D558C02FA.e.39}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52232}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52232/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5182c246ae432606da246013e166bdae)] -> xpath: (//input [@id='login'])]
+Session ID: 5182c246ae432606da246013e166bdae
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:418)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:374)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at demov1_Sanity_POM_Classes.LoginPage.LoginButton(LoginPage.java:153)
+at demov1.sniperai.com_Sanity_test_classes.A002_BaseTestClass_Can_Design.performLogin(A002_BaseTestClass_Can_Design.java:59)
+at demov1.sniperai.com_Sanity_test_classes.A002_BaseTestClass_Can_Design.SetUp(A002_BaseTestClass_Can_Design.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1888)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2023)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:401)
+... 37 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppliedJobsFromDB -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod@4be29ed9]" started-at="2025-04-23T07:06:16 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1745372176413" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@1c5920df]" started-at="2025-04-23T07:13:58 IST" name="SetUp" finished-at="2025-04-23T07:14:37 IST" duration-ms="38708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenUserCreationPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@1c5920df]" started-at="2025-04-23T07:14:37 IST" name="OpenUserCreationPage" finished-at="2025-04-23T07:15:07 IST" duration-ms="30526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUserCreationPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@1c5920df]" started-at="2025-04-23T07:15:07 IST" name="teardown" finished-at="2025-04-23T07:15:39 IST" duration-ms="31449" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenUserCreationPage status=SUCCESS method=TC022_Rec_UserCreationPage.OpenUserCreationPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@1c5920df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@5f049ea1]" started-at="2025-04-23T07:24:11 IST" name="SetUp" finished-at="2025-04-23T07:24:26 IST" duration-ms="14517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SkillAffinityUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@5f049ea1]" started-at="2025-04-23T07:24:26 IST" name="SkillAffinityUtility" finished-at="2025-04-23T07:24:35 IST" duration-ms="9640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkillAffinityUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@5f049ea1]" started-at="2025-04-23T07:24:35 IST" name="teardown" finished-at="2025-04-23T07:24:36 IST" duration-ms="964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SkillAffinityUtility status=SUCCESS method=TC045_UtilitiesSkillAffinity.SkillAffinityUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@5f049ea1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@72cc7e6f]" started-at="2025-04-23T07:24:36 IST" name="SetUp" finished-at="2025-04-23T07:24:51 IST" duration-ms="14952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobRefreshUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@72cc7e6f]" started-at="2025-04-23T07:24:51 IST" name="JobRefreshUtility" finished-at="2025-04-23T07:25:02 IST" duration-ms="10407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobRefreshUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@72cc7e6f]" started-at="2025-04-23T07:25:02 IST" name="teardown" finished-at="2025-04-23T07:25:02 IST" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobRefreshUtility status=SUCCESS method=TC046_Rec_UtilitiesJobRefresh.JobRefreshUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@72cc7e6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@48075da3]" started-at="2025-04-23T07:27:30 IST" name="SetUp" finished-at="2025-04-23T07:27:44 IST" duration-ms="13719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPageActions()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@48075da3]" started-at="2025-04-23T07:27:44 IST" name="CandidatesPageActions" finished-at="2025-04-23T07:27:48 IST" duration-ms="4567" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9b94ba8c004f4d5f2307da5fb75f965, clickElement {id=f.E3264F4B3A5434A0C3D5FDC47368955F.d.A4FF88367E82211034237DA0A3C3572B.e.433}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e9b94ba8c004f4d5f2307da5fb75f965)] -> xpath: (//i [@class='fa fa-fw fa-sort sorting-arrow '])[1]]
+Session ID: e9b94ba8c004f4d5f2307da5fb75f965]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9b94ba8c004f4d5f2307da5fb75f965, clickElement {id=f.E3264F4B3A5434A0C3D5FDC47368955F.d.A4FF88367E82211034237DA0A3C3572B.e.433}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64762/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e9b94ba8c004f4d5f2307da5fb75f965)] -> xpath: (//i [@class='fa fa-fw fa-sort sorting-arrow '])[1]]
+Session ID: e9b94ba8c004f4d5f2307da5fb75f965
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at demov1_RecMod_POM_classes.Rec_CandidatesPage_POM_Class.NameSortingFilter(Rec_CandidatesPage_POM_Class.java:349)
+at demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios.CandidatesPageActions(TC056_CadidatesPageActios.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPageActions -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@48075da3]" started-at="2025-04-23T07:27:48 IST" name="teardown" finished-at="2025-04-23T07:27:49 IST" duration-ms="465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPageActions status=FAILURE method=TC056_CadidatesPageActios.CandidatesPageActions()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@48075da3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@196a42c3]" started-at="2025-04-23T07:16:55 IST" name="SetUp" finished-at="2025-04-23T07:17:16 IST" duration-ms="21696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenBotCandidatesPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@196a42c3]" started-at="2025-04-23T07:17:16 IST" name="OpenBotCandidatesPage" finished-at="2025-04-23T07:17:41 IST" duration-ms="25120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBotCandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@196a42c3]" started-at="2025-04-23T07:17:41 IST" name="teardown" finished-at="2025-04-23T07:17:46 IST" duration-ms="4182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenBotCandidatesPage status=SUCCESS method=TC026_Req_BotCandidatePage.OpenBotCandidatesPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@196a42c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@1349883]" started-at="2025-04-23T07:19:46 IST" name="SetUp" finished-at="2025-04-23T07:20:04 IST" duration-ms="18242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ChatotHistoryReport()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@1349883]" started-at="2025-04-23T07:20:04 IST" name="ChatotHistoryReport" finished-at="2025-04-23T07:20:16 IST" duration-ms="11587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChatotHistoryReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@1349883]" started-at="2025-04-23T07:20:16 IST" name="teardown" finished-at="2025-04-23T07:20:17 IST" duration-ms="902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChatotHistoryReport status=SUCCESS method=TC034_Rec_ChatotHistReport_Download.ChatotHistoryReport()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@1349883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@350aac89]" started-at="2025-04-23T07:12:54 IST" name="SetUp" finished-at="2025-04-23T07:13:16 IST" duration-ms="21562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobListPageActions_Rec()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@350aac89]" started-at="2025-04-23T07:13:16 IST" name="JobListPageActions_Rec" finished-at="2025-04-23T07:13:47 IST" duration-ms="31465" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b08e99a22da216831954289ff79a037, clickElement {id=f.EBFB3930F03E7EE1A8D8CDACB36355EA.d.CC41FAFA5D872E297FF46ADBE2759DE5.e.401}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63500/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0b08e99a22da216831954289ff79a037)] -> xpath: (//button [@class='light-button filterSubmit'])[1]]
+Session ID: 0b08e99a22da216831954289ff79a037]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.25.0', revision: '030fcf7918'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b08e99a22da216831954289ff79a037, clickElement {id=f.EBFB3930F03E7EE1A8D8CDACB36355EA.d.CC41FAFA5D872E297FF46ADBE2759DE5.e.401}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Shubz008\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63500}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63500/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0b08e99a22da216831954289ff79a037)] -> xpath: (//button [@class='light-button filterSubmit'])[1]]
+Session ID: 0b08e99a22da216831954289ff79a037
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at demov1_RecMod_POM_classes.Rec_JobListPage_POM_Class.JobReqColumnFilterSearch(Rec_JobListPage_POM_Class.java:664)
+at demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions_Rec(TC021_JobListPage_Actions.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobListPageActions_Rec -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@350aac89]" started-at="2025-04-23T07:13:47 IST" name="teardown" finished-at="2025-04-23T07:13:58 IST" duration-ms="10850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobListPageActions_Rec status=FAILURE method=TC021_JobListPage_Actions.JobListPageActions_Rec()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@350aac89] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@cb0755b]" started-at="2025-04-23T07:07:26 IST" name="SetUp" finished-at="2025-04-23T07:07:38 IST" duration-ms="12274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ChangePassword()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@cb0755b]" started-at="2025-04-23T07:07:38 IST" name="ChangePassword" finished-at="2025-04-23T07:07:57 IST" duration-ms="19397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePassword -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@cb0755b]" started-at="2025-04-23T07:07:57 IST" name="teardown" finished-at="2025-04-23T07:07:58 IST" duration-ms="698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePassword status=SUCCESS method=TC014_Can_Change_Password.ChangePassword()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@cb0755b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@712625fd]" started-at="2025-04-23T07:08:24 IST" name="SetUp" finished-at="2025-04-23T07:09:01 IST" duration-ms="36936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenJobsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@712625fd]" started-at="2025-04-23T07:09:01 IST" name="OpenJobsPage" finished-at="2025-04-23T07:09:30 IST" duration-ms="29194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenJobsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@712625fd]" started-at="2025-04-23T07:09:30 IST" name="teardown" finished-at="2025-04-23T07:09:35 IST" duration-ms="5439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenJobsPage status=SUCCESS method=TC016_Open_JobsPage.OpenJobsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@712625fd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@1c7696c6]" started-at="2025-04-23T06:58:36 IST" name="SetUp" finished-at="2025-04-23T06:59:43 IST" duration-ms="67335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TermsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@1c7696c6]" started-at="2025-04-23T06:59:43 IST" name="TermsPage" finished-at="2025-04-23T07:00:35 IST" duration-ms="52455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@1c7696c6]" started-at="2025-04-23T07:00:35 IST" name="teardown" finished-at="2025-04-23T07:00:37 IST" duration-ms="1527" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsPage status=SUCCESS method=TC001Open_Terms_Page.TermsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@1c7696c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@75437611]" started-at="2025-04-23T07:12:15 IST" name="SetUp" finished-at="2025-04-23T07:12:37 IST" duration-ms="21804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RecruiterLogin()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@75437611]" started-at="2025-04-23T07:12:37 IST" name="RecruiterLogin" finished-at="2025-04-23T07:12:53 IST" duration-ms="15983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecruiterLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@75437611]" started-at="2025-04-23T07:12:53 IST" name="teardown" finished-at="2025-04-23T07:12:54 IST" duration-ms="1095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecruiterLogin status=SUCCESS method=TC020_Login_RecruiterModule.RecruiterLogin()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@75437611] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@3ba987b8]" started-at="2025-04-23T07:23:19 IST" name="SetUp" finished-at="2025-04-23T07:23:34 IST" duration-ms="15268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VideoInterviewConfig()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@3ba987b8]" started-at="2025-04-23T07:23:34 IST" name="VideoInterviewConfig" finished-at="2025-04-23T07:23:45 IST" duration-ms="10977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoInterviewConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@3ba987b8]" started-at="2025-04-23T07:23:45 IST" name="teardown" finished-at="2025-04-23T07:23:46 IST" duration-ms="545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VideoInterviewConfig status=SUCCESS method=TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@3ba987b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@72035809]" started-at="2025-04-23T07:25:27 IST" name="SetUp" finished-at="2025-04-23T07:25:41 IST" duration-ms="14309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AddSupportRecruiterUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@72035809]" started-at="2025-04-23T07:25:41 IST" name="AddSupportRecruiterUtility" finished-at="2025-04-23T07:25:51 IST" duration-ms="9745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSupportRecruiterUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@72035809]" started-at="2025-04-23T07:25:51 IST" name="teardown" finished-at="2025-04-23T07:25:51 IST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddSupportRecruiterUtility status=SUCCESS method=TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@72035809] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@5afa3c9]" started-at="2025-04-23T07:25:02 IST" name="SetUp" finished-at="2025-04-23T07:25:16 IST" duration-ms="13469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ScoreLockUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@5afa3c9]" started-at="2025-04-23T07:25:16 IST" name="ScoreLockUtility" finished-at="2025-04-23T07:25:25 IST" duration-ms="9130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreLockUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@5afa3c9]" started-at="2025-04-23T07:25:25 IST" name="teardown" finished-at="2025-04-23T07:25:27 IST" duration-ms="2204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScoreLockUtility status=SUCCESS method=TC047_Rec_UtilitiesScoreLock.ScoreLockUtility()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@5afa3c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@606e4010]" started-at="2025-04-23T07:26:39 IST" name="SetUp" finished-at="2025-04-23T07:26:53 IST" duration-ms="14130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusCadidates()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@606e4010]" started-at="2025-04-23T07:26:53 IST" name="RSplusCadidates" finished-at="2025-04-23T07:27:03 IST" duration-ms="10213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusCadidates -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@606e4010]" started-at="2025-04-23T07:27:03 IST" name="teardown" finished-at="2025-04-23T07:27:04 IST" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusCadidates status=SUCCESS method=TC051_RsplusCandidates.RSplusCadidates()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@606e4010] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@35dab4eb]" started-at="2025-04-23T07:22:30 IST" name="SetUp" finished-at="2025-04-23T07:22:44 IST" duration-ms="14348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LinkedInConfig()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@35dab4eb]" started-at="2025-04-23T07:22:44 IST" name="LinkedInConfig" finished-at="2025-04-23T07:22:54 IST" duration-ms="9796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedInConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@35dab4eb]" started-at="2025-04-23T07:22:54 IST" name="teardown" finished-at="2025-04-23T07:22:55 IST" duration-ms="524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkedInConfig status=SUCCESS method=TC041_Rec_LinkedInConfigPage.LinkedInConfig()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@35dab4eb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@17f9d882]" started-at="2025-04-23T07:15:39 IST" name="SetUp" finished-at="2025-04-23T07:16:09 IST" duration-ms="29944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenAddSupportRecPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@17f9d882]" started-at="2025-04-23T07:16:09 IST" name="OpenAddSupportRecPage" finished-at="2025-04-23T07:16:22 IST" duration-ms="12995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddSupportRecPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@17f9d882]" started-at="2025-04-23T07:16:22 IST" name="teardown" finished-at="2025-04-23T07:16:22 IST" duration-ms="730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenAddSupportRecPage status=SUCCESS method=TC024_Rec_AddSupportRecruiterPage.OpenAddSupportRecPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@17f9d882] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@742ff096]" started-at="2025-04-23T07:10:54 IST" name="SetUp" finished-at="2025-04-23T07:11:25 IST" duration-ms="31308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ApplicationsPageTesting()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@742ff096]" started-at="2025-04-23T07:11:25 IST" name="ApplicationsPageTesting" finished-at="2025-04-23T07:11:50 IST" duration-ms="24834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationsPageTesting -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@742ff096]" started-at="2025-04-23T07:11:50 IST" name="teardown" finished-at="2025-04-23T07:12:15 IST" duration-ms="24959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApplicationsPageTesting status=SUCCESS method=TC019_ApplicationsPageTesting.ApplicationsPageTesting()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@742ff096] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@79e4c792]" started-at="2025-04-23T07:16:22 IST" name="SetUp" finished-at="2025-04-23T07:16:43 IST" duration-ms="20403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenEquitibleHiringPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@79e4c792]" started-at="2025-04-23T07:16:43 IST" name="OpenEquitibleHiringPage" finished-at="2025-04-23T07:16:54 IST" duration-ms="11054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenEquitibleHiringPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@79e4c792]" started-at="2025-04-23T07:16:54 IST" name="teardown" finished-at="2025-04-23T07:16:55 IST" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenEquitibleHiringPage status=SUCCESS method=TC025_Rec_EquitibleHiringPage.OpenEquitibleHiringPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@79e4c792] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@15043a2f]" started-at="2025-04-23T07:18:33 IST" name="SetUp" finished-at="2025-04-23T07:18:48 IST" duration-ms="14631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadReccomdSummaryRep()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@15043a2f]" started-at="2025-04-23T07:18:48 IST" name="DownloadReccomdSummaryRep" finished-at="2025-04-23T07:18:59 IST" duration-ms="11512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadReccomdSummaryRep -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@15043a2f]" started-at="2025-04-23T07:18:59 IST" name="teardown" finished-at="2025-04-23T07:19:00 IST" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadReccomdSummaryRep status=SUCCESS method=TC030_Rec_ReccomdSummaryRP_Download.DownloadReccomdSummaryRep()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@15043a2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@53045c6c]" started-at="2025-04-23T07:00:37 IST" name="SetUp" finished-at="2025-04-23T07:00:43 IST" duration-ms="6055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ForgotPassword()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@53045c6c]" started-at="2025-04-23T07:00:43 IST" name="ForgotPassword" finished-at="2025-04-23T07:00:59 IST" duration-ms="16592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@53045c6c]" started-at="2025-04-23T07:00:59 IST" name="teardown" finished-at="2025-04-23T07:01:01 IST" duration-ms="1260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPassword status=SUCCESS method=TC002ForgotPassword_Button.ForgotPassword()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@53045c6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@33065d67]" started-at="2025-04-23T07:07:58 IST" name="SetUp" finished-at="2025-04-23T07:08:10 IST" duration-ms="12155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenContactsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@33065d67]" started-at="2025-04-23T07:08:10 IST" name="OpenContactsPage" finished-at="2025-04-23T07:08:23 IST" duration-ms="12899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenContactsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@33065d67]" started-at="2025-04-23T07:08:23 IST" name="teardown" finished-at="2025-04-23T07:08:24 IST" duration-ms="728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenContactsPage status=SUCCESS method=TC015_Open_contactsPage.OpenContactsPage()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@33065d67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@3a7442c7]" started-at="2025-04-23T07:02:00 IST" name="SetUp" finished-at="2025-04-23T07:02:21 IST" duration-ms="21527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidateLogin()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@3a7442c7]" started-at="2025-04-23T07:02:21 IST" name="CandidateLogin" finished-at="2025-04-23T07:02:40 IST" duration-ms="18887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidateLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@3a7442c7]" started-at="2025-04-23T07:02:40 IST" name="teardown" finished-at="2025-04-23T07:02:59 IST" duration-ms="18976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidateLogin status=SUCCESS method=TC011_Login_Candidate_Module.CandidateLogin()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@3a7442c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module -->
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@4a83a74a]" started-at="2025-04-23T07:19:00 IST" name="SetUp" finished-at="2025-04-23T07:19:20 IST" duration-ms="19424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="HideUnhideReport()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@4a83a74a]" started-at="2025-04-23T07:19:20 IST" name="HideUnhideReport" finished-at="2025-04-23T07:19:35 IST" duration-ms="14857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HideUnhideReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@4a83a74a]" started-at="2025-04-23T07:19:35 IST" name="teardown" finished-at="2025-04-23T07:19:46 IST" duration-ms="11294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HideUnhideReport status=SUCCESS method=TC031_Rec_HideUhideRep_Download.HideUnhideReport()[pri:0, instance:demov1.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@4a83a74a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="1" name="Test">
+    <classes>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock"/> 
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage"/>
+      <class name="edgeGrouppreprod.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
