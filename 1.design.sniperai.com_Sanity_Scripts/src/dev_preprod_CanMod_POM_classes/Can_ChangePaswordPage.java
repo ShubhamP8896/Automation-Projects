@@ -46,21 +46,21 @@ public class Can_ChangePaswordPage
 	public void CurrentPassword()
 	{
 		CurrentPassword.click();
-		CurrentPassword.sendKeys("shub@123");
+		CurrentPassword.sendKeys("shub@123456");
 	}
 	
 //	2) New Password 
 	public void NewPassword()
 	{
 		NewPassword.click();
-		NewPassword.sendKeys("shub@123");
+		NewPassword.sendKeys("shub@123456");
 	}
 	
 //	3) Confirm Password 
 	public void ConfirmPassword()
 	{
 		ConfirmPassword.click();
-		ConfirmPassword.sendKeys("shub@123");
+		ConfirmPassword.sendKeys("shub@123456");
 	}
 	
 //	4) Submit 

@@ -21,7 +21,7 @@ public class A001_BaseTestClass_Design
     @BeforeMethod
     public void SetUp() throws IOException
     {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shubz008\\Downloads\\Installation Files\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Automation Testing Files\\Drivers\\Chrome Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         System.out.println("Properties Set Successfully");
         
         driver = new ChromeDriver();

@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Demov1_Excel_Data_UtilityClass {
 
     // Path of the Excel file
-    private static final String EXCEL_FILE_PATH = "C:\\Users\\Shubz008\\Desktop\\Live Server_Sanity_Automation data\\2. Live Server Automation Saity Test Report.xlsx";
+    private static final String EXCEL_FILE_PATH = "D:\\Automation Sanity Testing Data\\Live Serer data\\Sanity_Testing_Report_Live\\2. Live Server Automation Saity Test Report.xlsx";
 
     // Method to read recruiter credentials from Excel
     public String[] readRecruiterCredentials(int rowIndex) throws IOException {

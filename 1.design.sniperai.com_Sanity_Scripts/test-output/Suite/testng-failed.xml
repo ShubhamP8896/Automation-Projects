@@ -3,20 +3,76 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+      <class name="design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <methods>
+          <include name="JobListPageActions_Rec"/>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient">
+        <methods>
+          <include name="AddCliet"/>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload">
         <methods>
           <include name="SetUp"/>
           <include name="teardown"/>
-          <include name="RecruiterLogin"/>
+          <include name="SkillUploadUtility"/>
         </methods>
-      </class> <!-- design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
-      <class name="design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module">
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open">
         <methods>
           <include name="SetUp"/>
-          <include name="CandidateLogin"/>
+          <include name="OpenDashboardPage"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <methods>
+          <include name="DownloadRawReport"/>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios">
+        <methods>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+          <include name="CandidatesPageActions"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary">
+        <methods>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+          <include name="ClietSummary"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password">
+        <methods>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+          <include name="ChangePassword"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock">
+        <methods>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+          <include name="ScoreLockUtility"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage">
+        <methods>
+          <include name="SetUp"/>
+          <include name="teardown"/>
+          <include name="ScoreRepreConfig"/>
+        </methods>
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

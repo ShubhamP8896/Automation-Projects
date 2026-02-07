@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sftest.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+      <class name="sftest.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
         <methods>
           <include name="SetUp"/>
-          <include name="DownloadRawReport"/>
+          <include name="RecruiterLogin"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- sftest.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+      </class> <!-- sftest.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

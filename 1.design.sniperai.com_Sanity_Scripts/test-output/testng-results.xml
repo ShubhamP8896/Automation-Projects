@@ -1,25 +1,1584 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="44" passed="34" failed="10" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-07T17:16:03 IST" name="Default suite" finished-at="2025-01-07T17:16:55 IST" duration-ms="51415">
+  <suite started-at="2025-09-24T15:44:00 IST" name="Suite" finished-at="2025-09-24T16:10:28 IST" duration-ms="1588309">
     <groups>
     </groups>
-    <test started-at="2025-01-07T17:16:03 IST" name="Default test" finished-at="2025-01-07T17:16:55 IST" duration-ms="51415">
-      <class name="design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@54a7079e]" started-at="2025-01-07T17:16:03 IST" name="SetUp" finished-at="2025-01-07T17:16:46 IST" duration-ms="42443" status="PASS">
+    <test started-at="2025-09-24T15:44:00 IST" name="Test" finished-at="2025-09-24T16:10:28 IST" duration-ms="1588309">
+      <class name="design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@1356d4d4]" started-at="2025-09-24T15:46:28 IST" name="SetUp" finished-at="2025-09-24T15:46:35 IST" duration-ms="6283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="CandidateLogin()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@54a7079e]" started-at="2025-01-07T17:16:46 IST" name="CandidateLogin" finished-at="2025-01-07T17:16:50 IST" duration-ms="4576" status="PASS">
+        <test-method signature="OpenContactsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@1356d4d4]" started-at="2025-09-24T15:46:35 IST" name="OpenContactsPage" finished-at="2025-09-24T15:46:41 IST" duration-ms="6506" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CandidateLogin -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@54a7079e]" started-at="2025-01-07T17:16:50 IST" name="teardown" finished-at="2025-01-07T17:16:55 IST" duration-ms="4312" status="PASS">
+        </test-method> <!-- OpenContactsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@1356d4d4]" started-at="2025-09-24T15:46:41 IST" name="teardown" finished-at="2025-09-24T15:46:45 IST" duration-ms="3404" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CandidateLogin status=SUCCESS method=TC011_Login_Candidate_Module.CandidateLogin()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@54a7079e] output={null}]]]>
+                <![CDATA[[TestResult name=OpenContactsPage status=SUCCESS method=TC015_Open_contactsPage.OpenContactsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage@1356d4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC015_Open_contactsPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@3c0be339]" started-at="2025-09-24T15:44:00 IST" name="SetUp" finished-at="2025-09-24T15:44:07 IST" duration-ms="6451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TermsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@3c0be339]" started-at="2025-09-24T15:44:07 IST" name="TermsPage" finished-at="2025-09-24T15:44:17 IST" duration-ms="10583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@3c0be339]" started-at="2025-09-24T15:44:17 IST" name="teardown" finished-at="2025-09-24T15:44:18 IST" duration-ms="1029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsPage status=SUCCESS method=TC001Open_Terms_Page.TermsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page@3c0be339] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@4f67eb2a]" started-at="2025-09-24T15:49:45 IST" name="SetUp" finished-at="2025-09-24T15:49:53 IST" duration-ms="7483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenEquitibleHiringPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@4f67eb2a]" started-at="2025-09-24T15:49:53 IST" name="OpenEquitibleHiringPage" finished-at="2025-09-24T15:50:05 IST" duration-ms="12260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenEquitibleHiringPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@4f67eb2a]" started-at="2025-09-24T15:50:05 IST" name="teardown" finished-at="2025-09-24T15:50:10 IST" duration-ms="5171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenEquitibleHiringPage status=SUCCESS method=TC025_Rec_EquitibleHiringPage.OpenEquitibleHiringPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage@4f67eb2a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC025_Rec_EquitibleHiringPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@6497b078]" started-at="2025-09-24T15:47:26 IST" name="SetUp" finished-at="2025-09-24T15:47:33 IST" duration-ms="7241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ApplicationsPageTesting()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@6497b078]" started-at="2025-09-24T15:47:33 IST" name="ApplicationsPageTesting" finished-at="2025-09-24T15:47:40 IST" duration-ms="7451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationsPageTesting -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@6497b078]" started-at="2025-09-24T15:47:40 IST" name="teardown" finished-at="2025-09-24T15:47:45 IST" duration-ms="4816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApplicationsPageTesting status=SUCCESS method=TC019_ApplicationsPageTesting.ApplicationsPageTesting()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting@6497b078] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC019_ApplicationsPageTesting -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@7e9131d5]" started-at="2025-09-24T15:54:52 IST" name="SetUp" finished-at="2025-09-24T15:55:05 IST" duration-ms="13284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobSettingsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@7e9131d5]" started-at="2025-09-24T15:55:05 IST" name="JobSettingsPage" finished-at="2025-09-24T15:55:13 IST" duration-ms="7751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobSettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@7e9131d5]" started-at="2025-09-24T15:55:13 IST" name="teardown" finished-at="2025-09-24T15:55:18 IST" duration-ms="4531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobSettingsPage status=SUCCESS method=TC039_Rec_JobSettingsPage.JobSettingsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage@7e9131d5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC039_Rec_JobSettingsPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@5136d012]" started-at="2025-09-24T16:02:44 IST" name="SetUp" finished-at="2025-09-24T16:02:51 IST" duration-ms="6664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ClietSummary()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@5136d012]" started-at="2025-09-24T16:02:51 IST" name="ClietSummary" finished-at="2025-09-24T16:03:17 IST" duration-ms="25871" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0284e034eec62b327519dab0afeeef91, actions {actions=[org.openqa.selenium.interactions.Sequence@4d8458a1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53213/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0284e034eec62b327519dab0afeeef91]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0284e034eec62b327519dab0afeeef91, actions {actions=[org.openqa.selenium.interactions.Sequence@4d8458a1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53213/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0284e034eec62b327519dab0afeeef91
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:733)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:236)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:109)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:203)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:630)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.ClientModule(Rec_JobListPage_POM_Class.java:534)
+at design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary.ClietSummary(TC054_Rec_ClientSummary.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 38 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 59 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span [text() = 'Client Module']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0284e034eec62b327519dab0afeeef91, findElement {value=//span [text() = 'Client Module'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53213/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0284e034eec62b327519dab0afeeef91
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:262)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:211)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:74)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClietSummary -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@5136d012]" started-at="2025-09-24T16:03:17 IST" name="teardown" finished-at="2025-09-24T16:03:37 IST" duration-ms="20604" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClietSummary status=FAILURE method=TC054_Rec_ClientSummary.ClietSummary()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary@5136d012] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0284e034eec62b327519dab0afeeef91, clickElement {id=f.B4ED07E504DDC2D7CCC61C732DFAC082.d.EE8CBBFEDEB6D4D8C04014333F677631.e.181}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53213/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0284e034eec62b327519dab0afeeef91)] -> xpath: //span [text() = 'Sign out']]
+Session ID: 0284e034eec62b327519dab0afeeef91]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0284e034eec62b327519dab0afeeef91, clickElement {id=f.B4ED07E504DDC2D7CCC61C732DFAC082.d.EE8CBBFEDEB6D4D8C04014333F677631.e.181}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53213/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0284e034eec62b327519dab0afeeef91)] -> xpath: //span [text() = 'Sign out']]
+Session ID: 0284e034eec62b327519dab0afeeef91
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:125)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC054_Rec_ClientSummary -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@36d585c]" started-at="2025-09-24T15:44:18 IST" name="SetUp" finished-at="2025-09-24T15:44:24 IST" duration-ms="6086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ForgotPassword()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@36d585c]" started-at="2025-09-24T15:44:24 IST" name="ForgotPassword" finished-at="2025-09-24T15:44:33 IST" duration-ms="9190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgotPassword -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@36d585c]" started-at="2025-09-24T15:44:34 IST" name="teardown" finished-at="2025-09-24T15:44:35 IST" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ForgotPassword status=SUCCESS method=TC002ForgotPassword_Button.ForgotPassword()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button@36d585c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@152aa092]" started-at="2025-09-24T15:57:42 IST" name="SetUp" finished-at="2025-09-24T15:57:50 IST" duration-ms="8306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SkillUploadUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@152aa092]" started-at="2025-09-24T15:57:50 IST" name="SkillUploadUtility" finished-at="2025-09-24T15:58:15 IST" duration-ms="25279" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'Skill Upload']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da6f4b6f14829910d14fc9406041f267, findElement {value=//a [text() = 'Skill Upload'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52277/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da6f4b6f14829910d14fc9406041f267]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'Skill Upload']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da6f4b6f14829910d14fc9406041f267, findElement {value=//a [text() = 'Skill Upload'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52277/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: da6f4b6f14829910d14fc9406041f267
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.SkillUpload(Rec_JobListPage_POM_Class.java:480)
+at design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload.SkillUploadUtility(TC044_Rec_UtilitiesSkillUpload.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkillUploadUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@152aa092]" started-at="2025-09-24T15:58:15 IST" name="teardown" finished-at="2025-09-24T15:58:36 IST" duration-ms="20735" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SkillUploadUtility status=FAILURE method=TC044_Rec_UtilitiesSkillUpload.SkillUploadUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload@152aa092] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da6f4b6f14829910d14fc9406041f267, clickElement {id=f.8308CE55C53694824B41FE82E5BACFB6.d.2C7496F89F923F1ED73442A96EF506FF.e.364}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52277/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da6f4b6f14829910d14fc9406041f267)] -> xpath: //span [text() = 'Sign out']]
+Session ID: da6f4b6f14829910d14fc9406041f267]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da6f4b6f14829910d14fc9406041f267, clickElement {id=f.8308CE55C53694824B41FE82E5BACFB6.d.2C7496F89F923F1ED73442A96EF506FF.e.364}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52277}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52277/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (da6f4b6f14829910d14fc9406041f267)] -> xpath: //span [text() = 'Sign out']]
+Session ID: da6f4b6f14829910d14fc9406041f267
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:125)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC044_Rec_UtilitiesSkillUpload -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@5f683daf]" started-at="2025-09-24T15:50:41 IST" name="SetUp" finished-at="2025-09-24T15:50:48 IST" duration-ms="6457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadRawReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@5f683daf]" started-at="2025-09-24T15:50:48 IST" name="DownloadRawReport" finished-at="2025-09-24T15:50:59 IST" duration-ms="11307" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span class="ui-icon ui-icon-circle-triangle-w">...</span> is not clickable at point (703, 321). Other element would receive the click: <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">...</div>
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b028f2b4f185abc2b12af61d18915e4e, clickElement {id=f.C76F1A872826850D16A9DF11E92AB97E.d.837B5F79E95EB656DE7CCDC50C73D8C2.e.243}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50906/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b028f2b4f185abc2b12af61d18915e4e)] -> xpath: //span [text() = 'Prev']]
+Session ID: b028f2b4f185abc2b12af61d18915e4e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="ui-icon ui-icon-circle-triangle-w">...</span> is not clickable at point (703, 321). Other element would receive the click: <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">...</div>
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b028f2b4f185abc2b12af61d18915e4e, clickElement {id=f.C76F1A872826850D16A9DF11E92AB97E.d.837B5F79E95EB656DE7CCDC50C73D8C2.e.243}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50906}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50906/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b028f2b4f185abc2b12af61d18915e4e)] -> xpath: //span [text() = 'Prev']]
+Session ID: b028f2b4f185abc2b12af61d18915e4e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_RawReport_POM_Class.EndDatePrevious(Rec_RawReport_POM_Class.java:126)
+at design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload.DownloadRawReport(TC029_Rec_RawReport_Dowload.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadRawReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@5f683daf]" started-at="2025-09-24T15:50:59 IST" name="teardown" finished-at="2025-09-24T15:51:03 IST" duration-ms="4132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadRawReport status=FAILURE method=TC029_Rec_RawReport_Dowload.DownloadRawReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload@5f683daf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC029_Rec_RawReport_Dowload -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@6f27a732]" started-at="2025-09-24T15:52:43 IST" name="SetUp" finished-at="2025-09-24T15:52:49 IST" duration-ms="6136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ChatotHistoryReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@6f27a732]" started-at="2025-09-24T15:52:49 IST" name="ChatotHistoryReport" finished-at="2025-09-24T15:53:00 IST" duration-ms="10990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChatotHistoryReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@6f27a732]" started-at="2025-09-24T15:53:00 IST" name="teardown" finished-at="2025-09-24T15:53:05 IST" duration-ms="4200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChatotHistoryReport status=SUCCESS method=TC034_Rec_ChatotHistReport_Download.ChatotHistoryReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download@6f27a732] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC034_Rec_ChatotHistReport_Download -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@6c779568]" started-at="2025-09-24T15:53:05 IST" name="SetUp" finished-at="2025-09-24T15:53:13 IST" duration-ms="8600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="InterviewSchedulerReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@6c779568]" started-at="2025-09-24T15:53:13 IST" name="InterviewSchedulerReport" finished-at="2025-09-24T15:53:27 IST" duration-ms="13883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InterviewSchedulerReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@6c779568]" started-at="2025-09-24T15:53:27 IST" name="teardown" finished-at="2025-09-24T15:53:31 IST" duration-ms="4324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InterviewSchedulerReport status=SUCCESS method=TC035_Rec_InterviewRep_Download.InterviewSchedulerReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download@6c779568] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC035_Rec_InterviewRep_Download -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@41c2284a]" started-at="2025-09-24T15:47:45 IST" name="SetUp" finished-at="2025-09-24T15:47:59 IST" duration-ms="13476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RecruiterLogin()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@41c2284a]" started-at="2025-09-24T15:47:59 IST" name="RecruiterLogin" finished-at="2025-09-24T15:48:06 IST" duration-ms="7212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecruiterLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@41c2284a]" started-at="2025-09-24T15:48:06 IST" name="teardown" finished-at="2025-09-24T15:48:08 IST" duration-ms="2134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecruiterLogin status=SUCCESS method=TC020_Login_RecruiterModule.RecruiterLogin()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule@41c2284a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@37858383]" started-at="2025-09-24T16:00:16 IST" name="SetUp" finished-at="2025-09-24T16:00:22 IST" duration-ms="6569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AddSupportRecruiterUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@37858383]" started-at="2025-09-24T16:00:22 IST" name="AddSupportRecruiterUtility" finished-at="2025-09-24T16:00:33 IST" duration-ms="11028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSupportRecruiterUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@37858383]" started-at="2025-09-24T16:00:33 IST" name="teardown" finished-at="2025-09-24T16:00:37 IST" duration-ms="3821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddSupportRecruiterUtility status=SUCCESS method=TC048_Rec_UtilitiesAddSupportRec.AddSupportRecruiterUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec@37858383] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC048_Rec_UtilitiesAddSupportRec -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@44a7bfbc]" started-at="2025-09-24T15:58:36 IST" name="SetUp" finished-at="2025-09-24T15:58:43 IST" duration-ms="6844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SkillAffinityUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@44a7bfbc]" started-at="2025-09-24T15:58:43 IST" name="SkillAffinityUtility" finished-at="2025-09-24T15:58:56 IST" duration-ms="13654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkillAffinityUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@44a7bfbc]" started-at="2025-09-24T15:58:56 IST" name="teardown" finished-at="2025-09-24T15:58:59 IST" duration-ms="2182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SkillAffinityUtility status=SUCCESS method=TC045_UtilitiesSkillAffinity.SkillAffinityUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity@44a7bfbc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC045_UtilitiesSkillAffinity -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download@76f2bbc1]" started-at="2025-09-24T15:51:52 IST" name="SetUp" finished-at="2025-09-24T15:51:59 IST" duration-ms="6384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SuccessEmailReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download@76f2bbc1]" started-at="2025-09-24T15:51:59 IST" name="SuccessEmailReport" finished-at="2025-09-24T15:52:15 IST" duration-ms="15976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuccessEmailReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download@76f2bbc1]" started-at="2025-09-24T15:52:15 IST" name="teardown" finished-at="2025-09-24T15:52:23 IST" duration-ms="8563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SuccessEmailReport status=SUCCESS method=TC032_Rec_SuccessReport_Download.SuccessEmailReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download@76f2bbc1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC032_Rec_SuccessReport_Download -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@1329eff]" started-at="2025-09-24T15:47:04 IST" name="SetUp" finished-at="2025-09-24T15:47:11 IST" duration-ms="6155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobsPageGTesting()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@1329eff]" started-at="2025-09-24T15:47:11 IST" name="JobsPageGTesting" finished-at="2025-09-24T15:47:22 IST" duration-ms="11263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobsPageGTesting -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@1329eff]" started-at="2025-09-24T15:47:22 IST" name="teardown" finished-at="2025-09-24T15:47:26 IST" duration-ms="3836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobsPageGTesting status=SUCCESS method=TC017_Actions_JobsPage.JobsPageGTesting()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage@1329eff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC017_Actions_JobsPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod@3c947bc5]" started-at="2025-09-24T15:45:20 IST" name="SetUp" finished-at="2025-09-24T15:45:27 IST" duration-ms="6267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AppliedJobsFromDB()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod@3c947bc5]" started-at="2025-09-24T15:45:27 IST" name="AppliedJobsFromDB" finished-at="2025-09-24T15:45:34 IST" duration-ms="7242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppliedJobsFromDB -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod@3c947bc5]" started-at="2025-09-24T15:45:34 IST" name="teardown" finished-at="2025-09-24T15:45:37 IST" duration-ms="3468" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AppliedJobsFromDB status=SUCCESS method=TC012_Applicatios_Page_Can_mod.AppliedJobsFromDB()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod@3c947bc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@e1de817]" started-at="2025-09-24T16:04:04 IST" name="SetUp" finished-at="2025-09-24T16:04:15 IST" duration-ms="11893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPageActions()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@e1de817]" started-at="2025-09-24T16:04:15 IST" name="CandidatesPageActions" finished-at="2025-09-24T16:07:35 IST" duration-ms="199468" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ca90e7dab9109e772d095ba088ceb73, clickElement {id=f.B507C338F66ADDC5BB92CA8768165EB1.d.7A610DDC088891DA2BBFD1A25E6E05E3.e.1137}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53361/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4ca90e7dab9109e772d095ba088ceb73)] -> xpath: //i [@class='fa fa-refresh']]
+Session ID: 4ca90e7dab9109e772d095ba088ceb73]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4ca90e7dab9109e772d095ba088ceb73, clickElement {id=f.B507C338F66ADDC5BB92CA8768165EB1.d.7A610DDC088891DA2BBFD1A25E6E05E3.e.1137}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53361}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53361/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4ca90e7dab9109e772d095ba088ceb73)] -> xpath: //i [@class='fa fa-refresh']]
+Session ID: 4ca90e7dab9109e772d095ba088ceb73
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:427)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_CandidatesPage_POM_Class.Reset(Rec_CandidatesPage_POM_Class.java:317)
+at design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios.CandidatesPageActions(TC056_CadidatesPageActios.java:89)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPageActions -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@e1de817]" started-at="2025-09-24T16:07:35 IST" name="teardown" finished-at="2025-09-24T16:10:28 IST" duration-ms="173354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPageActions status=FAILURE method=TC056_CadidatesPageActios.CandidatesPageActions()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios@e1de817] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@609db43b]" started-at="2025-09-24T15:45:37 IST" name="SetUp" finished-at="2025-09-24T15:45:44 IST" duration-ms="6162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ProfilePageUpdate()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@609db43b]" started-at="2025-09-24T15:45:44 IST" name="ProfilePageUpdate" finished-at="2025-09-24T15:46:00 IST" duration-ms="16355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProfilePageUpdate -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@609db43b]" started-at="2025-09-24T15:46:00 IST" name="teardown" finished-at="2025-09-24T15:46:04 IST" duration-ms="4033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProfilePageUpdate status=SUCCESS method=TC013_Can_Profile_Update.ProfilePageUpdate()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update@609db43b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC013_Can_Profile_Update -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@87a85e1]" started-at="2025-09-24T15:44:35 IST" name="SetUp" finished-at="2025-09-24T15:44:40 IST" duration-ms="4935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SignUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@87a85e1]" started-at="2025-09-24T15:44:40 IST" name="SignUp" finished-at="2025-09-24T15:44:45 IST" duration-ms="5926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@87a85e1]" started-at="2025-09-24T15:44:46 IST" name="teardown" finished-at="2025-09-24T15:44:47 IST" duration-ms="1022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignUp status=SUCCESS method=TC003VerifySignUpPage.SignUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage@87a85e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC003VerifySignUpPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@1fb700ee]" started-at="2025-09-24T15:49:17 IST" name="SetUp" finished-at="2025-09-24T15:49:33 IST" duration-ms="15682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenAddSupportRecPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@1fb700ee]" started-at="2025-09-24T15:49:33 IST" name="OpenAddSupportRecPage" finished-at="2025-09-24T15:49:40 IST" duration-ms="6828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAddSupportRecPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@1fb700ee]" started-at="2025-09-24T15:49:40 IST" name="teardown" finished-at="2025-09-24T15:49:45 IST" duration-ms="5289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenAddSupportRecPage status=SUCCESS method=TC024_Rec_AddSupportRecruiterPage.OpenAddSupportRecPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage@1fb700ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC024_Rec_AddSupportRecruiterPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@4e268090]" started-at="2025-09-24T16:00:37 IST" name="SetUp" finished-at="2025-09-24T16:00:51 IST" duration-ms="14392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusCofig()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@4e268090]" started-at="2025-09-24T16:00:51 IST" name="RSplusCofig" finished-at="2025-09-24T16:00:58 IST" duration-ms="6229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusCofig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@4e268090]" started-at="2025-09-24T16:00:58 IST" name="teardown" finished-at="2025-09-24T16:01:01 IST" duration-ms="3784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusCofig status=SUCCESS method=TC049_Rec_RsplusCofiguratiosPage.RSplusCofig()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage@4e268090] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC049_Rec_RsplusCofiguratiosPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@78ffe6dc]" started-at="2025-09-24T15:51:03 IST" name="SetUp" finished-at="2025-09-24T15:51:11 IST" duration-ms="7493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="DownloadReccomdSummaryRep()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@78ffe6dc]" started-at="2025-09-24T15:51:11 IST" name="DownloadReccomdSummaryRep" finished-at="2025-09-24T15:51:28 IST" duration-ms="16948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DownloadReccomdSummaryRep -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@78ffe6dc]" started-at="2025-09-24T15:51:28 IST" name="teardown" finished-at="2025-09-24T15:51:31 IST" duration-ms="3859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DownloadReccomdSummaryRep status=SUCCESS method=TC030_Rec_ReccomdSummaryRP_Download.DownloadReccomdSummaryRep()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download@78ffe6dc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC030_Rec_ReccomdSummaryRP_Download -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@55f616cf]" started-at="2025-09-24T15:46:04 IST" name="SetUp" finished-at="2025-09-24T15:46:11 IST" duration-ms="6715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ChangePassword()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@55f616cf]" started-at="2025-09-24T15:46:11 IST" name="ChangePassword" finished-at="2025-09-24T15:46:21 IST" duration-ms="9764" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [897826a0105aa9b8685bf0ed840d71d8, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50296/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 897826a0105aa9b8685bf0ed840d71d8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [897826a0105aa9b8685bf0ed840d71d8, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50296}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50296/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 897826a0105aa9b8685bf0ed840d71d8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:617)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:621)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1175)
+at design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password.ChangePassword(TC014_Can_Change_Password.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangePassword -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@55f616cf]" started-at="2025-09-24T15:46:21 IST" name="teardown" finished-at="2025-09-24T15:46:28 IST" duration-ms="7940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChangePassword status=FAILURE method=TC014_Can_Change_Password.ChangePassword()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password@55f616cf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC014_Can_Change_Password -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@2cdd0d4b]" started-at="2025-09-24T15:54:24 IST" name="SetUp" finished-at="2025-09-24T15:54:40 IST" duration-ms="15996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="SettingsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@2cdd0d4b]" started-at="2025-09-24T15:54:40 IST" name="SettingsPage" finished-at="2025-09-24T15:54:48 IST" duration-ms="8469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@2cdd0d4b]" started-at="2025-09-24T15:54:48 IST" name="teardown" finished-at="2025-09-24T15:54:52 IST" duration-ms="3933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SettingsPage status=SUCCESS method=TC037_Rec_SettingsPage.SettingsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage@2cdd0d4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC037_Rec_SettingsPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@53aad5d5]" started-at="2025-09-24T15:48:08 IST" name="SetUp" finished-at="2025-09-24T15:48:14 IST" duration-ms="6359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobListPageActions_Rec()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@53aad5d5]" started-at="2025-09-24T15:48:14 IST" name="JobListPageActions_Rec" finished-at="2025-09-24T15:48:46 IST" duration-ms="31640" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2cafa53651d32bc304394dfff4eb1819, clickElement {id=f.F5EF85D24D80EFAD9D30AF5F9017DF91.d.8265A331A4EA4F0B736C733A2E947D7B.e.357}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50613/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2cafa53651d32bc304394dfff4eb1819)] -> xpath: (//button [@class='light-button filterSubmit'])[4]]
+Session ID: 2cafa53651d32bc304394dfff4eb1819]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2cafa53651d32bc304394dfff4eb1819, clickElement {id=f.F5EF85D24D80EFAD9D30AF5F9017DF91.d.8265A331A4EA4F0B736C733A2E947D7B.e.357}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50613}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50613/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2cafa53651d32bc304394dfff4eb1819)] -> xpath: (//button [@class='light-button filterSubmit'])[4]]
+Session ID: 2cafa53651d32bc304394dfff4eb1819
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.JobLocationColumnFilterSearch(Rec_JobListPage_POM_Class.java:700)
+at design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions.JobListPageActions_Rec(TC021_JobListPage_Actions.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobListPageActions_Rec -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@53aad5d5]" started-at="2025-09-24T15:48:46 IST" name="teardown" finished-at="2025-09-24T15:48:50 IST" duration-ms="4258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobListPageActions_Rec status=FAILURE method=TC021_JobListPage_Actions.JobListPageActions_Rec()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions@53aad5d5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@5939a379]" started-at="2025-09-24T16:03:37 IST" name="SetUp" finished-at="2025-09-24T16:03:44 IST" duration-ms="7184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidatesPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@5939a379]" started-at="2025-09-24T16:03:44 IST" name="CandidatesPage" finished-at="2025-09-24T16:04:01 IST" duration-ms="16777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@5939a379]" started-at="2025-09-24T16:04:01 IST" name="teardown" finished-at="2025-09-24T16:04:04 IST" duration-ms="2330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidatesPage status=SUCCESS method=TC055_Rec_CandidatesPage.CandidatesPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage@5939a379] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC055_Rec_CandidatesPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@306cf3ea]" started-at="2025-09-24T16:01:26 IST" name="SetUp" finished-at="2025-09-24T16:01:39 IST" duration-ms="12526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusCadidates()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@306cf3ea]" started-at="2025-09-24T16:01:39 IST" name="RSplusCadidates" finished-at="2025-09-24T16:01:45 IST" duration-ms="6498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusCadidates -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@306cf3ea]" started-at="2025-09-24T16:01:45 IST" name="teardown" finished-at="2025-09-24T16:01:51 IST" duration-ms="5962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusCadidates status=SUCCESS method=TC051_RsplusCandidates.RSplusCadidates()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates@306cf3ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC051_RsplusCandidates -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@524d6d96]" started-at="2025-09-24T15:57:11 IST" name="SetUp" finished-at="2025-09-24T15:57:18 IST" duration-ms="7148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VideoInterviewConfig()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@524d6d96]" started-at="2025-09-24T15:57:18 IST" name="VideoInterviewConfig" finished-at="2025-09-24T15:57:36 IST" duration-ms="18692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VideoInterviewConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@524d6d96]" started-at="2025-09-24T15:57:36 IST" name="teardown" finished-at="2025-09-24T15:57:42 IST" duration-ms="5116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VideoInterviewConfig status=SUCCESS method=TC043_Rec_VideoInterviewConfig.VideoInterviewConfig()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig@524d6d96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC043_Rec_VideoInterviewConfig -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@8317c52]" started-at="2025-09-24T15:51:31 IST" name="SetUp" finished-at="2025-09-24T15:51:37 IST" duration-ms="6045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="HideUnhideReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@8317c52]" started-at="2025-09-24T15:51:37 IST" name="HideUnhideReport" finished-at="2025-09-24T15:51:48 IST" duration-ms="10920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HideUnhideReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@8317c52]" started-at="2025-09-24T15:51:48 IST" name="teardown" finished-at="2025-09-24T15:51:52 IST" duration-ms="4055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HideUnhideReport status=SUCCESS method=TC031_Rec_HideUhideRep_Download.HideUnhideReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download@8317c52] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC031_Rec_HideUhideRep_Download -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@4ef37659]" started-at="2025-09-24T15:58:59 IST" name="SetUp" finished-at="2025-09-24T15:59:05 IST" duration-ms="5989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobRefreshUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@4ef37659]" started-at="2025-09-24T15:59:05 IST" name="JobRefreshUtility" finished-at="2025-09-24T15:59:18 IST" duration-ms="13094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobRefreshUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@4ef37659]" started-at="2025-09-24T15:59:18 IST" name="teardown" finished-at="2025-09-24T15:59:23 IST" duration-ms="4900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobRefreshUtility status=SUCCESS method=TC046_Rec_UtilitiesJobRefresh.JobRefreshUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh@4ef37659] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC046_Rec_UtilitiesJobRefresh -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@1bb266b3]" started-at="2025-09-24T16:01:01 IST" name="SetUp" finished-at="2025-09-24T16:01:16 IST" duration-ms="15067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="RSplusReports()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@1bb266b3]" started-at="2025-09-24T16:01:16 IST" name="RSplusReports" finished-at="2025-09-24T16:01:23 IST" duration-ms="6769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RSplusReports -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@1bb266b3]" started-at="2025-09-24T16:01:23 IST" name="teardown" finished-at="2025-09-24T16:01:26 IST" duration-ms="3244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RSplusReports status=SUCCESS method=TC050_Rec_RsplusReports.RSplusReports()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports@1bb266b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC050_Rec_RsplusReports -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@2525ff7e]" started-at="2025-09-24T15:56:17 IST" name="SetUp" finished-at="2025-09-24T15:56:24 IST" duration-ms="6138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ScoreRepreConfig()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@2525ff7e]" started-at="2025-09-24T15:56:24 IST" name="ScoreRepreConfig" finished-at="2025-09-24T15:56:50 IST" duration-ms="26450" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'Score Representation Configuration']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7dda34c392bdc9cede3adb06f9acd15, findElement {value=//a [text() = 'Score Representation Configuration'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51890/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7dda34c392bdc9cede3adb06f9acd15]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'Score Representation Configuration']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7dda34c392bdc9cede3adb06f9acd15, findElement {value=//a [text() = 'Score Representation Configuration'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51890/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a7dda34c392bdc9cede3adb06f9acd15
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.ScoreRepConfig(Rec_JobListPage_POM_Class.java:462)
+at design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage.ScoreRepreConfig(TC042_Rec_ScoreReprePage.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreRepreConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@2525ff7e]" started-at="2025-09-24T15:56:50 IST" name="teardown" finished-at="2025-09-24T15:57:11 IST" duration-ms="20643" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScoreRepreConfig status=FAILURE method=TC042_Rec_ScoreReprePage.ScoreRepreConfig()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage@2525ff7e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7dda34c392bdc9cede3adb06f9acd15, clickElement {id=f.BB0D114AF1B9CE48BA1587384E8945E8.d.FD15C083A7CBA4D70CB163BB1652D05C.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51890/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7dda34c392bdc9cede3adb06f9acd15)] -> xpath: //span [text() = 'Sign out']]
+Session ID: a7dda34c392bdc9cede3adb06f9acd15]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7dda34c392bdc9cede3adb06f9acd15, clickElement {id=f.BB0D114AF1B9CE48BA1587384E8945E8.d.FD15C083A7CBA4D70CB163BB1652D05C.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51890/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a7dda34c392bdc9cede3adb06f9acd15)] -> xpath: //span [text() = 'Sign out']]
+Session ID: a7dda34c392bdc9cede3adb06f9acd15
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:125)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC042_Rec_ScoreReprePage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@46fa7c39]" started-at="2025-09-24T15:48:50 IST" name="SetUp" finished-at="2025-09-24T15:48:56 IST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenUserCreationPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@46fa7c39]" started-at="2025-09-24T15:48:56 IST" name="OpenUserCreationPage" finished-at="2025-09-24T15:49:14 IST" duration-ms="17221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenUserCreationPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@46fa7c39]" started-at="2025-09-24T15:49:14 IST" name="teardown" finished-at="2025-09-24T15:49:17 IST" duration-ms="3874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenUserCreationPage status=SUCCESS method=TC022_Rec_UserCreationPage.OpenUserCreationPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage@46fa7c39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC022_Rec_UserCreationPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@c03cf28]" started-at="2025-09-24T15:46:45 IST" name="SetUp" finished-at="2025-09-24T15:46:55 IST" duration-ms="10707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenJobsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@c03cf28]" started-at="2025-09-24T15:46:55 IST" name="OpenJobsPage" finished-at="2025-09-24T15:47:01 IST" duration-ms="5268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenJobsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@c03cf28]" started-at="2025-09-24T15:47:01 IST" name="teardown" finished-at="2025-09-24T15:47:04 IST" duration-ms="3839" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenJobsPage status=SUCCESS method=TC016_Open_JobsPage.OpenJobsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage@c03cf28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC016_Open_JobsPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@61d6015a]" started-at="2025-09-24T15:55:45 IST" name="SetUp" finished-at="2025-09-24T15:55:50 IST" duration-ms="5591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="LinkedInConfig()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@61d6015a]" started-at="2025-09-24T15:55:50 IST" name="LinkedInConfig" finished-at="2025-09-24T15:56:14 IST" duration-ms="23339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkedInConfig -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@61d6015a]" started-at="2025-09-24T15:56:14 IST" name="teardown" finished-at="2025-09-24T15:56:17 IST" duration-ms="3594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkedInConfig status=SUCCESS method=TC041_Rec_LinkedInConfigPage.LinkedInConfig()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage@61d6015a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC041_Rec_LinkedInConfigPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@4a668b6e]" started-at="2025-09-24T15:50:10 IST" name="SetUp" finished-at="2025-09-24T15:50:25 IST" duration-ms="14816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenBotCandidatesPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@4a668b6e]" started-at="2025-09-24T15:50:25 IST" name="OpenBotCandidatesPage" finished-at="2025-09-24T15:50:37 IST" duration-ms="12099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBotCandidatesPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@4a668b6e]" started-at="2025-09-24T15:50:37 IST" name="teardown" finished-at="2025-09-24T15:50:41 IST" duration-ms="4144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenBotCandidatesPage status=SUCCESS method=TC026_Req_BotCandidatePage.OpenBotCandidatesPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage@4a668b6e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC026_Req_BotCandidatePage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@2e1d27ba]" started-at="2025-09-24T15:55:18 IST" name="SetUp" finished-at="2025-09-24T15:55:32 IST" duration-ms="14888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobWizardSettingsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@2e1d27ba]" started-at="2025-09-24T15:55:32 IST" name="JobWizardSettingsPage" finished-at="2025-09-24T15:55:39 IST" duration-ms="6549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobWizardSettingsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@2e1d27ba]" started-at="2025-09-24T15:55:39 IST" name="teardown" finished-at="2025-09-24T15:55:45 IST" duration-ms="5842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobWizardSettingsPage status=SUCCESS method=TC040_Rec_JobWizardSettings.JobWizardSettingsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings@2e1d27ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC040_Rec_JobWizardSettings -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@5552768b]" started-at="2025-09-24T15:45:02 IST" name="SetUp" finished-at="2025-09-24T15:45:14 IST" duration-ms="11587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="CandidateLogin()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@5552768b]" started-at="2025-09-24T15:45:14 IST" name="CandidateLogin" finished-at="2025-09-24T15:45:16 IST" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CandidateLogin -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@5552768b]" started-at="2025-09-24T15:45:16 IST" name="teardown" finished-at="2025-09-24T15:45:20 IST" duration-ms="4554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CandidateLogin status=SUCCESS method=TC011_Login_Candidate_Module.CandidateLogin()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module@5552768b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -27,6 +1586,601 @@
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- design.sniperai.com_Sanity_test_classes.TC011_Login_Candidate_Module -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@f381794]" started-at="2025-09-24T15:53:31 IST" name="SetUp" finished-at="2025-09-24T15:53:38 IST" duration-ms="6797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="OpenDashboardPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@f381794]" started-at="2025-09-24T15:53:38 IST" name="OpenDashboardPage" finished-at="2025-09-24T15:54:03 IST" duration-ms="24975" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'Dashboard Reports']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aaa8fd9c7fb109d0d61b814f9ab1e466, findElement {value=//a [text() = 'Dashboard Reports'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51264/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aaa8fd9c7fb109d0d61b814f9ab1e466]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'Dashboard Reports']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aaa8fd9c7fb109d0d61b814f9ab1e466, findElement {value=//a [text() = 'Dashboard Reports'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51264/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aaa8fd9c7fb109d0d61b814f9ab1e466
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.DashboardReports(Rec_JobListPage_POM_Class.java:426)
+at design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open.OpenDashboardPage(TC036_Rec_DashboardPage_Open.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenDashboardPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@f381794]" started-at="2025-09-24T15:54:03 IST" name="teardown" finished-at="2025-09-24T15:54:24 IST" duration-ms="20427" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenDashboardPage status=FAILURE method=TC036_Rec_DashboardPage_Open.OpenDashboardPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open@f381794] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aaa8fd9c7fb109d0d61b814f9ab1e466, clickElement {id=f.341F96E9A1EBD29F38D9384273B503DB.d.33C875F51C14C3619283A80899A3539E.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51264/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aaa8fd9c7fb109d0d61b814f9ab1e466)] -> xpath: //span [text() = 'Sign out']]
+Session ID: aaa8fd9c7fb109d0d61b814f9ab1e466]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aaa8fd9c7fb109d0d61b814f9ab1e466, clickElement {id=f.341F96E9A1EBD29F38D9384273B503DB.d.33C875F51C14C3619283A80899A3539E.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51264}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51264/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aaa8fd9c7fb109d0d61b814f9ab1e466)] -> xpath: //span [text() = 'Sign out']]
+Session ID: aaa8fd9c7fb109d0d61b814f9ab1e466
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:125)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC036_Rec_DashboardPage_Open -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@2beee7ff]" started-at="2025-09-24T16:01:51 IST" name="SetUp" finished-at="2025-09-24T16:01:58 IST" duration-ms="6638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AddCliet()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@2beee7ff]" started-at="2025-09-24T16:01:58 IST" name="AddCliet" finished-at="2025-09-24T16:02:24 IST" duration-ms="25471" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [689b287c6c1c6bccecba34a2e403c2cd, actions {actions=[org.openqa.selenium.interactions.Sequence@fc9313d]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53121/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 689b287c6c1c6bccecba34a2e403c2cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [689b287c6c1c6bccecba34a2e403c2cd, actions {actions=[org.openqa.selenium.interactions.Sequence@fc9313d]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53121/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 689b287c6c1c6bccecba34a2e403c2cd
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at java.base/java.util.Map.forEach(Map.java:733)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:236)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:109)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:203)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:630)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:581)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.ClientModule(Rec_JobListPage_POM_Class.java:534)
+at design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient.AddCliet(TC053_Rec_AddClient.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 38 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 59 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span [text() = 'Client Module']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [689b287c6c1c6bccecba34a2e403c2cd, findElement {value=//span [text() = 'Client Module'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53121/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 689b287c6c1c6bccecba34a2e403c2cd
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:262)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:211)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:74)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+... 61 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCliet -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@2beee7ff]" started-at="2025-09-24T16:02:24 IST" name="teardown" finished-at="2025-09-24T16:02:44 IST" duration-ms="20610" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCliet status=FAILURE method=TC053_Rec_AddClient.AddCliet()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient@2beee7ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [689b287c6c1c6bccecba34a2e403c2cd, clickElement {id=f.9FF68E45CC3A11EC9B4B83BF5243C522.d.23DD505CAEF54C3DB90DA5479EB31CE4.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53121/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (689b287c6c1c6bccecba34a2e403c2cd)] -> xpath: //span [text() = 'Sign out']]
+Session ID: 689b287c6c1c6bccecba34a2e403c2cd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [689b287c6c1c6bccecba34a2e403c2cd, clickElement {id=f.9FF68E45CC3A11EC9B4B83BF5243C522.d.23DD505CAEF54C3DB90DA5479EB31CE4.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53121/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (689b287c6c1c6bccecba34a2e403c2cd)] -> xpath: //span [text() = 'Sign out']]
+Session ID: 689b287c6c1c6bccecba34a2e403c2cd
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:125)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC053_Rec_AddClient -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@776b83cc]" started-at="2025-09-24T15:59:23 IST" name="SetUp" finished-at="2025-09-24T15:59:35 IST" duration-ms="12072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ScoreLockUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@776b83cc]" started-at="2025-09-24T15:59:35 IST" name="ScoreLockUtility" finished-at="2025-09-24T15:59:55 IST" duration-ms="20458" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'Score Lock']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [414d704cc5396806e6094d9e041803de, findElement {value=//a [text() = 'Score Lock'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52717/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 414d704cc5396806e6094d9e041803de]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a [text() = 'Score Lock']"}
+  (Session info: chrome=140.0.7339.208)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [414d704cc5396806e6094d9e041803de, findElement {value=//a [text() = 'Score Lock'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52717/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 414d704cc5396806e6094d9e041803de
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.ScoreLock(Rec_JobListPage_POM_Class.java:498)
+at design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock.ScoreLockUtility(TC047_Rec_UtilitiesScoreLock.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScoreLockUtility -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@776b83cc]" started-at="2025-09-24T15:59:55 IST" name="teardown" finished-at="2025-09-24T16:00:16 IST" duration-ms="20411" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScoreLockUtility status=FAILURE method=TC047_Rec_UtilitiesScoreLock.ScoreLockUtility()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock@776b83cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [414d704cc5396806e6094d9e041803de, clickElement {id=f.87638D885EBD59F75E4DC3C30E1207A9.d.D5EF39F6A5DF30536B87B415F3547DB8.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52717/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (414d704cc5396806e6094d9e041803de)] -> xpath: //span [text() = 'Sign out']]
+Session ID: 414d704cc5396806e6094d9e041803de]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [414d704cc5396806e6094d9e041803de, clickElement {id=f.87638D885EBD59F75E4DC3C30E1207A9.d.D5EF39F6A5DF30536B87B415F3547DB8.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.208, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52717}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52717/devtoo..., se:cdpVersion: 140.0.7339.208, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (414d704cc5396806e6094d9e041803de)] -> xpath: //span [text() = 'Sign out']]
+Session ID: 414d704cc5396806e6094d9e041803de
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
+at dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class.Signout(Rec_JobListPage_POM_Class.java:570)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.logoutAndQuitDriver(A003_BaseTestClass_Rec_Design.java:125)
+at design.sniperai.com_Sanity_test_classes.A003_BaseTestClass_Rec_Design.teardown(A003_BaseTestClass_Rec_Design.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:805)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:781)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC047_Rec_UtilitiesScoreLock -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@671a5887]" started-at="2025-09-24T15:44:47 IST" name="SetUp" finished-at="2025-09-24T15:44:51 IST" duration-ms="4591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobOpeningsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@671a5887]" started-at="2025-09-24T15:44:51 IST" name="JobOpeningsPage" finished-at="2025-09-24T15:45:01 IST" duration-ms="9910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobOpeningsPage -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@671a5887]" started-at="2025-09-24T15:45:01 IST" name="teardown" finished-at="2025-09-24T15:45:02 IST" duration-ms="901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobOpeningsPage status=SUCCESS method=TC004Verify_JobOpeningsPage.JobOpeningsPage()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage@671a5887] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage -->
+      <class name="design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download@68e965f5]" started-at="2025-09-24T15:52:23 IST" name="SetUp" finished-at="2025-09-24T15:52:29 IST" duration-ms="5463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="FailedEmailReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download@68e965f5]" started-at="2025-09-24T15:52:29 IST" name="FailedEmailReport" finished-at="2025-09-24T15:52:40 IST" duration-ms="11222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailedEmailReport -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download@68e965f5]" started-at="2025-09-24T15:52:40 IST" name="teardown" finished-at="2025-09-24T15:52:43 IST" duration-ms="3180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FailedEmailReport status=SUCCESS method=TC033_Rec_FailedReport_Download.FailedEmailReport()[pri:0, instance:design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download@68e965f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC033_Rec_FailedReport_Download -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

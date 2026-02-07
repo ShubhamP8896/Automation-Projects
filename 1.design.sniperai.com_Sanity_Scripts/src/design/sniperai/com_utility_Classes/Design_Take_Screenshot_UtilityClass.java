@@ -23,7 +23,7 @@ public class Design_Take_Screenshot_UtilityClass
 	        File screenshotFile = ts.getScreenshotAs(OutputType.FILE);
 
 	        // Define the destination file path with proper file separator
-	        String destinationFilePath = "C:\\Users\\Shubz008\\Desktop\\Dev_Preprod_Sanity_Automation Data\\Sanity_Testing_Screenshots\\1.design.sniperai.com_Sanity_SS\\" + screenshotName + ".png";
+	        String destinationFilePath = "D:\\Automation Sanity Testing Data\\Dev and Preprod server Data\\Sanity_Testing_Screenshots_Dev\\1.design.sniperai.com_Sanity_SS\\" + screenshotName + ".png";
 
 	        // Copy file to destination
 	        try

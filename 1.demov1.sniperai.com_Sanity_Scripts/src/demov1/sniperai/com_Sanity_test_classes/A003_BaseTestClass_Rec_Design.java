@@ -32,7 +32,7 @@ public class A003_BaseTestClass_Rec_Design
 
     private void initializeDriver() 
     {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shubz008\\Downloads\\Installation Files\\chromedriver-win64\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "D:\\Automation Testing Files\\Drivers\\Chrome Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         System.out.println("Properties Set Successfully");
         driver = new ChromeDriver();
         driver.manage().window().maximize();

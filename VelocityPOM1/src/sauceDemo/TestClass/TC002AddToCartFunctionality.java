@@ -1,14 +1,7 @@
 package sauceDemo.TestClass;
 
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.saucedemo.POMClasses.HomePage;
@@ -19,7 +12,7 @@ public class TC002AddToCartFunctionality
 {
 	public static void main(String[] args)                      // Session - 50
 	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shubz008\\Downloads\\chromedriver-win64\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shubz008\\Downloads\\chromedriver-win64\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

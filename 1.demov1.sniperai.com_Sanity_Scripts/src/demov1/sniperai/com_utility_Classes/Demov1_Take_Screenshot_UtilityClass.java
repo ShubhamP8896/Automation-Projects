@@ -23,7 +23,7 @@ public class Demov1_Take_Screenshot_UtilityClass
 	        File screenshotFile = ts.getScreenshotAs(OutputType.FILE);
 
 	        // Define the destination file path with proper file separator
-	        String destinationFilePath = "C:\\Users\\Shubz008\\Desktop\\Live Server_Sanity_Automation data\\Sanity_Testing_Screenshots\\1. Demov1.sniperai.com_Sanity_SS\\" + screenshotName + ".png";
+	        String destinationFilePath = "D:\\Automation Sanity Testing Data\\Live Serer data\\Sanity_Testing_Screenshots_Live\\1.demov1.sniperai.com_Sanity_Scripts\\" + screenshotName + ".png";
 
 	        // Copy file to destination
 	        try

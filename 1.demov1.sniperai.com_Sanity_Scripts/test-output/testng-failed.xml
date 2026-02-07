@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="classes" name="Test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios">
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
         <methods>
-          <include name="CandidatesPageActions"/>
+          <include name="RecruiterLogin"/>
           <include name="teardown"/>
           <include name="SetUp"/>
         </methods>
-      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC056_CadidatesPageActios -->
-      <class name="demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions">
-        <methods>
-          <include name="teardown"/>
-          <include name="SetUp"/>
-          <include name="JobListPageActions_Rec"/>
-        </methods>
-      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC021_JobListPage_Actions -->
-      <class name="demov1.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod">
-        <methods>
-          <include name="SetUp"/>
-          <include name="teardown"/>
-          <include name="AppliedJobsFromDB"/>
-        </methods>
-      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC012_Applicatios_Page_Can_mod -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demov1.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage">
+      <class name="demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule">
         <methods>
+          <include name="RecruiterLogin"/>
           <include name="teardown"/>
           <include name="SetUp"/>
-          <include name="JobOpeningsPage"/>
         </methods>
-      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC004Verify_JobOpeningsPage -->
+      </class> <!-- demov1.sniperai.com_Sanity_test_classes.TC020_Login_RecruiterModule -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

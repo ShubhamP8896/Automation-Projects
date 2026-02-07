@@ -21,7 +21,7 @@ public class FifteenConstructorP3
 //		OR
 		FifteenConstructorP3.method1();
 		
-//		Non-Static Method calling :--- We cannot call static method directly----------
+//		Non-Static Method calling :--- We cannot call non static method directly----------
 //		We need to create Object for Non static methods		
 //		method2();   --- Not Possible--------------
 		
