@@ -1,5 +1,6 @@
 package AutomationTesting6;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -23,7 +24,7 @@ public class JavaCollection3
 		
 		driver.get("https://www.saucedemo.com/");
 		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		WebElement UserName = driver.findElement(By.xpath("//input [@id='user-name']"));
 		WebElement Password = driver.findElement(By.xpath("//input [@id='password']"));

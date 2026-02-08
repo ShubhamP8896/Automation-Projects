@@ -18,7 +18,7 @@ public class IFramess1
 		driver.manage().window().maximize();
 		
 		driver.get("https://chercher.tech/practice/frames-example-selenium-webdriver");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 //		When there are multiple frames on the same page then we need to switch on that frame first'
 //		1> Find WebElement of that Child frame

@@ -17,7 +17,7 @@ public class Popups1
 		driver.manage().window().maximize();
 		
 		driver.get("https://demoqa.com/alerts");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		WebElement ClickMe = driver.findElement(By.xpath("//button[@id='alertButton']"));
 		ClickMe.click();

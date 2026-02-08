@@ -20,7 +20,7 @@ public class Pupups2
 		driver.manage().window().maximize();
 		
 		driver.get("https://demo.guru99.com/popup.php");
-		 driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+//		 driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		
 //		Click on button and open new child window
 		WebElement Button = driver.findElement(By.xpath("//a [text()='Click Here']"));

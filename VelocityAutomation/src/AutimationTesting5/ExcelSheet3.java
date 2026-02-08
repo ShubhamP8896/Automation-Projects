@@ -3,6 +3,7 @@ package AutimationTesting5;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -48,7 +49,7 @@ public class ExcelSheet3
 		
 		driver.get("https://www.saucedemo.com/");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		WebElement UserName = driver.findElement(By.xpath("//input[@id='user-name']"));
 		UserName.sendKeys(Value);     //value :- which fetched from excel file

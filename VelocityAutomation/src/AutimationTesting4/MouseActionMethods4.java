@@ -1,5 +1,6 @@
 package AutimationTesting4;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,7 +21,7 @@ public class MouseActionMethods4
 		
 		driver.get("http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html");
 		
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		WebElement Washington = driver.findElement(By.xpath("(//div [text() = 'Washington'])[2]"));
 		

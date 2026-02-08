@@ -1,7 +1,9 @@
 package AutimationTesting4;
 
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -22,7 +24,7 @@ public class KeyBoardAction1
 		
 		driver.get("https://the-internet.herokuapp.com/key_presses");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		Actions Act = new Actions(driver);  
 		

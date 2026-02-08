@@ -1,5 +1,6 @@
 package AutimationTesting4;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -23,7 +24,7 @@ public class KeyBoardAction3Practice                                           /
 		
 		driver.navigate().refresh();
 		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		WebElement TextBox1 = driver.findElement(By.xpath("(//div [@role='textbox'])[1]"));
 		

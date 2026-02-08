@@ -3,7 +3,7 @@
     
     <!-- You can include or exclude suites here -->
     <suite-files>
-		<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.demov1.sniperai.com_Sanity_Scripts\Demov1_Sanity_TestSuite.xml"/>
+		<suite-file path="C:\Users\ADMIN\eclipse-workspace\Automation-Data\1.demov1.sniperai.com_Sanity_Scripts\Demov1_Sanity_TestSuite.xml"/>
     	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.1 afg.sniperai.com_Sanity_Scripts\afg_Sanity_TestSuite.xml"/>
     	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.2 Alcoa.sniperai.com_Sanity_Scripts\Alcoa_Sanity_TestSuite.xml"/>
     	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.3 bajajauto.sniperai.com_Sanity_Scripts\bajajauto_Sanity_TestSuite.xml"/>

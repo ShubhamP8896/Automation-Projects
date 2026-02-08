@@ -1,5 +1,6 @@
 package AutimationTesting4;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,7 +21,7 @@ public class MouseActionMethod2
 		
 		driver.get("https://demoqa.com/buttons");
 		
-		driver.manage().timeouts().implicitlyWait(20 , TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 //		Mouse action methods 
 //		1) act.click(WebElementName); :- Form single left click

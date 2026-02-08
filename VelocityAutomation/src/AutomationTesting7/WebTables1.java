@@ -18,7 +18,7 @@ public class WebTables1
 		driver.manage().window().maximize();
 		
 		driver.get("https://cosmocode.io/automation-practice-webtable/");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		
 		List <WebElement> ColumnNames = driver.findElements(By.xpath("//table//tbody//tr//h3"));
 		System.out.println(ColumnNames);         // It's print addresses of that column names

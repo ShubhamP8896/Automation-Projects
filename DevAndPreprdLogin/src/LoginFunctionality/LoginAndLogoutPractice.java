@@ -48,7 +48,7 @@ public class LoginAndLogoutPractice
 		
 		driver.get(Value);
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 //		Reading the Row -----------------
 		XSSFRow Row1 = Sheet.getRow(1);
@@ -146,7 +146,7 @@ public class LoginAndLogoutPractice
     		
     		driver1.get(Value3);
     		
-    		driver1.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//    		driver1.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     		    		
 //    		Reading the Row -----------------
     		XSSFRow Row4 = Sheet.getRow(2);

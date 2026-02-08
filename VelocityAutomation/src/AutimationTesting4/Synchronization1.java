@@ -1,6 +1,7 @@
 package AutimationTesting4;
 
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -25,7 +26,7 @@ public class Synchronization1                                      // Session 43
 //		1) Implicit wait :- Always user after URL open. It's for all the program. 
 //		https://www.browserstack.com/guide/wait-commands-in-selenium-webdriver : Website for use
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);   //in class showing diff but now that not supported
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));   //in class showing diff but now that not supported
 		
 		System.out.println("URL Opened successfully");
 		

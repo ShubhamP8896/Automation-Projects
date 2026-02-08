@@ -1,5 +1,6 @@
 package AutimationTesting4;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,7 +21,7 @@ public class MouseActionMethod3                                   //Session 45
 		
 		driver.get("https://www.saucedemo.com/");
 		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		WebElement Username = driver.findElement(By.xpath("//input[@id='user-name']"));
 		Username.sendKeys("standard_user");

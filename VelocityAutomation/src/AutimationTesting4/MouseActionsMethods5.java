@@ -1,5 +1,6 @@
 package AutimationTesting4;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -19,7 +20,7 @@ public class MouseActionsMethods5
 		
 		driver.get("http://dhtmlgoodies.com/index.html?page=dragDrop");
 		
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		
