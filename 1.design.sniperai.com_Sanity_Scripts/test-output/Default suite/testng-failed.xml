@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button">
+      <class name="design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page">
         <methods>
           <include name="SetUp"/>
-          <include name="ForgotPassword"/>
           <include name="teardown"/>
+          <include name="TermsPage"/>
         </methods>
-      </class> <!-- design.sniperai.com_Sanity_test_classes.TC002ForgotPassword_Button -->
+      </class> <!-- design.sniperai.com_Sanity_test_classes.TC001Open_Terms_Page -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

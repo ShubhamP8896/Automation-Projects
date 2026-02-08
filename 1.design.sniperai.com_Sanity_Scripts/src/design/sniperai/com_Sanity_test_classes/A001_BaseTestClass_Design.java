@@ -1,7 +1,6 @@
 package design.sniperai.com_Sanity_test_classes;
 
 import java.io.IOException;
-import java.sql.DriverManager;
 import java.time.Duration;
 
 import org.openqa.selenium.Alert;
@@ -21,8 +20,8 @@ public class A001_BaseTestClass_Design
     @BeforeMethod
     public void SetUp() throws IOException
     {
-        System.setProperty("webdriver.chrome.driver", "D:\\Automation Testing Files\\Drivers\\Chrome Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-        System.out.println("Properties Set Successfully");
+//        System.setProperty("webdriver.chrome.driver", "D:\\Automation Testing Files\\Drivers\\Chrome Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+//        System.out.println("Properties Set Successfully");
         
         driver = new ChromeDriver();
         System.out.println("Chrome Browser Opened");
