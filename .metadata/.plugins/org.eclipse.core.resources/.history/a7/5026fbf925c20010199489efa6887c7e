@@ -1,0 +1,16 @@
+package assignment_12_27_10_2025;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class SelectorHub_FormAndDropdown 
+{
+	public static void main(String[] args) {
+		BrowserUtility bu = new BrowserUtility();
+		WebDriver driver = bu.launchBrowser("chrome");
+		bu.launchURL("https://selectorshub.com/xpath-practice-page/");
+		
+		By email = By.id("//input[@name='email']");
+	}
+
+}

@@ -1,0 +1,16 @@
+package practiceExam040226;
+
+public class VovelsSum 
+{
+	public static void main(String[] args) 
+	{
+		String word = "Automation Program";
+		
+		
+		
+		
+		
+		
+	}
+
+}

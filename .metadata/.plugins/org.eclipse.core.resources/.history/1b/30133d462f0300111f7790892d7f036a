@@ -1,0 +1,12 @@
+package LinkedIn_Utility_Classes;
+
+import org.openqa.selenium.WebDriver;
+
+public class DriverFactory 
+{
+	ThreadLocal <WebDriver> driver = new ThreadLoacal;
+	
+	
+	
+
+}

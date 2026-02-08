@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Stad_CucumberFramework&apos; to &apos;Stad_CucumberFramework_Practice&apos;" description="Rename resource &apos;Stad_CucumberFramework&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Stad_CucumberFramework" name="Stad_CucumberFramework_Practice" stamp="1768381693603" updateReferences="true"/>
+</session>

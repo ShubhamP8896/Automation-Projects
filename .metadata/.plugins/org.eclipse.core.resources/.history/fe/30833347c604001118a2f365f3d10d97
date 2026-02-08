@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Master Suite" parallel="false">
+    
+    <!-- You can include or exclude suites here -->
+    <suite-files>
+		<suite-file path=""/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.1 afg.sniperai.com_Sanity_Scripts\afg_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.2 Alcoa.sniperai.com_Sanity_Scripts\Alcoa_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.3 bajajauto.sniperai.com_Sanity_Scripts\bajajauto_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.4 CBTG.sniperai.com_Sanity_Scripts\CBTG_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.5 ixceed.sniperai.com_Sanity_Scripts\Ixceed_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.6 edgegroup.sniperai.com_Sanity_Scripts\edgegroup_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.7 mag.sniperai.com_Sanity_Scripts\mag_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.8 JC.sniperai.com_Sanity_Scripts\jc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.9 pttep.sniperai.com_Sanity_Scripts\pttep_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.10 deveregrouppoc.sniperai.com_Sanity_Scripts\deveregrouppoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.11 aacpoc.sniperai.com_Sanity_Scripts\aacpoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.12 damacgrouppoc.sniperai.com_Sanity_Scripts\damacgrouppoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.13 enocpoc.sniperai.com_Sanity_Scripts\enocpoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.14 insightinc.sniperai.com_Sanity_Scripts\Insightinc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.15 deloittepoc.sniperai.com_Sanity_Scripts\deloittepoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.16 natwest.sniperai.com_Sanity_Scripts\natwest_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.17 kpmgpoc.sniperai.com_Sanity_Scripts\kpmgpoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.18 poc.sniperai.com_Sanity_Scripts\poc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.19 recruitmentsmart.sniperai.com_Sanity_Scripts\recruitmentsmart_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.20 socgenindia.sniperai.com_Sanity_Scripts\socgenindia_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.21 clientpoc.sniperai.com_Sanity_Scripts\clientpoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.22 aldaajanpoc.sniperai.com_Sanity_Scripts\aldaajanpoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.23 bcforwardpoc.sniperai.com_Sanity_Scripts\bcforwardpoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.24 hcltechpoc.sniperai.com_Sanity_Scripts\hcltechpoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.25 aastratech.sniperai.com_Sanity_Scripts\aastratech_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.26 e2exchange.sniperai.com_Sanity_Scripts\e2exchange_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.27 wizzairpoc.sniperai.com_Sanity_Scripts\wizzairpoc_Sanity_TestSuite.xml"/>
+    	<suite-file path="C:\Users\Shubz008\eclipse-workspace\1.28 sabicpoc.sniperai.com_Sanity_Scripts\sabicpoc_Sanity_TestSuite.xml"/>
+    </suite-files>
+</suite>

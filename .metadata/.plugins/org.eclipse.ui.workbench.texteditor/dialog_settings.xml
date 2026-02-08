@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="true"/>
+		<list key="findhistory">
+			<item value="driver"/>
+			<item value="log"/>
+			<item value="testng"/>
+			<item value="getDriver()"/>
+			<item value="extentreports"/>
+			<item value="reporting"/>
+			<item value="extent"/>
+			<item value="4.13.2"/>
+			<item value="cucumber-junit"/>
+			<item value="junit"/>
+			<item value="cucumber-junit-platform-engine"/>
+			<item value="Junit"/>
+			<item value="apache"/>
+			<item value="org.testng"/>
+			<item value="junit-platform-runner"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="532"/>
+		<item key="DIALOG_Y_ORIGIN" value="285"/>
+	</section>
+</section>

@@ -1,0 +1,14 @@
+package practiceExam040226;
+
+public class ArrayProgram 
+{
+	public static void main(String[] args) 
+	{
+		 int[] a = {10, 25, 20, 30, 1};
+		 
+		 int max[] = a[0];
+	       
+		
+	}
+	
+}

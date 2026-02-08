@@ -1,0 +1,51 @@
+package assignment_12_27_10_2025;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class SelectorHub_FormAndDropdown 
+{
+	public static void main(String[] args) throws InterruptedException {
+		BrowserUtility bu = new BrowserUtility();
+		WebDriver driver = bu.launchBrowser("chrome");
+		bu.launchURL("https://selectorshub.com/xpath-practice-page/");
+		
+		By email = By.xpath("//input[@name='email']");
+		By password = By.xpath("//input[@name='Password']");
+		By company = By.xpath("(//input[@name='company'])[1]");
+		By mobileNumber = By.xpath("(//input[@name='mobile number'])[1]");
+		By country = By.xpath("//label[text()='Country']");
+		By submit = By.xpath("//button[text()='Submit']");
+		By dropdown = By.id("cars");
+		
+		ElementsUtility eu = new ElementsUtility(driver);
+		eu.addInput(email, "shubham@test.com");
+		eu.addInput(password, "shubham@123");
+		eu.addInput(company, "RST");
+		eu.addInput(mobileNumber, "8421930780");
+		eu.addInput(country, "India");
+		
+		boolean result= eu.is_Enabled(submit);
+		if(result == true)
+		{
+			eu.doClick(submit);
+			System.out.println("Clicked on the submit botton");
+		}
+		else
+		{
+			System.out.println("Submit button in not enabled");
+		}
+		Thread.sleep(5000);
+		eu.doClick(dropdown);
+		
+		eu.selectByIndex(dropdown, 4);
+		eu.selectByValue(dropdown, "audi");
+		eu.selectByVisibleText(dropdown, "Audi");
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-25T18:51:52 IST" name="Default suite" finished-at="2025-12-25T18:52:13 IST" duration-ms="20999">
+    <groups>
+    </groups>
+    <test started-at="2025-12-25T18:51:52 IST" name="Default test" finished-at="2025-12-25T18:52:13 IST" duration-ms="20999">
+      <class name="assignment_53_20_11_2025.ExcelProgram">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:assignment_53_20_11_2025.ExcelProgram@2f4948e4]" started-at="2025-12-25T18:51:52 IST" name="setUp" finished-at="2025-12-25T18:51:58 IST" duration-ms="5203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:assignment_53_20_11_2025.ExcelProgram@2f4948e4]" started-at="2025-12-25T18:51:58 IST" name="login" finished-at="2025-12-25T18:52:13 IST" duration-ms="15354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:assignment_53_20_11_2025.ExcelProgram@2f4948e4]" started-at="2025-12-25T18:52:13 IST" name="tearDown" finished-at="2025-12-25T18:52:13 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment_53_20_11_2025.ExcelProgram -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

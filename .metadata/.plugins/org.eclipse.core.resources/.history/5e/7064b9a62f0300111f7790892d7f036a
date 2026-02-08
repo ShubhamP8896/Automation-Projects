@@ -1,0 +1,59 @@
+package LinkedIn_Utility_Classes;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
+
+import com.qa.util.ExceptionsUtility;
+
+public class DriverFactory 
+{
+	 private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
+//   this is for initialize the driver and open the browser
+   public static WebDriver launchBrowser_initDriver(String browserName) {
+
+       if (driver.get() == null) {
+
+           if (browserName == null) {
+               throw new ExceptionsUtility("Browser Name is Null");
+           }
+
+           switch (browserName.toLowerCase().trim()) {
+               case "chrome":
+                   driver.set(new ChromeDriver());
+                   System.out.println(browserName + "Opened Successfully");
+                   break;
+               case "edge":
+                   driver.set(new EdgeDriver());
+                   System.out.println(browserName + "Opened Successfully");
+                   break;
+               case "firefox":
+                   driver.set(new FirefoxDriver());
+                   System.out.println(browserName + "Opened Successfully");
+                   break;
+               case "safari":
+                   driver.set(new SafariDriver());
+                   System.out.println(browserName + "Opened Successfully");
+                   break;
+               default:
+                   throw new Exception("Invalid Browser");
+           }
+       }
+       return driver.get();
+   }
+
+   public static WebDriver getDriver() {
+       return driver.get();
+   }
+
+   public static void quitDriver() {
+       if (driver.get() != null) {
+           driver.get().quit();
+           driver.remove();
+       }
+   }
+
+}

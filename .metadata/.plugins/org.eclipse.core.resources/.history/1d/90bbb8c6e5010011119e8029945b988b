@@ -1,0 +1,28 @@
+package practiceExam040226;
+
+public class Reverse 
+{
+	public static void main(String[] args) {
+        String str = "Hello"; // regular String
+        int count = 0;
+
+        // Manually count the length of the string
+        try {
+            while (true) {
+                str.charAt(count); // try to access character
+                count++;
+            }
+        } catch (StringIndexOutOfBoundsException e) {
+            // reached the end
+        }
+
+        // Reverse the string manually
+        String reversed = "";
+        for (int i = count - 1; i >= 0; i--) {
+            reversed += str.charAt(i);
+        }
+
+        System.out.println("Original string: " + str);
+        System.out.println("Reversed string: " + reversed);
+    }
+}

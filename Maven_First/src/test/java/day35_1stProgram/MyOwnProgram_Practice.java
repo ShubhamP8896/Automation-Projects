@@ -1,0 +1,50 @@
+package day35_1stProgram;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class MyOwnProgram_Practice 
+{
+	WebDriver driver;
+	
+	@BeforeMethod
+	public void Set()
+	{
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		System.out.println("Browser Maximized");
+		
+		driver.get("https://www.google.com");
+		System.out.println("Browser Opened Successfully");
+	}
+	
+	@Test
+	public void TestCase()
+	{
+		String ActualTitle = driver.getTitle();
+		System.out.println("Actual Title : " + ActualTitle);
+		
+		String ExpectedTitle = "Google";
+		
+		if(ActualTitle.equalsIgnoreCase(ExpectedTitle))
+		{
+			System.out.println("Test case is passed");
+		}
+		else
+		{
+			System.out.println("Test case is failed");
+		}
+	}
+	
+	@AfterMethod
+	public void tearDown()
+	{
+		driver.close();
+	}
+	
+	
+
+}

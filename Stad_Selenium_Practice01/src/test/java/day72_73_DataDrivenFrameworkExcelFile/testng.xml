@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DDF_ExcleLogin_Suite">
+  <test name="DDF_ExcleLogin_Test">
+    <classes>
+      <class name="day72_73_DataDrivenFrameworkExcelFile.DDF_Excel_LoginFeature"/>
+    </classes>
+  </test> <!-- DDF_ExcleLogin_Test -->
+</suite> <!-- DDF_ExcleLogin_Suite -->

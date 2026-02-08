@@ -1,0 +1,81 @@
+package AutimationTesting4;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+public class MouseActionMethods1                               //Session : 44
+{
+	public static void main(String[] args) 
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shubz008\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("https://www.saucedemo.com/");
+		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10))
+		
+		WebElement Username = driver.findElement(By.xpath("//input[@id='user-name']"));
+		Username.sendKeys("standard_user");
+		
+		WebElement Password = driver.findElement(By.xpath("//input [contains (@id, 'password')]"));
+		Password.sendKeys("secret_sauce");
+		
+		WebElement Login = driver.findElement(By.xpath("//input [contains(@value, 'Login')]"));
+		
+//		WebElement interface method we are using previously: .click()
+//		Login.click();
+		
+//		Mouse actions using selenium :
+//		1) act.click(WebElement Name); -> To perfrom left Click		
+		
+		Actions act = new Actions(driver);  
+		act.click(Login).perform();
+		
+		String ExpectedUrl = "https://www.saucedemo.com/inventory.html";
+		
+		String ActualUrl = driver.getCurrentUrl();
+		System.out.println("Actual URL = " + ActualUrl);
+		
+		if(ActualUrl.equals(ExpectedUrl))
+		{
+			System.out.println("Logged in successfully :- Test case is passed");
+		}
+		else
+		{
+			System.out.println("Test case is failed");
+		}
+		
+		WebElement Dropdown = driver.findElement(By.xpath("//select [@data-test='product_sort_container']"));
+		
+		act.click(Dropdown).perform();
+		
+		Select Option = new Select(Dropdown);
+		
+//		Use Any of them for selecting dropdown value
+		
+//		Option.selectByIndex(2);
+		
+//		Option.selectByValue("za");
+		
+		Option.selectByVisibleText("Name (Z to A)");
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-01T18:18:08 IST" name="ParallelExecution" finished-at="2026-02-01T18:18:24 IST" duration-ms="16052">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginFeatureRunner@243c4f91]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CreateAccountRunner@2e005c4b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-02-01T18:18:08 IST" name="CeateAccountFeature" finished-at="2026-02-01T18:18:20 IST" duration-ms="11817">
+      <class name="runner.CreateAccountRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CreateAccountRunner@2e005c4b]" started-at="2026-02-01T18:18:08 IST" name="setUpClass" finished-at="2026-02-01T18:18:09 IST" duration-ms="1025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7cc0cdad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CreateAccountRunner@2e005c4b]" started-at="2026-02-01T18:18:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-01T18:18:17 IST" duration-ms="7380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create an account with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["create account"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CreateAccountRunner@2e005c4b]" started-at="2026-02-01T18:18:17 IST" name="tearDownClass" finished-at="2026-02-01T18:18:20 IST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CreateAccountRunner -->
+    </test> <!-- CeateAccountFeature -->
+    <test started-at="2026-02-01T18:18:08 IST" name="LoginFeature" finished-at="2026-02-01T18:18:24 IST" duration-ms="16052">
+      <class name="runner.LoginFeatureRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.LoginFeatureRunner@243c4f91]" started-at="2026-02-01T18:18:08 IST" name="setUpClass" finished-at="2026-02-01T18:18:09 IST" duration-ms="1026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@128d2484]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginFeatureRunner@243c4f91]" started-at="2026-02-01T18:18:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-01T18:18:15 IST" duration-ms="5963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the web page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginFeatureRunner@243c4f91]" started-at="2026-02-01T18:18:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-02-01T18:18:24 IST" duration-ms="8223" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Passed expected [My Account] but found [Account Login]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Passed expected [My Account] but found [Account Login]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at stepDefinations.LoginFunctionality.then_user_get_dashboard_page_title(LoginFunctionality.java:73)
+at ✽.then user get Dashboard page title "My Account"(file:///C:/Users/ADMIN/eclipse-workspace/Stad_CucumberPOM_Practice/src/test/resources/features/01_loginFunctionality.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.LoginFeatureRunner@243c4f91]" started-at="2026-02-01T18:18:24 IST" name="tearDownClass" finished-at="2026-02-01T18:18:24 IST" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.LoginFeatureRunner -->
+    </test> <!-- LoginFeature -->
+  </suite> <!-- ParallelExecution -->
+</testng-results>

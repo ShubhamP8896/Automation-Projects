@@ -1,0 +1,19 @@
+package day50;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class IFrames 
+{
+	public static void main(String[] args) {
+		BrowserUtility bu = new BrowserUtility();
+		WebDriver driver = bu.launchBrowser("Chrome");
+		bu.MaximizeWindow();
+		bu.launchURL("https://www.londonfreelance.org/courses/frames/index.html");
+		
+		ElementsUtility eu = new ElementsUtility(driver);
+		
+		List <WebElement> frames = driver.findElement(By.xpath("//frame"));
+	}
+
+}

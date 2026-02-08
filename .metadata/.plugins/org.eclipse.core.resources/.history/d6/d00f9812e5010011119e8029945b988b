@@ -1,0 +1,30 @@
+package practiceExam040226;
+
+public class Reverse 
+{
+	
+	 public static void main(String[] args) 
+	 {
+		 String str = "Hello"; 
+		 String reversed = "";
+		
+	        int count = 0;
+
+
+	            while (true) 
+	            {
+	                str.charAt(count); // try to access character
+	                count++;
+	            }
+	            
+	            
+	            for (int i = count - 1; i >= 0; i--) 
+	            {
+	            	
+	                reversed += str.charAt(i);
+	            }
+
+	            System.out.println("Original string: " + str);
+	            System.out.println("Reversed string: " + reversed);
+	 }	    
+}

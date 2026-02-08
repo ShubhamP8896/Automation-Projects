@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\ADMIN\eclipse-workspace\Automation-Data\0.0 Dev_Preprod MasterTestNG_XML"/>
+			<item value="C:\Users\ADMIN\eclipse-workspace\StadSolutions_Selenium1\src\day_34\SeleniumFirst.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="StadSolutions_CucumberPOM_Practice.CucumberPOM_Practice"/>
+			<item value="StadSolutions_Cucumber.Stad_CucumberFramework"/>
+			<item value="StadSolutions_Selenium_Assignments.Stad_Selenium_Assignments"/>
+			<item value="StadSolutions_Selenium_Practice.Stad_Selenium_Practice01"/>
+			<item value="StadSolutions_Maven1.Maven_First"/>
+		</list>
+		<list key="groupId">
+			<item value="StadSolutions_CucumberPOM_Practice"/>
+			<item value="StadSolutions_Cucumber"/>
+			<item value="StadSolutions_Selenium_Assignments"/>
+			<item value="StadSolutions_Selenium_Practice"/>
+			<item value="StadSolutions_Maven1"/>
+		</list>
+		<list key="artifactId">
+			<item value="CucumberPOM_Practice"/>
+			<item value="Stad_CucumberFramework"/>
+			<item value="Stad_Selenium_Assignments"/>
+			<item value="Stad_Selenium_Practice01"/>
+			<item value="Maven_First"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="sftest.sniperai.com_Sanity_Scripts_Maven"/>
+			<item value="Demov1"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="sftest.sniperai.com_Sanity_Scripts_Maven"/>
+			<item value="Demov1"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\ADMIN\eclipse-GitHubCloned Projects\Automation_Data_07-02-2026"/>
+			<item value="C:\Users\ADMIN\eclipse-workspace"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

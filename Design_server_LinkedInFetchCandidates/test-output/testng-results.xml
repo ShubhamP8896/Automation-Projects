@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-12T16:45:56 IST" name="Default suite" finished-at="2025-10-12T16:47:36 IST" duration-ms="99898">
+    <groups>
+    </groups>
+    <test started-at="2025-10-12T16:45:56 IST" name="Default test" finished-at="2025-10-12T16:47:36 IST" duration-ms="99898">
+      <class name="LinkedIn_Test_Classes.TC001_Fetch_LinkedIn_Candidates">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:LinkedIn_Test_Classes.TC001_Fetch_LinkedIn_Candidates@37271612]" started-at="2025-10-12T16:45:56 IST" name="SetUp" finished-at="2025-10-12T16:46:06 IST" duration-ms="9491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="JobListPageActions_Rec()[pri:0, instance:LinkedIn_Test_Classes.TC001_Fetch_LinkedIn_Candidates@37271612]" started-at="2025-10-12T16:46:06 IST" name="JobListPageActions_Rec" finished-at="2025-10-12T16:47:21 IST" duration-ms="75111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobListPageActions_Rec -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:LinkedIn_Test_Classes.TC001_Fetch_LinkedIn_Candidates@37271612]" started-at="2025-10-12T16:47:21 IST" name="teardown" finished-at="2025-10-12T16:47:36 IST" duration-ms="15229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JobListPageActions_Rec status=SUCCESS method=TC001_Fetch_LinkedIn_Candidates.JobListPageActions_Rec()[pri:0, instance:LinkedIn_Test_Classes.TC001_Fetch_LinkedIn_Candidates@37271612] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- LinkedIn_Test_Classes.TC001_Fetch_LinkedIn_Candidates -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,81 @@
+package AutimationTesting4;
+
+
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class KeyBoardAction1 
+{
+	public static void main(String[] args) throws InterruptedException         //Session 45
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Shubz008\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		Thread.sleep(2000);                     // we are not using this in our original script we are just using for checking our script
+		
+		driver.get("https://the-internet.herokuapp.com/key_presses");
+		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
+		Actions Act = new Actions(driver);  
+		
+//		https://the-internet.herokuapp.com/key_presses   Link For use
+		
+//		If we want to press any letter :------------------------
+		
+		Act.sendKeys("P").perform();
+		
+		WebElement Result = driver.findElement(By.xpath("//p[@id='result']"));
+		
+		String ExpectedResult = "You entered: P";
+		
+		String ActualResult = Result.getText();
+		
+		System.out.println(ActualResult);
+		
+		if(ActualResult.equals(ExpectedResult))
+		{
+			System.out.println("Test case is passed");
+		}
+		else 
+		{
+			System.out.println("Test case is failed");
+		}
+		
+//		If we want to press any Button (Control, alter, enter, tab .. etc) :------------------------
+		
+		Act.sendKeys(Keys.ALT).perform();
+		
+		String ExpectedResult2 = "You entered: ALT";
+		
+		String ActualResult2 = Result.getText();
+		
+		System.out.println(ActualResult2);
+		
+		if(ActualResult2.equals(ExpectedResult2))
+		{
+			System.out.println("Test case is passed");
+		}
+		else 
+		{
+			System.out.println("Test case is failed");
+		}
+		
+//		If we want to press combination of any two buttons like (Control+A, Control+c .. etc)-------------
+		
+		Act.keyDown(Keys.CONTROL).sendKeys("A").keyUp(Keys.CONTROL).perform();
+		
+		
+		
+		
+		
+	}
+
+}
