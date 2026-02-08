@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_parameterization" parallel="tests" thread-count="3">  <!-- if we want to run multiple tests parallely -->
+<parameter name="browser" value="chrome"></parameter> <!-- Scope : all the tests and their classes and methods -->
+  <test name="Test_parameterization_chrome" parallel="classes" thread-count="3">  <!-- if we want to run multiple classes parallely -->
+  <parameter name="browser" value="chrome"></parameter> <!-- Scope : all the only for this test's classes and mthods' -->
+    <classes>
+      <class name="day69_Parameterization.Parameterization_CrossbrowserTesting"/>
+      <class name="day69_Parameterization.Parameterization_CrossbrowserTesting"/>
+      <class name="day69_Parameterization.Parameterization_CrossbrowserTesting"/>
+    </classes>
+  </test> <!-- Test_parameterization -->
+  
+    <test name="Test_parameterization_Firefox">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="day69_Parameterization.Parameterization_CrossbrowserTesting"/>
+    </classes>
+  </test> <!-- Test_parameterization -->
+  
+    <test name="Test_parameterization_edge">
+  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="day69_Parameterization.Parameterization_CrossbrowserTesting"/>
+    </classes>
+  </test> <!-- Test_parameterization -->
+  
+</suite> <!-- Suite_parameterization -->

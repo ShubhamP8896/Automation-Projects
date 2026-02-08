@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-11T23:06:20 IST" name="DDF_ExcleLogin_Suite" finished-at="2026-01-11T23:06:44 IST" duration-ms="23176">
+    <groups>
+    </groups>
+    <test started-at="2026-01-11T23:06:20 IST" name="DDF_ExcleLogin_Test" finished-at="2026-01-11T23:06:44 IST" duration-ms="23176">
+      <class name="day72_73_DataDrivenFrameworkExcelFile.DDF_Excel_LoginFeature">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:day72_73_DataDrivenFrameworkExcelFile.DDF_Excel_LoginFeature@28701274]" started-at="2026-01-11T23:06:20 IST" name="setUp" finished-at="2026-01-11T23:06:26 IST" duration-ms="5176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithMultipleUsers()[pri:0, instance:day72_73_DataDrivenFrameworkExcelFile.DDF_Excel_LoginFeature@28701274]" started-at="2026-01-11T23:06:26 IST" name="loginWithMultipleUsers" finished-at="2026-01-11T23:06:43 IST" duration-ms="17589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithMultipleUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day72_73_DataDrivenFrameworkExcelFile.DDF_Excel_LoginFeature@28701274]" started-at="2026-01-11T23:06:43 IST" name="tearDown" finished-at="2026-01-11T23:06:44 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day72_73_DataDrivenFrameworkExcelFile.DDF_Excel_LoginFeature -->
+    </test> <!-- DDF_ExcleLogin_Test -->
+  </suite> <!-- DDF_ExcleLogin_Suite -->
+</testng-results>
