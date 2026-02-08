@@ -16,7 +16,6 @@ import org.testng.annotations.BeforeMethod;
 import design.sniperai.com_utility_Classes.Design_Excel_Data_UtilityClass;
 import design.sniperai.com_utility_Classes.Design_Take_Screenshot_UtilityClass;
 import dev_prepod_Sanity_POM_Classes.LoginPage;
-import dev_preprod_CanMod_POM_classes.Can_DashboardPage;
 import dev_preprod_RecMod_POM_classes.Rec_JobListPage_POM_Class;
 
 public class A003_BaseTestClass_Rec_Design 

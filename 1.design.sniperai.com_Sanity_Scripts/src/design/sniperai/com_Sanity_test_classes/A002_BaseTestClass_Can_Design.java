@@ -32,8 +32,6 @@ public class A002_BaseTestClass_Can_Design
 
     private void initializeDriver() 
     {
-//        System.setProperty("webdriver.chrome.driver", "D:\\Automation Testing Files\\Drivers\\Chrome Driver\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-//        System.out.println("Properties Set Successfully");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         System.out.println("Chrome Browser Opened");
