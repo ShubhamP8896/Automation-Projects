@@ -13,7 +13,7 @@
     <name>Stad_CucumberFramework</name>
     <url>http://www.example.com</url>
 
-    <properties>
+     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,6 +98,20 @@
             <artifactId>extentreports</artifactId>
             <version>5.1.2</version>
         </dependency>
+        
+        <!-- Source: https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+		<dependency>
+   			 <groupId>net.masterthought</groupId>
+    		 <artifactId>cucumber-reporting</artifactId>
+   			 <version>5.10.2</version>
+   			 <scope>compile</scope>
+		</dependency>
+        <!-- Extent Reports: Generate reports for cucumber -->
+        <dependency>
+    		<groupId>tech.grasshopper</groupId>
+   			 <artifactId>extentreports-cucumber7-adapter</artifactId>
+   			 <version>1.14.0</version> <!-- Use the latest version from Maven Repository -->
+		</dependency>
 
         <!-- Cucumber Java: Step definitions support for Cucumber -->
         <dependency>
@@ -201,7 +215,14 @@
             <version>5.13.4</version>
             <scope>test</scope>
         </dependency>
-
+        
+        <!-- Source: https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+		<dependency>
+    		<groupId>io.cucumber</groupId>
+   		    <artifactId>cucumber-testng</artifactId>
+    		<version>7.33.0</version>
+   		    <scope>compile</scope>
+		</dependency>
     </dependencies>
 
     <build>
@@ -222,15 +243,14 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.5.0</version>
+                <version>3.5.4</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>parallelFeatures.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
 
         </plugins>
     </build>
-
 </project>
