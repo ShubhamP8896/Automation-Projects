@@ -12,7 +12,6 @@ INDEX VERSION 1.134+C:\Users\ADMIN\eclipse-workspace\.metadata\.plugins\org.ecli
 520724636.index
 1651604812.index
 745463868.index
-2153068744.index
 3633181522.index
 3138199070.index
 2506691768.index
@@ -146,7 +145,6 @@ INDEX VERSION 1.134+C:\Users\ADMIN\eclipse-workspace\.metadata\.plugins\org.ecli
 2594134097.index
 1894399098.index
 2980490984.index
-2918148971.index
 1435100005.index
 3194902496.index
 1544071926.index
@@ -180,7 +178,6 @@ INDEX VERSION 1.134+C:\Users\ADMIN\eclipse-workspace\.metadata\.plugins\org.ecli
 3747478968.index
 2433263906.index
 1313604836.index
-2547163210.index
 3907796331.index
 1184439841.index
 589604047.index
@@ -230,7 +227,6 @@ INDEX VERSION 1.134+C:\Users\ADMIN\eclipse-workspace\.metadata\.plugins\org.ecli
 1712688806.index
 3570477206.index
 3621082984.index
-1415872346.index
 402011878.index
 3254482795.index
 2155330576.index
@@ -301,7 +297,6 @@ INDEX VERSION 1.134+C:\Users\ADMIN\eclipse-workspace\.metadata\.plugins\org.ecli
 3322055777.index
 3539431975.index
 2069911615.index
-3328755567.index
 3987350083.index
 2792960063.index
 2179544230.index
@@ -323,7 +318,6 @@ INDEX VERSION 1.134+C:\Users\ADMIN\eclipse-workspace\.metadata\.plugins\org.ecli
 2862416999.index
 2986884398.index
 3265866226.index
-2338414040.index
 3310525363.index
 2172642526.index
 411807483.index

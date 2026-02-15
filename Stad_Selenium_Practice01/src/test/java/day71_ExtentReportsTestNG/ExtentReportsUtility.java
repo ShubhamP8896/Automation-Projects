@@ -14,7 +14,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class ExtentReportClassWithListeners implements ITestListener
+public class ExtentReportsUtility implements ITestListener
 {
 	public ExtentSparkReporter SparkReporter; // UI of Report
 	public ExtentReports extent; // common information

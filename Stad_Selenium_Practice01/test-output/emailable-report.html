@@ -8,11 +8,42 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">DDF_ExcleLogin_Suite</th></tr>
-<tr><td><a href="#t0">DDF_ExcleLogin_Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,176</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite_ExtentReports</th></tr>
+<tr><td><a href="#t0">Test_ExtentReports</a></td><td class="num">1</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">11,518</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">DDF_ExcleLogin_Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">DDF_ExcleLogin_Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">day72_73_DataDrivenFrameworkExcelFile.DDF_Excel_LoginFeature</td><td><a href="#m0">loginWithMultipleUsers</a></td><td rowspan="1">1768152986101</td><td rowspan="1">17589</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite_ExtentReports</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test_ExtentReports &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">day71_ExtentReportsTestNG.TestClass</td><td><a href="#m0">CheckPresenseOfLogo</a></td><td rowspan="1">1771151322805</td><td rowspan="1">21</td></tr><tr><th colspan="4">Test_ExtentReports &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">day71_ExtentReportsTestNG.TestClass</td><td><a href="#m1">Login</a></td><td rowspan="1">1771151322930</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">Logout</a></td><td rowspan="1">1771151322934</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test_ExtentReports &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">day71_ExtentReportsTestNG.TestClass</td><td><a href="#m3">OpenWebPage</a></td><td rowspan="1">1771151311702</td><td rowspan="1">11089</td></tr></tbody>
 </table>
-<h2>DDF_ExcleLogin_Test</h2><h3 id="m0">day72_73_DataDrivenFrameworkExcelFile.DDF_Excel_LoginFeature#loginWithMultipleUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test_ExtentReports</h2><h3 id="m0">day71_ExtentReportsTestNG.TestClass#CheckPresenseOfLogo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@alt=&apos;company-branding&apos;]&quot;}
+  (Session info: chrome=144.0.7559.135)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0fba28a69df7b0e8620701828ebb8e97, findElement {using=xpath, value=//img[@alt=&apos;company-branding&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.135, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53158}, goog:processID: 25776, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53158/devtoo..., se:cdpVersion: 144.0.7559.135, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0fba28a69df7b0e8620701828ebb8e97
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at day71_ExtentReportsTestNG.TestClass.CheckPresenseOfLogo(TestClass.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">day71_ExtentReportsTestNG.TestClass#Login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method day71_ExtentReportsTestNG.TestClass.Login() on instance day71_ExtentReportsTestNG.TestClass@198b6731 depends on not successfully finished methods 
+[day71_ExtentReportsTestNG.TestClass.CheckPresenseOfLogo() on instance day71_ExtentReportsTestNG.TestClass@198b6731]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">day71_ExtentReportsTestNG.TestClass#Logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method day71_ExtentReportsTestNG.TestClass.Logout() on instance day71_ExtentReportsTestNG.TestClass@198b6731 depends on not successfully finished methods 
+[day71_ExtentReportsTestNG.TestClass.CheckPresenseOfLogo() on instance day71_ExtentReportsTestNG.TestClass@198b6731]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">day71_ExtentReportsTestNG.TestClass#OpenWebPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
