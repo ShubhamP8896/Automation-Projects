@@ -1,6 +1,5 @@
 package day_32;
 
-import java.util.Hashtable;
 import java.util.TreeMap;
 
 public class TreeMapClass {

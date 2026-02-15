@@ -4,6 +4,10 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="select"/>
+			<item value="alerts"/>
+			<item value="alert"/>
+			<item value="list"/>
 			<item value="driver"/>
 			<item value="log"/>
 			<item value="testng"/>
@@ -15,10 +19,6 @@
 			<item value="cucumber-junit"/>
 			<item value="junit"/>
 			<item value="cucumber-junit-platform-engine"/>
-			<item value="Junit"/>
-			<item value="apache"/>
-			<item value="org.testng"/>
-			<item value="junit-platform-runner"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
