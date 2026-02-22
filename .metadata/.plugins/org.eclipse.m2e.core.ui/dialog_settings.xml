@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\ADMIN\eclipse-workspace\Stad_RestAssured\src\test\java\carts_and_orders\CartsAndOrdersMethods.java"/>
 			<item value="C:\Users\ADMIN\eclipse-workspace\Automation-Data\0.0 Dev_Preprod MasterTestNG_XML"/>
 			<item value="C:\Users\ADMIN\eclipse-workspace\StadSolutions_Selenium1\src\day_34\SeleniumFirst.java"/>
 		</list>
@@ -27,6 +28,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="RestAssured_1st11.RestAssuredProject_Ecommerce"/>
+			<item value="RestAssured_1st.Stad_RestAssured"/>
+			<item value="SeleniumGrid.StadSolutions_SeleniumGridFramework"/>
 			<item value="StadSolutions_CucumberPOM_Practice.CucumberPOM_Practice"/>
 			<item value="StadSolutions_Cucumber.Stad_CucumberFramework"/>
 			<item value="StadSolutions_Selenium_Assignments.Stad_Selenium_Assignments"/>
@@ -34,6 +38,9 @@
 			<item value="StadSolutions_Maven1.Maven_First"/>
 		</list>
 		<list key="groupId">
+			<item value="RestAssured_1st11"/>
+			<item value="RestAssured_1st"/>
+			<item value="SeleniumGrid"/>
 			<item value="StadSolutions_CucumberPOM_Practice"/>
 			<item value="StadSolutions_Cucumber"/>
 			<item value="StadSolutions_Selenium_Assignments"/>
@@ -41,6 +48,9 @@
 			<item value="StadSolutions_Maven1"/>
 		</list>
 		<list key="artifactId">
+			<item value="RestAssuredProject_Ecommerce"/>
+			<item value="Stad_RestAssured"/>
+			<item value="StadSolutions_SeleniumGridFramework"/>
 			<item value="CucumberPOM_Practice"/>
 			<item value="Stad_CucumberFramework"/>
 			<item value="Stad_Selenium_Assignments"/>
