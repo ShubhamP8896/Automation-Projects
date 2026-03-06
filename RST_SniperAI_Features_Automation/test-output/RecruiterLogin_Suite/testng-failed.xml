@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RecruiterLogin_Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="sheetName" value="RecruiterModule_Login"/>
+  <listeners>
+    <listener class-name="com.qa_0001_TestListeners.TL_001_TestListeners"/>
+  </listeners>
+  <test thread-count="5" parallel="classes" name="RecruiterLogin_Test(failed)">
+    <classes>
+      <class name="com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred">
+        <methods>
+          <include name="setUp"/>
+          <include name="RecLoginValidCred"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred -->
+    </classes>
+  </test> <!-- RecruiterLogin_Test(failed) -->
+</suite> <!-- Failed suite [RecruiterLogin_Suite] -->

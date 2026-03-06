@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite_SeleniumGrid">
 <listeners>
-		<listener class-name="com.qa.util.ExtentReportsUtility"></listener>
+		<listener class-name="com.qa.util_ExtentReport.ExtentReportsUtility"></listener>
 </listeners>
 
   <test name="TestSeleniumGrid" parallel="classes" thread-count="2">

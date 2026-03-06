@@ -28,18 +28,22 @@ public class DriverFactory {
 
         try {
 
-            if (driver.get() == null) {
+            if (driver.get() == null) 
+            {
 
-                if (browserName == null) {
+                if (browserName == null)
+                {
                     throw new ExceptionsUtility("Browser Name is Null");
                 }
 
                 // ✅ REMOTE EXECUTION (SELENIUM GRID)
-                if (environment.equalsIgnoreCase("remote")) {
+                if (environment.equalsIgnoreCase("remote"))
+                {
 
                     URL url = new URL(gridURL);
 
-                    switch (browserName.toLowerCase().trim()) {
+                    switch (browserName.toLowerCase().trim()) 
+                    {
 
                         case "chrome":
 
@@ -76,9 +80,11 @@ public class DriverFactory {
                 }
 
                 // ✅ LOCAL EXECUTION
-                else {
+                else 
+                {
 
-                    switch (browserName.toLowerCase().trim()) {
+                    switch (browserName.toLowerCase().trim()) 
+                    {
 
                         case "chrome":
                             driver.set(new ChromeDriver());
@@ -117,14 +123,17 @@ public class DriverFactory {
     }
 
 
-    public static WebDriver getDriver() {
+    public static WebDriver getDriver() 
+    {
         return driver.get();
     }
 
 
-    public static void quitDriver() {
+    public static void quitDriver() 
+    {
 
-        if (driver.get() != null) {
+        if (driver.get() != null) 
+        {
 
             driver.get().quit();
 

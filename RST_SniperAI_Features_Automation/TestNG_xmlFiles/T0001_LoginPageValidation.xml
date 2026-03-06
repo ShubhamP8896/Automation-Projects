@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="com.qa.0001_LoginPageValidation">
+
+<!-- Parameters we used for use the specific sheet according the the feature to write the results in the sheet-->
+<parameter name="sheetName" value="LoginPage_Validation"></parameter>
+
+<!-- Test Listeners for test start, success, failed, skipped, finish. We Added results in the excel sheet and create reports-->
+	<listeners>
+		<listener class-name="com.qa_0001_TestListeners.TL_001_TestListeners"></listener>
+	</listeners>
+  <test name="LoginPageValidation" parallel="classes" thread-count="2">
+    <classes>
+      <class name="com.qa_0001_login_Page_Validation.TC_0001_URL_LoginPage"/>
+      <class name="com.qa_0001_login_Page_Validation.TC_0002_URL_JobOpeningsPage"/>
+      <class name="com.qa_0001_login_Page_Validation.TC_0003_URL_SignUpPage"/>
+      <class name="com.qa_0001_login_Page_Validation.TC_0004_URL_TermsPage"/>
+      <class name="com.qa_0001_login_Page_Validation.TC_0005_URL_SocialMediaIcons"/>
+      <class name="com.qa_0001_login_Page_Validation.TC_006_HelpMeFeature"/>
+    </classes>
+  </test> <!-- LoginPageValidation -->
+</suite> <!-- com.qa.0001_LoginPageValidation -->

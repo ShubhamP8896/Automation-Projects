@@ -4,21 +4,21 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="wait"/>
+			<item value="alerts"/>
 			<item value="testng"/>
+			<item value="test"/>
 			<item value="extent"/>
 			<item value="testNG"/>
 			<item value="Extent"/>
 			<item value="snap"/>
 			<item value="select"/>
-			<item value="alerts"/>
 			<item value="alert"/>
 			<item value="list"/>
 			<item value="driver"/>
 			<item value="log"/>
 			<item value="getDriver()"/>
 			<item value="extentreports"/>
-			<item value="reporting"/>
-			<item value="4.13.2"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

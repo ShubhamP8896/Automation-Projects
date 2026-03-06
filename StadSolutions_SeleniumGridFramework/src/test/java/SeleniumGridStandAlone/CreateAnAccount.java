@@ -18,22 +18,22 @@ public class CreateAnAccount extends BaseTestClass
 		System.out.println("URL Opened successfully");
 		
 		cp.addFirstName("Shubham");
-		System.out.println(" Added successfully");
+		System.out.println("FirstName Added successfully");
 
 		cp.addLastName("Pawar");
-		System.out.println(" Added successfully");
+		System.out.println("LastName Added successfully");
 
 		cp.emailID("shubhamp11@test.com");
-		System.out.println(" Added successfully");
+		System.out.println("emailID Added successfully");
 
 		cp.telePhone("123456");
-		System.out.println(" Added successfully");
+		System.out.println("telePhone Added successfully");
 
 		cp.password("shub@123");
-		System.out.println(" Added successfully");
+		System.out.println("password Added successfully");
 
 		cp.cnfPassword("shub@123");
-		System.out.println(" Added successfully");
+		System.out.println("cnfPassword Added successfully");
 
 		cp.clickCheckbox();
 		System.out.println("Clicked on checkbox successfully");

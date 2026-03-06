@@ -21,7 +21,8 @@ public class ConfigReader {
             prop.load(fis);
 
         }
-        catch (IOException e) {
+        catch (IOException e)
+        {
 
             e.printStackTrace();
             throw new RuntimeException("Failed to load config.properties");
@@ -31,7 +32,8 @@ public class ConfigReader {
     }
 
 
-    public static String getProperty(String key) {
+    public static String getProperty(String key) 
+    {
 
         String value = prop.getProperty(key);
 

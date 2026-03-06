@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RecruiterLogin_Suite">
+<parameter name="sheetName" value="RecruiterModule_Login"></parameter>
+
+<listeners>
+	<listener class-name="com.qa_0001_TestListeners.TL_001_TestListeners"></listener>
+</listeners>
+
+  <test name="RecruiterLogin_Test" parallel="classes" thread-count="2">
+    <classes>
+      <class name="com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred"/>
+      <class name="com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass"/>
+      <class name="com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername"/>
+      <class name="com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred"/>
+      <class name="com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName"/>
+      <class name="com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword"/>
+      <class name="com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred"/>
+      <class name="com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred"/>
+    </classes>
+  </test> <!-- RecruiterLogin_Test -->
+</suite> <!-- RecruiterLogin_Suite -->
