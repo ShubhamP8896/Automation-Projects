@@ -16,7 +16,7 @@ public class TC_0007_VerifyRecLogin_withoutCred extends A001_BaseTest_BeforeLogi
 	
 	@TestCaseId("TC_007")
 	@Test
-	public void RecLoginWithoutCred()
+	public void recLoginWithoutCred()
 	{
 		lp.addUsername("");
 		lp.addPassword("");

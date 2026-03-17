@@ -15,7 +15,7 @@ public class A003_BaseTestCandidateModule
 	private static String serverUrl = ConfigReader.getProperty("serverUrl");
 //	Fetching the credentials from the Config.properties File
 	private static String candidateUsername = ConfigReader.getProperty("canValidUsername");
-	private static String CandidatePassword = ConfigReader.getProperty("canValidPassword");
+	private static String candidatePassword = ConfigReader.getProperty("canValidPassword");
 
 	BrowserUtility bu = new BrowserUtility();
 	P0001_LoginPage lp = new P0001_LoginPage();
@@ -30,7 +30,7 @@ public class A003_BaseTestCandidateModule
 	public void loginToServer()
 	{
 		lp.addUsername(candidateUsername);
-		lp.addPassword(CandidatePassword);
+		lp.addPassword(candidatePassword);
 		lp.selectUserTypeCandidate();
 		lp.clickRememberMe();
 		lp.clickloginButton();		

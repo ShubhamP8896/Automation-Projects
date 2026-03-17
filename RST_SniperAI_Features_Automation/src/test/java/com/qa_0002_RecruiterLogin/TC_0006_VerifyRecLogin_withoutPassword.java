@@ -18,7 +18,7 @@ public class TC_0006_VerifyRecLogin_withoutPassword extends A001_BaseTest_Before
 	
 	@TestCaseId("TC_006")
 	@Test
-	public void RecLoginWithoutPassowrd()
+	public void recLoginWithoutPassowrd()
 	{
 		lp.addUsername(recValidUsername);
 		lp.addPassword("");

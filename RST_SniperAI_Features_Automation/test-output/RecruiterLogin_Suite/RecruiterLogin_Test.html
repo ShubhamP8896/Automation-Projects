@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>RecruiterLogin_Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Mar 04 14:10:54 IST 2026</td>
+<td>Started on:</td><td>Sat Mar 14 18:17:11 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>49 seconds (49173 ms)</td>
+<tr><td>Total time:</td><td>41 seconds (41154 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,52 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred.recLoginValidCred()'><b>recLoginValidCred</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred</td>
+<td><div><pre>java.lang.AssertionError: expected [https://design.sniperai.com/recruiter/live-jobs] but found [https://design.sniperai.com/]
+	at com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred.recLoginValidCred(TC_0001_VerifyRecLogin_WithValidCred.java:30)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 17 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1565206364", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1565206364'><pre>java.lang.AssertionError: expected [https://design.sniperai.com/recruiter/live-jobs] but found [https://design.sniperai.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred.recLoginValidCred(TC_0001_VerifyRecLogin_WithValidCred.java:30)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>7</td>
+<td>com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@c7045b9</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,40 +122,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername.RecLoginInvalidUsername()'><b>RecLoginInvalidUsername</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername</td>
+<td title='com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName.recLoginWithoutUsername()'><b>recLoginWithoutUsername</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName</td>
+<td></td>
+<td>0</td>
+<td>com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName@3e6f3f28</td></tr>
+<tr>
+<td title='com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword.recLoginWithoutPassowrd()'><b>recLoginWithoutPassowrd</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword</td>
+<td></td>
+<td>0</td>
+<td>com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword@7e19ebf0</td></tr>
+<tr>
+<td title='com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred.recLoginWithCanCred()'><b>recLoginWithCanCred</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred</td>
 <td></td>
 <td>1</td>
-<td>com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername@27508c5d</td></tr>
+<td>com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred@7357a011</td></tr>
 <tr>
-<td title='com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName.RecLoginWithoutUsername()'><b>RecLoginWithoutUsername</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName</td>
-<td></td>
-<td>0</td>
-<td>com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName@4b5189ac</td></tr>
-<tr>
-<td title='com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred.RecLoginInvalidCred()'><b>RecLoginInvalidCred</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred</td>
+<td title='com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred.recLoginInvalidCred()'><b>recLoginInvalidCred</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred</td>
 <td></td>
 <td>1</td>
-<td>com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred@4f704591</td></tr>
+<td>com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred@30bce90b</td></tr>
 <tr>
-<td title='com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred.RecLoginWithoutCred()'><b>RecLoginWithoutCred</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred</td>
+<td title='com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred.recLoginWithoutCred()'><b>recLoginWithoutCred</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred</td>
 <td></td>
 <td>0</td>
-<td>com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred@3ddc6915</td></tr>
+<td>com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred@2474f125</td></tr>
 <tr>
-<td title='com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass.RecLoginInvalidPass()'><b>RecLoginInvalidPass</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass</td>
+<td title='com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass.recLoginInvalidPass()'><b>recLoginInvalidPass</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass</td>
 <td></td>
 <td>1</td>
-<td>com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass@6f6745d6</td></tr>
+<td>com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass@f99f5e0</td></tr>
 <tr>
-<td title='com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred.RecLoginValidCred()'><b>RecLoginValidCred</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred</td>
+<td title='com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername.recLoginInvalidUsername()'><b>recLoginInvalidUsername</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername</td>
 <td></td>
-<td>0</td>
-<td>com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@1130520d</td></tr>
-<tr>
-<td title='com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword.RecLoginWithoutPassowrd()'><b>RecLoginWithoutPassowrd</b><br>Test class: com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword</td>
-<td></td>
-<td>0</td>
-<td>com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword@1e4d3ce5</td></tr>
+<td>1</td>
+<td>com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername@6aa61224</td></tr>
 </table><p>
 </body>
 </html>

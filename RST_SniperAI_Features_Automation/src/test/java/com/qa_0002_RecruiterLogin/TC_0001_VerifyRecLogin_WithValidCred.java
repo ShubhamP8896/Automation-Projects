@@ -1,4 +1,4 @@
-package com.qa_0002_RecruiterLogin;
+	package com.qa_0002_RecruiterLogin;
 
 import static org.testng.Assert.assertEquals;
 
@@ -19,7 +19,7 @@ public class TC_0001_VerifyRecLogin_WithValidCred extends A002_BaseTestRecruiter
 	
 	@TestCaseId("TC_001")
 	@Test
-	public void RecLoginValidCred()
+	public void recLoginValidCred()
 	{
 		String actualUrl = bu.getCurrentPageURL();
 		System.out.println("Actual URL : " + actualUrl );

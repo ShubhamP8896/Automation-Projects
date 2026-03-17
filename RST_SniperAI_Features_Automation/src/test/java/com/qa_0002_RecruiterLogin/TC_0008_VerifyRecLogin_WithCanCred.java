@@ -13,13 +13,13 @@ public class TC_0008_VerifyRecLogin_WithCanCred extends A001_BaseTest_BeforeLogi
 {
 	P0001_LoginPage lp = new P0001_LoginPage();
 	ElementsUtility eu = new ElementsUtility();
-	String canValidUsername = ConfigReader.getProperty("canValidUsername");
-	String canValidPassword = ConfigReader.getProperty("recInValidPassword");
+	String canValidUsername = ConfigReader.getProperty("canSecondaryEmail");
+	String canValidPassword = ConfigReader.getProperty("canSecondaryPassword");
 	String expectedAlertText = "Invalid user details";
 	
 	@TestCaseId("TC_008")
 	@Test
-	public void RecLoginWithCanCred()
+	public void recLoginWithCanCred()
 	{
 		lp.addUsername(canValidUsername);
 		lp.addPassword(canValidPassword);

@@ -19,7 +19,7 @@ public class TC_0002_VerifyRecLogin_WithInvalidPass extends A001_BaseTest_Before
 	
 	@TestCaseId("TC_002")
 	@Test
-	public void RecLoginInvalidPass()
+	public void recLoginInvalidPass()
 	{
 		lp.addUsername(recValidUsername);
 		lp.addPassword(recInValidPassword);

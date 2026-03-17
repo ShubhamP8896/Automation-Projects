@@ -83,7 +83,7 @@ public class TL_001_TestListeners implements ITestListener
         
 //      This is the static method we used to get the row number according to the test case ID.
         
-        int rowNum = ExcelUtility.getRowNumberByTestCaseID(ExcelFilePath, "LoginPage_Validation", testCaseId);
+        int rowNum = ExcelUtility.getRowNumberByTestCaseID(ExcelFilePath, excelSheetName, testCaseId);
         
         ExcelUtility.setCellData(ExcelFilePath, excelSheetName, rowNum, 3, testCaseId + ": Passed");
         ExcelUtility.fillGreenColor(ExcelFilePath, excelSheetName, rowNum, 3);
@@ -130,7 +130,7 @@ public class TL_001_TestListeners implements ITestListener
 
         System.out.println("Test Case Id: " + testCaseId);
         
-        int rowNum = ExcelUtility.getRowNumberByTestCaseID(ExcelFilePath, "LoginPage_Validation", testCaseId);
+        int rowNum = ExcelUtility.getRowNumberByTestCaseID(ExcelFilePath, excelSheetName, testCaseId);
 
         ExcelUtility.setCellData(ExcelFilePath, excelSheetName, rowNum, 3, testCaseId + ": Failed");
         ExcelUtility.fillRedColor(ExcelFilePath, excelSheetName, rowNum, 3);
@@ -154,7 +154,7 @@ public class TL_001_TestListeners implements ITestListener
         
         System.out.println("Test Case Id: " + testCaseId);
 
-        int rowNum = ExcelUtility.getRowNumberByTestCaseID(ExcelFilePath, "LoginPage_Validation", testCaseId);
+        int rowNum = ExcelUtility.getRowNumberByTestCaseID(ExcelFilePath, excelSheetName, testCaseId);
 
         ExcelUtility.setCellData(ExcelFilePath, excelSheetName, rowNum, 3, testCaseId + ": SKIPPED");
         ExcelUtility.fillRedColor(ExcelFilePath, excelSheetName, rowNum, 3);

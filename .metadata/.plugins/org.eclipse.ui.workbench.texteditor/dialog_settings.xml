@@ -4,6 +4,7 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="forge"/>
 			<item value="wait"/>
 			<item value="alerts"/>
 			<item value="testng"/>
@@ -18,7 +19,6 @@
 			<item value="driver"/>
 			<item value="log"/>
 			<item value="getDriver()"/>
-			<item value="extentreports"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

@@ -10,7 +10,7 @@
       <class name="com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred">
         <methods>
           <include name="setUp"/>
-          <include name="RecLoginValidCred"/>
+          <include name="recLoginValidCred"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred -->

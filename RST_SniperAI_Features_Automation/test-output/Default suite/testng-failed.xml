@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred">
+      <class name="com.qa_0004_ForgetPassword.TC0011_VerifyRecForgetPassword_InvalidEmail">
         <methods>
+          <include name="recForgetPassword_invalidEmail"/>
           <include name="setUp"/>
-          <include name="RecLoginValidCred"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred -->
+      </class> <!-- com.qa_0004_ForgetPassword.TC0011_VerifyRecForgetPassword_InvalidEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

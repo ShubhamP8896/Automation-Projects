@@ -76,10 +76,10 @@ public class P0001_LoginPage
 		System.out.println("Added Email in the forget password Email Input");
 	}
 	
-	private By forgotPasswordButton = By.xpath("(//input [@value='Reset password'])[1]");
-	public void clickforgetPasswordButton()
+	private By resetPasswordButton = By.xpath("(//input [@value='Reset password'])[1]");
+	public void clickResetPasswordButton()
 	{
-		eu.doClick(forgotPasswordButton);
+		eu.doClick(resetPasswordButton);
 		System.out.println("Clicked on the forget password button");
 	}
 	

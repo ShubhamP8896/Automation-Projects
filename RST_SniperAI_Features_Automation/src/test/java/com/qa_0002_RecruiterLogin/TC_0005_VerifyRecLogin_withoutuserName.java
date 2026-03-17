@@ -19,7 +19,7 @@ public class TC_0005_VerifyRecLogin_withoutuserName extends A001_BaseTest_Before
 	
 	@TestCaseId("TC_005")
 	@Test
-	public void RecLoginWithoutUsername()
+	public void recLoginWithoutUsername()
 	{
 		lp.addUsername("");
 		lp.addPassword(recValidPassword);
