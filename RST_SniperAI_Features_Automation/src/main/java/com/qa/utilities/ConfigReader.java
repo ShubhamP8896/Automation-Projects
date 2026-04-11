@@ -9,9 +9,11 @@ public class ConfigReader {
     private static Properties prop;
 
     // static block executes only once
-    static {
+    static
+    {
 
-        try {
+        try
+        {
             prop = new Properties();
 
             FileInputStream fis = new FileInputStream(

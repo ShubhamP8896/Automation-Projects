@@ -4,12 +4,12 @@ public class A006_Factorial
 {
 	public static void main(String[] args) {
 		
-		int num = 1;
+		int num = 5;
 		int fact = 1;
-		while(num<=5)
+		while(num>=1)
 		{
 			fact = fact*num;   
-			num++;
+			num--;
 		}
 		System.out.println(fact);
 		
