@@ -1,5 +1,7 @@
 package practiceExam040226;
 
+import java.util.Arrays;
+
 public class ArrayProgram 
 {
 	public static void main(String[] args) 
@@ -31,7 +33,7 @@ public class ArrayProgram
 			    rev[j] = a[i];
 			    j++;
 			}
-
+			
 			for (int i = 0; i < rev.length; i++)
 			{
 			    System.out.print(rev[i] + " ");

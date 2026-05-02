@@ -14,6 +14,7 @@ public class CollectionsClass {
 		Ar.add("Avir");
 		Ar.add("Golu");
 		
+		System.out.println(Ar);
 //		Sorting method of collections class
 		
 		Collections.sort(Ar);

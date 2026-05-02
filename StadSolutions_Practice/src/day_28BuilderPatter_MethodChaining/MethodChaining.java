@@ -9,7 +9,7 @@ public class MethodChaining
 		System.out.println("User name and password added successfully" + " Username: " + username + " Password : " + Password );
 		return this;              // used this to call directly with single object using method chaining. It will call the class object
 		
-//		return new MethodChaining();  >> we are able to do this alos but is will create a new object in the memmor when we call this
+//		return new MethodChaining();  >> we are able to do this alos but it will create a new object in the memmory when we call this
 //		and return this is used same object to call all the methods
 		
 	}

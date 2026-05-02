@@ -4,7 +4,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigReader {
+public class ConfigReader 
+{
 
     private static Properties prop;
 
@@ -39,7 +40,8 @@ public class ConfigReader {
 
         String value = prop.getProperty(key);
 
-        if (value == null) {
+        if (value == null) 
+        {
             throw new RuntimeException("Property not found: " + key);
         }
 

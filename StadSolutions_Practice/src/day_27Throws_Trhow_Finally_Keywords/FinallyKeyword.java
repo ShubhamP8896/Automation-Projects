@@ -34,12 +34,13 @@ public class FinallyKeyword
 		
 		try
 		{
-			a[1] = 5;
+			a[5] = 5;
 			System.out.println("Try");
 		}
 		catch (ArrayIndexOutOfBoundsException e) 
 		{
 			System.out.println("Catch - Array Out of bound");
+			e.printStackTrace();
 		}
 		finally          // finally block always after the catch block  and we are not able to write any code in between catch and finally block
 		{

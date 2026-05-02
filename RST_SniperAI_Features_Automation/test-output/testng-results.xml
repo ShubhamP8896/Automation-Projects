@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-14T18:23:30 IST" name="Default suite" finished-at="2026-03-14T18:23:44 IST" duration-ms="14135">
+  <suite started-at="2026-04-25T23:51:28 IST" name="SignupPageSuite" finished-at="2026-04-25T23:51:42 IST" duration-ms="13967">
     <groups>
     </groups>
-    <test started-at="2026-03-14T18:23:30 IST" name="Default test" finished-at="2026-03-14T18:23:44 IST" duration-ms="14135">
-      <class name="com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@68e5eea7]" started-at="2026-03-14T18:23:30 IST" name="setUp" finished-at="2026-03-14T18:23:38 IST" duration-ms="8462" status="PASS">
+    <test started-at="2026-04-25T23:51:28 IST" name="SignupPageTest" finished-at="2026-04-25T23:51:42 IST" duration-ms="13967">
+      <class name="com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData@f627d13]" started-at="2026-04-25T23:51:28 IST" name="setUp" finished-at="2026-04-25T23:51:36 IST" duration-ms="7860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="recLoginValidCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@68e5eea7]" started-at="2026-03-14T18:23:38 IST" name="recLoginValidCred" finished-at="2026-03-14T18:23:42 IST" duration-ms="4219" status="PASS">
+        <test-method signature="verifyInputFields()[pri:0, instance:com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData@f627d13]" started-at="2026-04-25T23:51:36 IST" name="verifyInputFields" finished-at="2026-04-25T23:51:40 IST" duration-ms="4041" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- recLoginValidCred -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@68e5eea7]" started-at="2026-03-14T18:23:42 IST" name="tearDown" finished-at="2026-03-14T18:23:44 IST" duration-ms="1388" status="PASS">
+        </test-method> <!-- verifyInputFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData@f627d13]" started-at="2026-04-25T23:51:42 IST" name="tearDown" finished-at="2026-04-25T23:51:42 IST" duration-ms="287" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=recLoginValidCred status=SUCCESS method=TC_0001_VerifyRecLogin_WithValidCred.recLoginValidCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@68e5eea7] output={null}]]]>
+                <![CDATA[[TestResult name=verifyInputFields status=SUCCESS method=TC0001_FieldsValidationsWithValidData.verifyInputFields()[pri:0, instance:com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData@f627d13] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData -->
+    </test> <!-- SignupPageTest -->
+  </suite> <!-- SignupPageSuite -->
 </testng-results>

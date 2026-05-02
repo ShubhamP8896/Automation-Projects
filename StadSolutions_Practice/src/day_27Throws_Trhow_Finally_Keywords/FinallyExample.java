@@ -8,7 +8,8 @@ public class FinallyExample
 		if (name.equals("Shubham"))                  // now check the use of finally block
 		{
 			
-			try {
+			try 
+			{
 			int ans = 9/0;
 			return 55;
 			}

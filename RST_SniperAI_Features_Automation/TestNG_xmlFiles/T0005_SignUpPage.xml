@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SignupPageSuite">
+<parameter name="sheetName" value="SignupPage"></parameter>
+<listeners>
+	<listener class-name="com.qa_0001_TestListeners.TL_001_TestListeners"></listener>
+</listeners>
+  <test thread-count="2" parallel="classes" name="SignupPageTest">
+    <classes>
+      <class name="com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData"/>
+    </classes>
+  </test> <!-- SignupPageTest -->
+</suite> <!-- SignupPageSuite -->

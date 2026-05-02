@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class StringManipulation_StringBuffer {
 	
-//	StringBuffer and StringBuilder are the classed of the java to use this we need to create an object
+//	StringBuffer and StringBuilder are the classes of the java to use this we need to create an object
 	public static void main(String[] args) {
 		
 		StringBuffer str = new StringBuffer("I love Java");   // it is an object and we pass string in the argument

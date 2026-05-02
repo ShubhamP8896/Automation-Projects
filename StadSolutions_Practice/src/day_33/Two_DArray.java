@@ -67,7 +67,7 @@ public class Two_DArray {
 		
 		System.out.println("For Loop");
 		
-		//Using the for loop >> we nee 2 for loops 
+		//Using the for loop >> we need 2 for loops 
 		
 				for (int i = 0; i<b.length; i++)
 				{
