@@ -24,7 +24,6 @@ public class IFrames
 		By textBottom = By.xpath("//code[text()='(bot.html)']");
 		By frameMain = By.xpath("//frame[contains(@name,'main')]");
 		
-		
 		WebElement mainFrame = eu.getElement(frameMain);
 		
 		WebElement BottomFrame = driver.findElement(By.xpath("//frame[@name='bot']"));

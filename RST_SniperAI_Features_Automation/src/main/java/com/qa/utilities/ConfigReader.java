@@ -28,7 +28,7 @@ public class ConfigReader
         {
 
             e.printStackTrace();
-            throw new RuntimeException("Failed to load config.properties");
+            throw new ExceptionsUtility("Failed to load config.properties");
 
         }
 
@@ -42,7 +42,7 @@ public class ConfigReader
 
         if (value == null) 
         {
-            throw new RuntimeException("Property not found: " + key);
+            throw new ExceptionsUtility("Property not found: " + key);
         }
 
         return value.trim();

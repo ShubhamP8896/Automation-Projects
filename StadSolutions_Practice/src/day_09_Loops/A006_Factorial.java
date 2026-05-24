@@ -2,24 +2,26 @@ package day_09_Loops;
 
 public class A006_Factorial 
 {
-	public static void main(String[] args) {
-		
-		int num = 5;
-		int fact = 1;
-		while(num>=1)
+	public static void main(String[] args) 
+	{
+		for(int i = 4; i >= 0; i--)
 		{
-			fact = fact*num;   
-			num--;
+			for(int j = i * 2; j > 0; j -- )
+			{
+				System.out.print(" ");
+			}
+			
+			for(int k = 5-i ; k > 0; k -- )
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+			
+			
+			
 		}
-		System.out.println(fact);
 		
 		
-		int fact1 = 1;
-		for(int i = 1; i<=5; i++)
-		{
-			fact1=fact1*i;
-		}
-		System.out.println(fact1);
 	}
 
 }

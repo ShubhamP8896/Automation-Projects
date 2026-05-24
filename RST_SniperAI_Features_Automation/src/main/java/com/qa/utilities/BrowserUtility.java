@@ -67,13 +67,13 @@ public class BrowserUtility
 	public void launchURL(String url)
 	{
 //		I handled this as per my code we are able to use differently also
-		if((url==null) || url.equals("") || !url.contains("http") || !url.contains("https"))
+		if((url==null) || url.isEmpty() || (!url.contains("http:") || !url.contains("https:")))
 		{
 			throw new ExceptionsUtility("URL is not Valid : Please re-check your URL");
 		}
 		getDriver().get(url);
 		System.out.println("URL is valid and Opened");
-		DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 	
 	public void MaximizeWindow()

@@ -15,9 +15,11 @@ public class DriverFactory {
 //    this is for initialize the driver and open the browser
     public static WebDriver launchBrowser_initDriver(String browserName) {
 
-        if (driver.get() == null) {
+        if (driver.get() == null)
+        {
 
-            if (browserName == null) {
+            if (browserName == null) 
+            {
                 throw new ExceptionsUtility("Browser Name is Null");
             }
 

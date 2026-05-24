@@ -8,19 +8,20 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">ParallelExecution</th></tr>
-<tr><td><a href="#t0">CeateAccountFeature</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12,459</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">LoginFeature</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16,276</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">28,735</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,490</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">ParallelExecution</th></tr></tbody><tbody id="t0"><tr><th colspan="4">CeateAccountFeature &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">runner.CreateAccountRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1769948952960</td><td rowspan="1">7545</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">LoginFeature &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">runner.LoginFeatureRunner</td><td><a href="#m1">runScenario</a></td><td rowspan="1">1769948959186</td><td rowspan="1">7896</td></tr><tr><th colspan="4">LoginFeature &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">runner.LoginFeatureRunner</td><td><a href="#m2">runScenario</a></td><td rowspan="1">1769948952960</td><td rowspan="1">6215</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">runner.LoginFeatureRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1778651557233</td><td rowspan="1">6865</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">runner.LoginFeatureRunner</td><td><a href="#m1">runScenario</a></td><td rowspan="1">1778651545692</td><td rowspan="1">11536</td></tr></tbody>
 </table>
-<h2>CeateAccountFeature</h2><h3 id="m0">runner.CreateAccountRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;create an account with valid details&quot;</td><td>&quot;create account&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>LoginFeature</h2><h3 id="m1">runner.LoginFeatureRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with valid credentials&quot;</td><td>&quot;Login functionality&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Passed expected [My Account] but found [Account Login]
+<h2>Default test</h2><h3 id="m0">runner.LoginFeatureRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with valid credentials&quot;</td><td>&quot;Login functionality&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Passed expected [My Account] but found [Account Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
 	at stepDefinations.LoginFunctionality.then_user_get_dashboard_page_title(LoginFunctionality.java:73)
 	at ✽.then user get Dashboard page title &quot;My Account&quot;(file:///C:/Users/ADMIN/eclipse-workspace/Stad_CucumberPOM_Practice/src/test/resources/features/01_loginFunctionality.feature:15)
-... Removed 5 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">runner.LoginFeatureRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verify the web page&quot;</td><td>&quot;Login functionality&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">runner.LoginFeatureRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Verify the web page&quot;</td><td>&quot;Login functionality&quot;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

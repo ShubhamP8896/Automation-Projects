@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="3" name="HandleWindowsSuite">
+
+  <test name="HandleWindowsTest_Frefox">
+  <parameter name="bN" value="firefox"></parameter>
+    <classes>
+      <class name="myPractice.HandleMultipleWindows"/>
+    </classes>
+  </test> <!-- HandleWindowsTest -->
+  
+    <test name="HandleWindowsTest_Chrome">
+  <parameter name="bN" value="chrome"></parameter>
+    <classes>
+      <class name="myPractice.HandleMultipleWindows"/>
+    </classes>
+  </test> <!-- HandleWindowsTest -->
+  
+</suite> <!-- HandleWindowsSuite -->

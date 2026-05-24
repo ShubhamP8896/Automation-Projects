@@ -10,7 +10,8 @@ import io.restassured.response.Response;
 public class ProductTest extends BaseTest {
 
     @Test
-    public void verifyGetAllProducts() {
+    public void verifyGetAllProducts() 
+    {
 
         Response response = ProductClient.getAllProducts();
 

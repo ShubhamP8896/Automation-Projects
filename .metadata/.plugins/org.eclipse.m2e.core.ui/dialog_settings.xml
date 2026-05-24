@@ -28,6 +28,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="practiceForInterview.stad_MyPractice"/>
 			<item value="RST_SniperAI_Features_Automation.RST_SniperAI_Features_Automation"/>
 			<item value="RestAssured_1st11.RestAssuredProject_Ecommerce"/>
 			<item value="RestAssured_1st.Stad_RestAssured"/>
@@ -39,6 +40,7 @@
 			<item value="StadSolutions_Maven1.Maven_First"/>
 		</list>
 		<list key="groupId">
+			<item value="practiceForInterview"/>
 			<item value="RST_SniperAI_Features_Automation"/>
 			<item value="RestAssured_1st11"/>
 			<item value="RestAssured_1st"/>
@@ -50,6 +52,7 @@
 			<item value="StadSolutions_Maven1"/>
 		</list>
 		<list key="artifactId">
+			<item value="stad_MyPractice"/>
 			<item value="RST_SniperAI_Features_Automation"/>
 			<item value="RestAssuredProject_Ecommerce"/>
 			<item value="Stad_RestAssured"/>

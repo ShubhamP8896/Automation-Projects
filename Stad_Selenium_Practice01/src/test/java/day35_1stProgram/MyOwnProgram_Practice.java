@@ -43,7 +43,4 @@ public class MyOwnProgram_Practice
 	{
 		driver.close();
 	}
-	
-	
-
 }
