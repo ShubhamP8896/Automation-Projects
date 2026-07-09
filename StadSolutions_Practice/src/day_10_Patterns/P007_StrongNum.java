@@ -4,7 +4,7 @@ public class P007_StrongNum {
 	public static void main(String[] args) 
 	{
 		int num = 145;
-		int sum =0;
+		int sum = 0;
 		while(num>0)
 		{
 			int digit = num%10;

@@ -31,6 +31,10 @@ public class DriverFactory
 	
 	public static WebDriver getDriver()
 	{
+		if(driver.get() == null)
+	    {
+	        throw new RuntimeException("WebDriver is not initialized. Call launchBrowser_initDriver() first.");
+	    }
 		return driver.get();
 	}
 	

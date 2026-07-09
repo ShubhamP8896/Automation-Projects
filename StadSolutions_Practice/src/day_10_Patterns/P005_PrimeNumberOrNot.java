@@ -11,7 +11,7 @@ public class P005_PrimeNumberOrNot
 		}
 		else
 		{
-			for(int i = 2 ; i <= num / 2; i ++)
+			for(int i = 2 ; i < num; i ++)
 			{
 				if(num % i == 0)
 				{
@@ -35,12 +35,28 @@ public class P005_PrimeNumberOrNot
 	{
 		int num = 0;
 		
-		while(num<=100)
+		while(num<=10)
 		{
 			P005_PrimeNumberOrNot.isPrimeNum(num);
 			num++;
 		}
 		
+		
+		int nums=11;
+
+		boolean prime=true;
+
+		for(int i=2;i<nums;i++)
+		{
+		    if(nums%i==0)
+		    {
+		        prime=false;
+		        break;
+		    }
+		}
+
+		System.out.println(prime);
+	
 		
 	}
 

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="myPractice.HandleMultipleWindows">
+      <class name="day70_ListenersTestNG.TestClass_2">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testMultipleWindows"/>
+          <include name="test2"/>
+          <include name="test4"/>
+          <include name="test3"/>
         </methods>
-      </class> <!-- myPractice.HandleMultipleWindows -->
+      </class> <!-- day70_ListenersTestNG.TestClass_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

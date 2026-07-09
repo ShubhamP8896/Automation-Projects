@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-04T23:16:42 IST" name="Default suite" finished-at="2026-05-04T23:16:47 IST" duration-ms="4888">
+  <suite started-at="2026-06-14T18:19:48 IST" name="RestA_Suite" finished-at="2026-06-14T18:19:59 IST" duration-ms="10624">
     <groups>
     </groups>
-    <test started-at="2026-05-04T23:16:42 IST" name="Default test" finished-at="2026-05-04T23:16:47 IST" duration-ms="4888">
+    <test started-at="2026-06-14T18:19:48 IST" name="ProductTest" finished-at="2026-06-14T18:19:51 IST" duration-ms="3151">
       <class name="tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6a2f6f80]" started-at="2026-05-04T23:16:42 IST" name="setup" finished-at="2026-05-04T23:16:42 IST" duration-ms="658" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@33c911a1]" started-at="2026-06-14T18:19:48 IST" name="setup" finished-at="2026-06-14T18:19:49 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyGetAllProducts()[pri:0, instance:tests.ProductTest@6a2f6f80]" started-at="2026-05-04T23:16:42 IST" name="verifyGetAllProducts" finished-at="2026-05-04T23:16:46 IST" duration-ms="3551" status="PASS">
+        <test-method signature="verifyGetAllProducts()[pri:0, instance:tests.ProductTest@33c911a1]" started-at="2026-06-14T18:19:49 IST" name="verifyGetAllProducts" finished-at="2026-06-14T18:19:51 IST" duration-ms="2147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGetAllProducts -->
-        <test-method signature="verifyGetSingleProduct()[pri:0, instance:tests.ProductTest@6a2f6f80]" started-at="2026-05-04T23:16:46 IST" name="verifyGetSingleProduct" finished-at="2026-05-04T23:16:47 IST" duration-ms="618" status="PASS">
+        <test-method signature="verifyGetSingleProduct()[pri:0, instance:tests.ProductTest@33c911a1]" started-at="2026-06-14T18:19:51 IST" name="verifyGetSingleProduct" finished-at="2026-06-14T18:19:51 IST" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyGetSingleProduct -->
       </class> <!-- tests.ProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- ProductTest -->
+    <test started-at="2026-06-14T18:19:51 IST" name="CartTest" finished-at="2026-06-14T18:19:55 IST" duration-ms="3516">
+      <class name="tests.CartTest">
+        <test-method signature="createCartTest()[pri:1, instance:tests.CartTest@6a03bcb1]" started-at="2026-06-14T18:19:51 IST" name="createCartTest" finished-at="2026-06-14T18:19:53 IST" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCartTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@6a03bcb1]" started-at="2026-06-14T18:19:51 IST" name="setup" finished-at="2026-06-14T18:19:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addItemTest()[pri:2, instance:tests.CartTest@6a03bcb1]" started-at="2026-06-14T18:19:53 IST" name="addItemTest" finished-at="2026-06-14T18:19:54 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemTest -->
+        <test-method signature="getCartItemsTest()[pri:3, instance:tests.CartTest@6a03bcb1]" started-at="2026-06-14T18:19:54 IST" name="getCartItemsTest" finished-at="2026-06-14T18:19:55 IST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCartItemsTest -->
+      </class> <!-- tests.CartTest -->
+    </test> <!-- CartTest -->
+    <test started-at="2026-06-14T18:19:55 IST" name="AuthTest" finished-at="2026-06-14T18:19:56 IST" duration-ms="906">
+      <class name="tests.AuthTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AuthTest@2118cddf]" started-at="2026-06-14T18:19:55 IST" name="setup" finished-at="2026-06-14T18:19:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAuth()[pri:0, instance:tests.AuthTest@2118cddf]" started-at="2026-06-14T18:19:55 IST" name="verifyAuth" finished-at="2026-06-14T18:19:56 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuth -->
+      </class> <!-- tests.AuthTest -->
+    </test> <!-- AuthTest -->
+    <test started-at="2026-06-14T18:19:56 IST" name="OrderTest" finished-at="2026-06-14T18:19:59 IST" duration-ms="2983">
+      <class name="tests.OrderTest">
+        <test-method is-config="true" signature="setupToken()[pri:0, instance:tests.OrderTest@2f54a33d]" started-at="2026-06-14T18:19:56 IST" name="setupToken" finished-at="2026-06-14T18:19:57 IST" duration-ms="1075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupToken -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OrderTest@2f54a33d]" started-at="2026-06-14T18:19:56 IST" name="setup" finished-at="2026-06-14T18:19:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createOrderTest()[pri:1, instance:tests.OrderTest@2f54a33d]" started-at="2026-06-14T18:19:57 IST" name="createOrderTest" finished-at="2026-06-14T18:19:58 IST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrderTest -->
+        <test-method signature="getOrderTest()[pri:2, instance:tests.OrderTest@2f54a33d]" started-at="2026-06-14T18:19:58 IST" name="getOrderTest" finished-at="2026-06-14T18:19:59 IST" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOrderTest -->
+      </class> <!-- tests.OrderTest -->
+    </test> <!-- OrderTest -->
+  </suite> <!-- RestA_Suite -->
 </testng-results>

@@ -1,32 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-25T23:51:28 IST" name="SignupPageSuite" finished-at="2026-04-25T23:51:42 IST" duration-ms="13967">
+  <suite started-at="2026-06-28T17:24:52 IST" name="RecruiterLogin_Suite" finished-at="2026-06-28T17:25:23 IST" duration-ms="31050">
     <groups>
     </groups>
-    <test started-at="2026-04-25T23:51:28 IST" name="SignupPageTest" finished-at="2026-04-25T23:51:42 IST" duration-ms="13967">
-      <class name="com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData@f627d13]" started-at="2026-04-25T23:51:28 IST" name="setUp" finished-at="2026-04-25T23:51:36 IST" duration-ms="7860" status="PASS">
+    <test started-at="2026-06-28T17:24:52 IST" name="RecruiterLogin_Test" finished-at="2026-06-28T17:25:23 IST" duration-ms="31050">
+      <class name="com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@748741cb]" started-at="2026-06-28T17:24:52 IST" name="setUp" finished-at="2026-06-28T17:24:58 IST" duration-ms="5683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyInputFields()[pri:0, instance:com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData@f627d13]" started-at="2026-04-25T23:51:36 IST" name="verifyInputFields" finished-at="2026-04-25T23:51:40 IST" duration-ms="4041" status="PASS">
+        <test-method signature="recLoginValidCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@748741cb]" started-at="2026-06-28T17:24:58 IST" name="recLoginValidCred" finished-at="2026-06-28T17:25:02 IST" duration-ms="4747" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyInputFields -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData@f627d13]" started-at="2026-04-25T23:51:42 IST" name="tearDown" finished-at="2026-04-25T23:51:42 IST" duration-ms="287" status="PASS">
+        </test-method> <!-- recLoginValidCred -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@748741cb]" started-at="2026-06-28T17:25:04 IST" name="tearDown" finished-at="2026-06-28T17:25:05 IST" duration-ms="1240" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyInputFields status=SUCCESS method=TC0001_FieldsValidationsWithValidData.verifyInputFields()[pri:0, instance:com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData@f627d13] output={null}]]]>
+                <![CDATA[[TestResult name=recLoginValidCred status=SUCCESS method=TC_0001_VerifyRecLogin_WithValidCred.recLoginValidCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred@748741cb] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa_005_SignUp.TC0001_FieldsValidationsWithValidData -->
-    </test> <!-- SignupPageTest -->
-  </suite> <!-- SignupPageSuite -->
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred@4f704591]" started-at="2026-06-28T17:25:16 IST" name="setUp" finished-at="2026-06-28T17:25:20 IST" duration-ms="3715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recLoginWithoutCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred@4f704591]" started-at="2026-06-28T17:25:20 IST" name="recLoginWithoutCred" finished-at="2026-06-28T17:25:20 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recLoginWithoutCred -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred@4f704591]" started-at="2026-06-28T17:25:20 IST" name="tearDown" finished-at="2026-06-28T17:25:21 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recLoginWithoutCred status=SUCCESS method=TC_0007_VerifyRecLogin_withoutCred.recLoginWithoutCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred@4f704591] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass@42a15bdc]" started-at="2026-06-28T17:24:52 IST" name="setUp" finished-at="2026-06-28T17:25:03 IST" duration-ms="11225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recLoginInvalidPass()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass@42a15bdc]" started-at="2026-06-28T17:25:03 IST" name="recLoginInvalidPass" finished-at="2026-06-28T17:25:04 IST" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recLoginInvalidPass -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass@42a15bdc]" started-at="2026-06-28T17:25:05 IST" name="tearDown" finished-at="2026-06-28T17:25:05 IST" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recLoginInvalidPass status=SUCCESS method=TC_0002_VerifyRecLogin_WithInvalidPass.recLoginInvalidPass()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass@42a15bdc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName@6f6745d6]" started-at="2026-06-28T17:25:11 IST" name="setUp" finished-at="2026-06-28T17:25:15 IST" duration-ms="3972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recLoginWithoutUsername()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName@6f6745d6]" started-at="2026-06-28T17:25:15 IST" name="recLoginWithoutUsername" finished-at="2026-06-28T17:25:16 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recLoginWithoutUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName@6f6745d6]" started-at="2026-06-28T17:25:16 IST" name="tearDown" finished-at="2026-06-28T17:25:16 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recLoginWithoutUsername status=SUCCESS method=TC_0005_VerifyRecLogin_withoutuserName.recLoginWithoutUsername()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName@6f6745d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword@27508c5d]" started-at="2026-06-28T17:25:11 IST" name="setUp" finished-at="2026-06-28T17:25:16 IST" duration-ms="4616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recLoginWithoutPassowrd()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword@27508c5d]" started-at="2026-06-28T17:25:16 IST" name="recLoginWithoutPassowrd" finished-at="2026-06-28T17:25:16 IST" duration-ms="442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recLoginWithoutPassowrd -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword@27508c5d]" started-at="2026-06-28T17:25:16 IST" name="tearDown" finished-at="2026-06-28T17:25:17 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recLoginWithoutPassowrd status=SUCCESS method=TC_0006_VerifyRecLogin_withoutPassword.recLoginWithoutPassowrd()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword@27508c5d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred@4b5189ac]" started-at="2026-06-28T17:25:17 IST" name="setUp" finished-at="2026-06-28T17:25:21 IST" duration-ms="4698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recLoginWithCanCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred@4b5189ac]" started-at="2026-06-28T17:25:21 IST" name="recLoginWithCanCred" finished-at="2026-06-28T17:25:22 IST" duration-ms="1185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recLoginWithCanCred -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred@4b5189ac]" started-at="2026-06-28T17:25:23 IST" name="tearDown" finished-at="2026-06-28T17:25:23 IST" duration-ms="231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recLoginWithCanCred status=SUCCESS method=TC_0008_VerifyRecLogin_WithCanCred.recLoginWithCanCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred@4b5189ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred@27e47833]" started-at="2026-06-28T17:25:05 IST" name="setUp" finished-at="2026-06-28T17:25:10 IST" duration-ms="4375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recLoginInvalidCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred@27e47833]" started-at="2026-06-28T17:25:10 IST" name="recLoginInvalidCred" finished-at="2026-06-28T17:25:11 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recLoginInvalidCred -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred@27e47833]" started-at="2026-06-28T17:25:11 IST" name="tearDown" finished-at="2026-06-28T17:25:11 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recLoginInvalidCred status=SUCCESS method=TC_0004_VerifyRecLogin_WithInvalidCred.recLoginInvalidCred()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred@27e47833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername@44a59da3]" started-at="2026-06-28T17:25:05 IST" name="setUp" finished-at="2026-06-28T17:25:09 IST" duration-ms="4513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recLoginInvalidUsername()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername@44a59da3]" started-at="2026-06-28T17:25:09 IST" name="recLoginInvalidUsername" finished-at="2026-06-28T17:25:10 IST" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recLoginInvalidUsername -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername@44a59da3]" started-at="2026-06-28T17:25:11 IST" name="tearDown" finished-at="2026-06-28T17:25:11 IST" duration-ms="195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recLoginInvalidUsername status=SUCCESS method=TC_0003_VerifyRecLogin_WithInvalidUsername.recLoginInvalidUsername()[pri:0, instance:com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername@44a59da3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername -->
+    </test> <!-- RecruiterLogin_Test -->
+  </suite> <!-- RecruiterLogin_Suite -->
 </testng-results>

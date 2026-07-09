@@ -7,6 +7,48 @@
   </listeners>
   <test thread-count="5" parallel="classes" name="RecruiterLogin_Test(failed)">
     <classes>
+      <class name="com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword">
+        <methods>
+          <include name="recLoginWithoutPassowrd"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername">
+        <methods>
+          <include name="setUp"/>
+          <include name="recLoginInvalidUsername"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="recLoginWithoutUsername"/>
+        </methods>
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="recLoginWithoutCred"/>
+        </methods>
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass">
+        <methods>
+          <include name="recLoginInvalidPass"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred">
+        <methods>
+          <include name="recLoginInvalidCred"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred -->
       <class name="com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred">
         <methods>
           <include name="setUp"/>
@@ -14,6 +56,13 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred -->
+      <class name="com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred">
+        <methods>
+          <include name="recLoginWithCanCred"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred -->
     </classes>
   </test> <!-- RecruiterLogin_Test(failed) -->
 </suite> <!-- Failed suite [RecruiterLogin_Suite] -->

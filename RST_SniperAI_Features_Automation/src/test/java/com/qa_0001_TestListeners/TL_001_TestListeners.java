@@ -34,7 +34,7 @@ public class TL_001_TestListeners implements ITestListener
     }
     
 /**
- * On the testStart the report is started to gerate.    
+ * On the testStart the report is started to generate.    
  */
     @Override
     public void onTestStart(ITestResult result)

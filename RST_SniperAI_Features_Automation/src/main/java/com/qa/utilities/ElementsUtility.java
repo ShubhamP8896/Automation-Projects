@@ -40,7 +40,7 @@ public class ElementsUtility
 //	private WebDriver driver;
 	
 	// ✅ Constructor   : it is because we have to use the same driver who having same session ID.
-	///we didn;t use this now
+	///we didn't use this now
 //    public ElementsUtility(WebDriver driver) 
 //    {
 //        this.driver = driver;

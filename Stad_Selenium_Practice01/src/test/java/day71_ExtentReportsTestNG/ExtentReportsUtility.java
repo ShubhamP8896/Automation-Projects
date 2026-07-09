@@ -2,6 +2,7 @@ package day71_ExtentReportsTestNG;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 import org.testng.ITestContext;
@@ -22,8 +23,9 @@ public class ExtentReportsUtility implements ITestListener
 	public void onStart(ITestContext context)
 	{
 //		Code for generate the report with date and time: Because of this existing reports are not removed
+		String currentDateTime = LocalDateTime.now().toString().replace(":", "_");  // Both time formats we are able to use
 		String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HH-mm-ss").format(new Date());
-		String repName = "TestReport-" + timeStamp +".html";
+		String repName = "TestReport-" + currentDateTime +".html";
 		SparkReporter = new ExtentSparkReporter(".\\reports\\" + repName);
 		
 //		Below code is the hard coded, when we generate new report then existing is removed 

@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="carts_and_orders.CartsAndOrdersMethods">
+      <class name="practice_restFul_Booker.P001_getBooking_Ids">
         <methods>
-          <include name="addItemsIntoCart"/>
-          <include name="createAndGetCart"/>
-          <include name="setup"/>
-          <include name="createNewOrder"/>
-          <include name="updateOrder"/>
+          <include name="setUp"/>
+          <include name="getSpecificId"/>
         </methods>
-      </class> <!-- carts_and_orders.CartsAndOrdersMethods -->
+      </class> <!-- practice_restFul_Booker.P001_getBooking_Ids -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
