@@ -1,45 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-30T19:56:48 IST" name="Default suite" finished-at="2026-05-30T19:56:48 IST" duration-ms="77">
+  <suite started-at="2026-07-11T21:59:58 IST" name="Suite" finished-at="2026-07-11T22:00:05 IST" duration-ms="7893">
     <groups>
     </groups>
-    <test started-at="2026-05-30T19:56:48 IST" name="Default test" finished-at="2026-05-30T19:56:48 IST" duration-ms="77">
-      <class name="com.qa_001_baseTest.DataProviderMyPract">
-        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:com.qa_001_baseTest.DataProviderMyPract@7530ad9c]" started-at="2026-05-30T19:56:48 IST" name="test" data-provider="dp" finished-at="2026-05-30T19:56:48 IST" duration-ms="10" status="PASS">
+    <test started-at="2026-07-11T21:59:58 IST" name="Test" finished-at="2026-07-11T22:00:05 IST" duration-ms="7893">
+      <class name="com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData@766653e6]" started-at="2026-07-11T21:59:58 IST" name="setUp" finished-at="2026-07-11T22:00:03 IST" duration-ms="4972" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[shubham@test.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:com.qa_001_baseTest.DataProviderMyPract@7530ad9c]" started-at="2026-05-30T19:56:48 IST" name="test" data-provider="dp" finished-at="2026-05-30T19:56:48 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shubham123@test.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@321]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegistrationWithValidData()[pri:0, instance:com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData@766653e6]" started-at="2026-07-11T22:00:03 IST" name="verifyRegistrationWithValidData" finished-at="2026-07-11T22:00:04 IST" duration-ms="1430" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.qa_001_baseTest.DataProviderMyPract -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verifyRegistrationWithValidData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData@766653e6]" started-at="2026-07-11T22:00:05 IST" name="tearDown" finished-at="2026-07-11T22:00:05 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

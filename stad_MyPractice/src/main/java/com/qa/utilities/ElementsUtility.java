@@ -1,10 +1,13 @@
 package com.qa.utilities;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.qa.driverFactory.DriverFactory;
 
@@ -12,49 +15,41 @@ public class ElementsUtility
 {
 	public WebDriver getDriver()
 	{
-		return DriverFactory.getDriver();
+		WebDriver driver = DriverFactory.getDriver();
+		if(driver == null)
+		{
+			throw new ExceptionUtility("WebDriver is not initialized. Please launch the browser first.");
+		}
+		
+		return driver;
 	}
 	
-	public WebElement getSingleElement(By Locator)
+	public WebElement getElement(By locator)
 	{
-		return getDriver().findElement(Locator);
+		WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
+		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
 	
-	public List<WebElement> getMultipleElements(By locator)
+	public List<WebElement> getElements(By locator)
 	{
-		return getDriver().findElements(locator);
+		WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(10));
+		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}
 	
-	public void addInput(String Value, By locator)
+	public void addInput(By locator, String value)
 	{
-		getSingleElement(locator).sendKeys(Value);
+		getElement(locator).sendKeys(value);
 	}
 	
 	public void doClick(By locator)
 	{
-		getSingleElement(locator).click();
+		getElement(locator).click();
 	}
 	
 	public void doClear(By locator)
 	{
-		getSingleElement(locator).clear();
+		getElement(locator).clear();
 	}
 	
-	public String getText(By locator)
-	{
-		return getSingleElement(locator).getText();
-	}
 
-	public String getTagName(By locator)
-	{
-		return getSingleElement(locator).getTagName();
-	}
-	 
-	public String getAttribute(By locator, String attributeName)
-	{
-		return getSingleElement(locator).getAttribute(attributeName);
-	}
-	
-	
-	
 }

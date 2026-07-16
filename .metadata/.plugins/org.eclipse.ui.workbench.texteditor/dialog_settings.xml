@@ -4,6 +4,8 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="JavascriptExecutor js = (JavascriptExecutor) getDriver();"/>
+			<item value="js."/>
 			<item value="java"/>
 			<item value="snapshot"/>
 			<item value="forge"/>
@@ -17,8 +19,9 @@
 			<item value="snap"/>
 			<item value="select"/>
 			<item value="alert"/>
-			<item value="list"/>
-			<item value="driver"/>
+		</list>
+		<list key="replacehistory">
+			<item value="getJsExecutor()."/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

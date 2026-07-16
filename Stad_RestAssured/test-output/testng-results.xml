@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-06T23:55:56 IST" name="Default suite" finished-at="2026-07-06T23:56:01 IST" duration-ms="4754">
+  <suite started-at="2026-07-12T19:47:53 IST" name="Default suite" finished-at="2026-07-12T19:47:57 IST" duration-ms="4009">
     <groups>
     </groups>
-    <test started-at="2026-07-06T23:55:56 IST" name="Default test" finished-at="2026-07-06T23:56:01 IST" duration-ms="4754">
+    <test started-at="2026-07-12T19:47:53 IST" name="Default test" finished-at="2026-07-12T19:47:57 IST" duration-ms="4009">
       <class name="practice_restFul_Booker.P001_getBooking_Ids">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:practice_restFul_Booker.P001_getBooking_Ids@1e66f1f5]" started-at="2026-07-06T23:55:56 IST" name="setUp" finished-at="2026-07-06T23:55:57 IST" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practice_restFul_Booker.P001_getBooking_Ids@1e66f1f5]" started-at="2026-07-12T19:47:53 IST" name="setUp" finished-at="2026-07-12T19:47:54 IST" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getBookingAllIds()[pri:1, instance:practice_restFul_Booker.P001_getBooking_Ids@1e66f1f5]" started-at="2026-07-06T23:55:57 IST" name="getBookingAllIds" finished-at="2026-07-06T23:56:01 IST" duration-ms="4059" status="PASS">
+        <test-method signature="getBookingAllIds()[pri:1, instance:practice_restFul_Booker.P001_getBooking_Ids@1e66f1f5]" started-at="2026-07-12T19:47:54 IST" name="getBookingAllIds" finished-at="2026-07-12T19:47:57 IST" duration-ms="3506" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getBookingAllIds -->

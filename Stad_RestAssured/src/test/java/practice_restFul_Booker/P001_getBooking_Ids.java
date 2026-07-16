@@ -17,7 +17,8 @@ public class P001_getBooking_Ids extends A001_BaseTest
 			.get("/booking")
 		.then()
 			.statusCode(200)
-			.statusLine("HTTP/1.1 200 OK")
+			.statusLine(containsString("OK"))
+//			.statusLine("HTTP/1.1 200 OK")    Or direct pass this
 			.log().body()
 			.extract()
 			.response();
