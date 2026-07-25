@@ -2,24 +2,31 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-18T15:55:10 IST" name="Default suite" finished-at="2025-10-18T15:55:16 IST" duration-ms="6109">
+  <suite started-at="2026-07-25T18:14:54 IST" name="Suite" finished-at="2026-07-25T18:15:06 IST" duration-ms="12697">
     <groups>
     </groups>
-    <test started-at="2025-10-18T15:55:10 IST" name="Default test" finished-at="2025-10-18T15:55:16 IST" duration-ms="6109">
+    <test started-at="2026-07-25T18:14:54 IST" name="Test" finished-at="2026-07-25T18:15:06 IST" duration-ms="12697">
       <class name="day35_1stProgram.MyOwnProgram_Practice">
-        <test-method is-config="true" signature="Set()[pri:0, instance:day35_1stProgram.MyOwnProgram_Practice@7e6f74c]" started-at="2025-10-18T15:55:10 IST" name="Set" finished-at="2025-10-18T15:55:16 IST" duration-ms="5908" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:day35_1stProgram.MyOwnProgram_Practice@44c03695]" started-at="2026-07-25T18:14:54 IST" name="SetUp" finished-at="2026-07-25T18:15:05 IST" duration-ms="11056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Set -->
-        <test-method signature="TestCase()[pri:0, instance:day35_1stProgram.MyOwnProgram_Practice@7e6f74c]" started-at="2025-10-18T15:55:16 IST" name="TestCase" finished-at="2025-10-18T15:55:16 IST" duration-ms="21" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestCase()[pri:0, instance:day35_1stProgram.MyOwnProgram_Practice@44c03695]" started-at="2026-07-25T18:15:05 IST" name="TestCase" finished-at="2026-07-25T18:15:05 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCase -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:day35_1stProgram.MyOwnProgram_Practice@7e6f74c]" started-at="2025-10-18T15:55:16 IST" name="tearDown" finished-at="2025-10-18T15:55:16 IST" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day35_1stProgram.MyOwnProgram_Practice@44c03695]" started-at="2026-07-25T18:15:05 IST" name="tearDown" finished-at="2026-07-25T18:15:06 IST" duration-ms="1497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- day35_1stProgram.MyOwnProgram_Practice -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

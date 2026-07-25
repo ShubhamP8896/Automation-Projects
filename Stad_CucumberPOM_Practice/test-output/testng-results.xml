@@ -1,95 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-30T20:02:56 IST" name="Default suite" finished-at="2026-05-30T20:03:14 IST" duration-ms="18443">
+  <suite started-at="2026-07-16T23:20:36 IST" name="Default suite" finished-at="2026-07-16T23:20:45 IST" duration-ms="9844">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@7ee8290b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.P001_Reg_Runner@33c911a1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-05-30T20:02:56 IST" name="Default test" finished-at="2026-05-30T20:03:14 IST" duration-ms="18443">
-      <class name="runner.MyRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.MyRunner@7ee8290b]" started-at="2026-05-30T20:02:56 IST" name="setUpClass" finished-at="2026-05-30T20:02:57 IST" duration-ms="1218" status="PASS">
+    <test started-at="2026-07-16T23:20:36 IST" name="Default test" finished-at="2026-07-16T23:20:45 IST" duration-ms="9844">
+      <class name="runner.P001_Reg_Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.P001_Reg_Runner@33c911a1]" started-at="2026-07-16T23:20:36 IST" name="setUpClass" finished-at="2026-07-16T23:20:37 IST" duration-ms="1062" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3db663d0]]>
+                <![CDATA[org.testng.TestRunner@17c2d509]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@7ee8290b]" started-at="2026-05-30T20:02:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-30T20:03:08 IST" duration-ms="11245" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.P001_Reg_Runner@33c911a1]" started-at="2026-07-16T23:20:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-16T23:20:41 IST" duration-ms="4400" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA["create an account with valid details"]]>
+                <![CDATA["Verify and check the registration page is opened successfully"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["create account"]]>
+                <![CDATA["Registration Page"]]>
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@7ee8290b]" started-at="2026-05-30T20:02:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-30T20:03:12 IST" duration-ms="15339" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify the web page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login functionality"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.MyRunner@7ee8290b]" started-at="2026-05-30T20:02:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-30T20:03:10 IST" duration-ms="13143" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Login with valid credentials"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login functionality"]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="io.cucumber.java.PendingException">
             <message>
-              <![CDATA[Passed expected [My Account] but found [Account Login]]]>
+              <![CDATA[TODO: implement me]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Passed expected [My Account] but found [Account Login]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at stepDefinations.LoginFunctionality.then_user_get_dashboard_page_title(LoginFunctionality.java:73)
-at ✽.then user get Dashboard page title "My Account"(file:///C:/Users/ADMIN/eclipse-workspace/Stad_CucumberPOM_Practice/src/test/resources/features/01_loginFunctionality.feature:15)
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at stepDefinations.P001_RegistrationPage.user_is_on_the_registration_page(P001_RegistrationPage.java:13)
+at ✽.user is on the registration page(file:///C:/Users/ADMIN/eclipse-workspace/Stad_CucumberPOM_Practice/src/test/resources/features/P001_Registration_Page.feature:4)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- io.cucumber.java.PendingException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.MyRunner@7ee8290b]" started-at="2026-05-30T20:03:12 IST" name="tearDownClass" finished-at="2026-05-30T20:03:14 IST" duration-ms="1812" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.P001_Reg_Runner@33c911a1]" started-at="2026-07-16T23:20:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-07-16T23:20:44 IST" duration-ms="2842" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Registration Page"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.java.PendingException">
+            <message>
+              <![CDATA[TODO: implement me]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.java.PendingException: TODO: implement me
+at stepDefinations.P001_RegistrationPage.user_is_on_the_registration_page(P001_RegistrationPage.java:13)
+at ✽.user is on the registration page(file:///C:/Users/ADMIN/eclipse-workspace/Stad_CucumberPOM_Practice/src/test/resources/features/P001_Registration_Page.feature:4)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.java.PendingException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.P001_Reg_Runner@33c911a1]" started-at="2026-07-16T23:20:44 IST" name="tearDownClass" finished-at="2026-07-16T23:20:45 IST" duration-ms="1366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.MyRunner -->
+      </class> <!-- runner.P001_Reg_Runner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

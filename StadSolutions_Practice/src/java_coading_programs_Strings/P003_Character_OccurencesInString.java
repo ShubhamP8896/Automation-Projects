@@ -24,21 +24,20 @@ public class P003_Character_OccurencesInString
 					}
 				}
 				 System.out.println(ch + " : " + count);
-	                checked = checked + ch;
+	             checked = checked + ch;
 			}
 		}
 		
 		System.out.println();
 		
-//		Also we are able to use this simple version  >> Need to update the code for now not showing proper output
+//		Also we are able to use this simple version 
 		
         String s = "Programming";
         String check = "";
         
         for(int i = 0; i < s.length(); i++)
         {
-        	
-        	if(check.indexOf(s.charAt(i)) != -1)
+        	if(check.indexOf(s.charAt(i)) == -1)
         	{ 
         		int count = 0;
                 for(int j = 0 ; j < s.length(); j++)
@@ -51,10 +50,9 @@ public class P003_Character_OccurencesInString
                 System.out.println(s.charAt(i) + " : " + count);
         	}
                 
+        	check = check + s.charAt(i);
                 
-                check = check + s.charAt(i);
-                
-          }
+        }
             
         
     }

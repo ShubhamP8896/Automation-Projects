@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--291139903\testng-customsuite.xml</span>
+                    <span>C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1014963894\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,29 +103,15 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.MyRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login with valid credentials&quot;, &quot;Login functionality&quot;)">runScenario("Login with valid credentials", "Login functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="runner.P001_Reg_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;&quot;, &quot;Registration Page&quot;)">runScenario("", "Registration Page")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="runner.P001_Reg_Runner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify and check the registration page is opened successfully&quot;, &quot;Registration Page&quot;)">runScenario("Verify and check the registration page is opened successfully", "Registration Page")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Default_suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.MyRunner" class="method navigator-link" hash-for-method="runScenario(&quot;create an account with valid details&quot;, &quot;create account&quot;)">runScenario("create an account with valid details", "create account")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="runner.MyRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Verify the web page&quot;, &quot;Login functionality&quot;)">runScenario("Verify the web page", "Login functionality")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -140,23 +126,33 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">runner.MyRunner</span>
+              <span class="class-name">runner.P001_Reg_Runner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;Login with valid credentials&quot;, &quot;Login functionality&quot;)">
-                  </a> <!-- runScenario("Login with valid credentials", "Login functionality") -->
+                  <a name="runScenario(&quot;&quot;, &quot;Registration Page&quot;)">
+                  </a> <!-- runScenario("", "Registration Page") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Login with valid credentials","Login functionality")</span>
-                  <div class="stack-trace">java.lang.AssertionError: Passed expected [My Account] but found [Account Login]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at stepDefinations.LoginFunctionality.then_user_get_dashboard_page_title(LoginFunctionality.java:73)
-	at ✽.then user get Dashboard page title &quot;My Account&quot;(file:///C:/Users/ADMIN/eclipse-workspace/Stad_CucumberPOM_Practice/src/test/resources/features/01_loginFunctionality.feature:15)
+                  <span class="parameters">("","Registration Page")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinations.P001_RegistrationPage.user_is_on_the_registration_page(P001_RegistrationPage.java:13)
+	at ✽.user is on the registration page(file:///C:/Users/ADMIN/eclipse-workspace/Stad_CucumberPOM_Practice/src/test/resources/features/P001_Registration_Page.feature:4)
+
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Verify and check the registration page is opened successfully&quot;, &quot;Registration Page&quot;)">
+                  </a> <!-- runScenario("Verify and check the registration page is opened successfully", "Registration Page") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Verify and check the registration page is opened successfully","Registration Page")</span>
+                  <div class="stack-trace">io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinations.P001_RegistrationPage.user_is_on_the_registration_page(P001_RegistrationPage.java:13)
+	at ✽.user is on the registration page(file:///C:/Users/ADMIN/eclipse-workspace/Stad_CucumberPOM_Practice/src/test/resources/features/P001_Registration_Page.feature:4)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -165,38 +161,10 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
-          <div class="suite-Default_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">runner.MyRunner</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;create an account with valid details&quot;, &quot;create account&quot;)">
-                  </a> <!-- runScenario("create an account with valid details", "create account") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("create an account with valid details","create account")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;Verify the web page&quot;, &quot;Login functionality&quot;)">
-                  </a> <!-- runScenario("Verify the web page", "Login functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("Verify the web page","Login functionality")</span>
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--291139903\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ADMIN\AppData\Local\Temp\testng-eclipse--1014963894\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -205,7 +173,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;runner.MyRunner&quot;/&gt;
+      &lt;class name=&quot;runner.P001_Reg_Runner&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -253,24 +221,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
-data.setCell(0, 2, 'runner.MyRunner')
-data.setCell(0, 3, 15339);
+data.setCell(0, 2, 'runner.P001_Reg_Runner')
+data.setCell(0, 3, 4400);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
-data.setCell(1, 2, 'runner.MyRunner')
-data.setCell(1, 3, 13143);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'runScenario')
-data.setCell(2, 2, 'runner.MyRunner')
-data.setCell(2, 3, 11245);
+data.setCell(1, 2, 'runner.P001_Reg_Runner')
+data.setCell(1, 3, 2842);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 39 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -296,28 +260,26 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">runner.MyRunner</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">runner.P001_Reg_Runner</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@3db663d0)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@17c2d509)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("create an account with valid details", "create account")</span>
-                <span class="method-start">1252 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("Verify the web page", "Login functionality")</span>
-                <span class="method-start">1252 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">runScenario("Verify and check the registration page is opened successfully", "Registration Page")</span>
+                <span class="method-start">1095 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("Login with valid credentials", "Login functionality")</span>
-                <span class="method-start">1252 ms</span>
+                <span class="method-name">runScenario("", "Registration Page")</span>
+                <span class="method-start">5500 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">16601 ms</span>
+                <span class="method-start">8346 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -22,6 +22,21 @@ public class P002_SortArray
 			}
 		}
 		System.out.println(Arrays.toString(arr));
+		
+//		Descending Order
+		for(int i = 0; i < n-1; i++)
+		{
+			for(int j = 0; j < n-1; j++)
+			{
+				if(arr[j] < arr[j+1])    // just we need to change the > and add < (less than) condition
+				{
+					int temp = arr[j];
+					arr[j] = arr[j+1];
+					arr[j+1] = temp;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(arr));
 	}
 
 }

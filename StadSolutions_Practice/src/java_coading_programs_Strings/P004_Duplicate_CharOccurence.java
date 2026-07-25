@@ -58,7 +58,7 @@ public class P004_Duplicate_CharOccurence
             check = check + s.charAt(i);
         }
         
-        
+        System.out.println("------------------------------");
 ///		Also we are able to use this simple version using isDuplicate flag
 ///		Also this we are able to use same code for the Arrays as well
 ///        
@@ -67,17 +67,19 @@ public class P004_Duplicate_CharOccurence
         for(int i = 0; i < str.length(); i++)
         {
             boolean isDuplicate = false;
+            int count = 1;
             for(int j = 0; j < i ; j++)
             {
                 if(str.charAt(i) == str.charAt(j))
                 {
+                	count++;
                     isDuplicate = true;
                     break;
                 }
             }
-            if(!isDuplicate)
+            if(isDuplicate)
             {
-            System.out.print(str.charAt(i));
+            System.out.println(str.charAt(i) + " " + count);
             }
         }
 		
