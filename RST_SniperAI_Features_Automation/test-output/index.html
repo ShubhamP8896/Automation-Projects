@@ -201,21 +201,6 @@
           <div class="suite-RecruiterLogin_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="recLoginInvalidPass">
-                  </a> <!-- recLoginInvalidPass -->
-                  <span class="method-name">recLoginInvalidPass</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-RecruiterLogin_Suite-class-passed -->
-          <div class="suite-RecruiterLogin_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -224,6 +209,21 @@
                   <a name="recLoginWithoutCred">
                   </a> <!-- recLoginWithoutCred -->
                   <span class="method-name">recLoginWithoutCred</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RecruiterLogin_Suite-class-passed -->
+          <div class="suite-RecruiterLogin_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="recLoginInvalidPass">
+                  </a> <!-- recLoginInvalidPass -->
+                  <span class="method-name">recLoginInvalidPass</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -287,7 +287,7 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa_0001_TestListeners.TL_001_TestListeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;RecruiterLogin_Test&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;RecruiterLogin_Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred&quot;/&gt;
       &lt;class name=&quot;com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass&quot;/&gt;
@@ -338,42 +338,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'recLoginValidCred')
-data.setCell(0, 2, 'com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred')
-data.setCell(0, 3, 4747);
+data.setCell(0, 1, 'recLoginWithoutPassowrd')
+data.setCell(0, 2, 'com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword')
+data.setCell(0, 3, 21493);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'recLoginWithCanCred')
-data.setCell(1, 2, 'com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred')
-data.setCell(1, 3, 1185);
+data.setCell(1, 1, 'recLoginValidCred')
+data.setCell(1, 2, 'com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred')
+data.setCell(1, 3, 7053);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'recLoginInvalidPass')
 data.setCell(2, 2, 'com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass')
-data.setCell(2, 3, 1017);
+data.setCell(2, 3, 3834);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'recLoginInvalidUsername')
-data.setCell(3, 2, 'com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername')
-data.setCell(3, 3, 995);
+data.setCell(3, 1, 'recLoginInvalidCred')
+data.setCell(3, 2, 'com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred')
+data.setCell(3, 3, 1622);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'recLoginInvalidCred')
-data.setCell(4, 2, 'com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred')
-data.setCell(4, 3, 884);
+data.setCell(4, 1, 'recLoginWithCanCred')
+data.setCell(4, 2, 'com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred')
+data.setCell(4, 3, 1424);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'recLoginWithoutUsername')
-data.setCell(5, 2, 'com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName')
-data.setCell(5, 3, 445);
+data.setCell(5, 1, 'recLoginInvalidUsername')
+data.setCell(5, 2, 'com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername')
+data.setCell(5, 3, 1149);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'recLoginWithoutPassowrd')
-data.setCell(6, 2, 'com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword')
-data.setCell(6, 3, 442);
+data.setCell(6, 1, 'recLoginWithoutUsername')
+data.setCell(6, 2, 'com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName')
+data.setCell(6, 3, 759);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'recLoginWithoutCred')
 data.setCell(7, 2, 'com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred')
-data.setCell(7, 3, 387);
+data.setCell(7, 3, 723);
 window.suiteTableData['RecruiterLogin_Suite']= { tableData: data, tableDiv: 'times-div-RecruiterLogin_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
               <div id="times-div-RecruiterLogin_Suite">
               </div> <!-- times-div-RecruiterLogin_Suite -->
             </div> <!-- times-div -->
@@ -399,7 +399,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
@@ -413,148 +413,148 @@ return data;
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">recLoginValidCred</span>
-                <span class="method-start">5686 ms</span>
+                <span class="method-name">recLoginInvalidCred</span>
+                <span class="method-start">6264 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">recLoginInvalidUsername</span>
+                <span class="method-start">6922 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">recLoginInvalidPass</span>
-                <span class="method-start">11225 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=recLoginValidCred status=SUCCESS method=TC_0001_VerifyRecLogin_WithValidCred.recLog...)</span>
-                <span class="method-start">12180 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=recLoginInvalidPass status=SUCCESS method=TC_0002_VerifyRecLogin_WithInvalidPass.re...)</span>
-                <span class="method-start">12697 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">12919 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">13423 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">recLoginInvalidUsername</span>
-                <span class="method-start">17432 ms</span>
+                <span class="method-start">10885 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0004_VerifyRecLogin_WithInvalidCred</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">recLoginInvalidCred</span>
-                <span class="method-start">17798 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=recLoginInvalidCred status=SUCCESS method=TC_0004_VerifyRecLogin_WithInvalidCred.re...)</span>
-                <span class="method-start">19023 ms</span>
+                <span class="method-start">12103 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0003_VerifyRecLogin_WithInvalidUsername</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=recLoginInvalidUsername status=SUCCESS method=TC_0003_VerifyRecLogin_WithInvalidUse...)</span>
-                <span class="method-start">19120 ms</span>
+                <span class="method-start">12549 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">19252 ms</span>
+                <span class="method-start">13465 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">recLoginValidCred</span>
+                <span class="method-start">13768 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">19316 ms</span>
+                <span class="method-start">15087 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=recLoginInvalidPass status=SUCCESS method=TC_0002_VerifyRecLogin_WithInvalidPass.re...)</span>
+                <span class="method-start">15319 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16141 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">recLoginWithoutPassowrd</span>
+                <span class="method-start">18485 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=recLoginValidCred status=SUCCESS method=TC_0001_VerifyRecLogin_WithValidCred.recLog...)</span>
+                <span class="method-start">21222 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30695 ms</span>
               </div> <!-- configuration-method before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">recLoginWithoutUsername</span>
-                <span class="method-start">23224 ms</span>
+                <span class="method-start">33486 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">recLoginWithoutPassowrd</span>
-                <span class="method-start">23932 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0005_VerifyRecLogin_withoutuserName</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=recLoginWithoutUsername status=SUCCESS method=TC_0005_VerifyRecLogin_withoutuserNam...)</span>
-                <span class="method-start">24011 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">24208 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=recLoginWithoutPassowrd status=SUCCESS method=TC_0006_VerifyRecLogin_withoutPasswor...)</span>
-                <span class="method-start">24520 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">24707 ms</span>
-              </div> <!-- configuration-method before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">recLoginWithoutCred</span>
-                <span class="method-start">27923 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=recLoginWithoutCred status=SUCCESS method=TC_0007_VerifyRecLogin_withoutCred.recLog...)</span>
-                <span class="method-start">28487 ms</span>
+                <span class="method-start">34695 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0008_VerifyRecLogin_WithCanCred</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">recLoginWithCanCred</span>
-                <span class="method-start">29406 ms</span>
+                <span class="method-start">35480 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=recLoginWithCanCred status=SUCCESS method=TC_0008_VerifyRecLogin_WithCanCred.recLog...)</span>
-                <span class="method-start">30772 ms</span>
+                <span class="method-start">37298 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0007_VerifyRecLogin_withoutCred</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">recLoginWithoutCred</span>
+                <span class="method-start">38063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=recLoginWithoutCred status=SUCCESS method=TC_0007_VerifyRecLogin_withoutCred.recLog...)</span>
+                <span class="method-start">39028 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa_0002_RecruiterLogin.TC_0006_VerifyRecLogin_withoutPassword</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=recLoginWithoutPassowrd status=SUCCESS method=TC_0006_VerifyRecLogin_withoutPasswor...)</span>
+                <span class="method-start">40132 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

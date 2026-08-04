@@ -1,67 +1,84 @@
 package com.qa.driverFactory;
 
-import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.safari.SafariDriver;
 
-import com.qa.utilities.ExceptionUtility;
+import com.qa.exceptions.FrameworkException;
 
-public class DriverFactory 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public final class DriverFactory 
 {
-	private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+	private static final Logger logger = LogManager.getLogger(DriverFactory.class);
 	
+	/**
+	 * Stores the WebDriver instance separately for each thread.
+	 */
+	private static final ThreadLocal<WebDriver> DRIVER = new ThreadLocal<>();
 	
-	public static WebDriver initDriver_launchBrowser(String browser)
+	/**
+	 * Private constructor to prevent instantiation.
+	 */
+	private DriverFactory() 
 	{
-			if (browser == null || browser.trim().isEmpty())
-			{
-			    throw new ExceptionUtility("Browser name cannot be null or empty");
-			}
-			else if(driver.get() == null)
-			{
-				switch(browser.toLowerCase().trim())
-				{
-				case "chrome" : driver.set(new ChromeDriver()); break;
-				case "firefox" : driver.set(new FirefoxDriver()); break;
-				case "edge" : driver.set(new EdgeDriver()); break;
-				case "safari" : driver.set(new SafariDriver()); break;
-				default: throw new ExceptionUtility("Unsupported browser: " + browser +
-					    ". Supported browsers are Chrome, Firefox, Edge and Safari."); 
-				}
-				
-				System.out.println(browser + " : Browser launched Successfully");
-				driver.get().manage().window().maximize();
-	            driver.get().manage().deleteAllCookies();
-	            driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-			}
-		
-		return driver.get();
+	    throw new AssertionError("DriverFactory class cannot be instantiated.");
 	}
+	
+	/**
+	 * Stores the WebDriver instance for the current thread.
+	 *
+	 * @param driver WebDriver instance to be associated with the current thread
+	 */
+	public static void setDriver(WebDriver driver)
+	{
+	    logger.info("WebDriver initialized for thread: {}", Thread.currentThread().getName());
+		DRIVER.set(driver);
+	}
+	
+	
+	/**
+	 * Returns the current thread's WebDriver instance.
+	 *
+	 * @return WebDriver associated with the current thread
+	 */
 	
 	public static WebDriver getDriver()
 	{
-		return driver.get();
+	    if (DRIVER.get() == null) 
+	    {
+	    	logger.error("Attempted to access WebDriver before initialization.");
+	        throw new FrameworkException("WebDriver has not been initialized. Call initDriver() first.");
+	    }
+	    
+	    logger.debug("Returning WebDriver for thread: {}", Thread.currentThread().getName());
+		return DRIVER.get();
 	}
 	
-    public static void closeBrowser() {
-        if (getDriver() != null) {
-            getDriver().close();
-            System.out.println("Browser Closed Successfully");
-        }
-    }
-	
-	public static void quitBrowser()
+	/**
+	 * Close the single window
+	 */
+	public static void closeBrowser()
 	{
-		if(driver.get() != null)
+		if(DRIVER.get() != null)
 		{
-			getDriver().quit();
-			driver.remove();
-			System.out.println("Driver Quit successfully");
+			logger.info("Closing current browser window.");
+			getDriver().close();
 		}
 	}
+	
+/**
+ * Quit the browser, Close all open windows
+ */
+	public static void quitBrowser()
+	{
+		if(DRIVER.get() != null)
+		{
+			logger.info("Quitting browser session.");
+			getDriver().quit();
+			DRIVER.remove();
+			logger.info("WebDriver removed from ThreadLocal.");
+		}
+	}	
 
 }

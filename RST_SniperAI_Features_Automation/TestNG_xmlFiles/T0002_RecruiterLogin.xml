@@ -7,7 +7,7 @@
 	<listener class-name="com.qa_0001_TestListeners.TL_001_TestListeners"></listener>
 </listeners>
 
-  <test name="RecruiterLogin_Test" parallel="classes" thread-count="2">
+  <test name="RecruiterLogin_Test" parallel="classes" thread-count="4">
     <classes>
       <class name="com.qa_0002_RecruiterLogin.TC_0001_VerifyRecLogin_WithValidCred"/>
       <class name="com.qa_0002_RecruiterLogin.TC_0002_VerifyRecLogin_WithInvalidPass"/>

@@ -1,32 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-24T22:51:22 IST" name="Suite" finished-at="2026-07-24T22:51:37 IST" duration-ms="15445">
+  <suite started-at="2026-07-26T22:43:29 IST" name="AutomationPSuite" finished-at="2026-07-26T22:43:39 IST" duration-ms="9376">
     <groups>
     </groups>
-    <test started-at="2026-07-24T22:51:22 IST" name="Test" finished-at="2026-07-24T22:51:37 IST" duration-ms="15445">
-      <class name="com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData@766653e6]" started-at="2026-07-24T22:51:22 IST" name="setUp" finished-at="2026-07-24T22:51:31 IST" duration-ms="9424" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-07-26T22:43:29 IST" name="AutomationP002Test" finished-at="2026-07-26T22:43:37 IST" duration-ms="8137">
+      <class name="com.qa.TestCases.VerifyRegistration">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.VerifyRegistration@f415a95]" started-at="2026-07-26T22:43:29 IST" name="setUp" finished-at="2026-07-26T22:43:36 IST" duration-ms="6770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegistrationWithValidData()[pri:0, instance:com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData@766653e6]" started-at="2026-07-24T22:51:31 IST" name="verifyRegistrationWithValidData" finished-at="2026-07-24T22:51:33 IST" duration-ms="2311" status="PASS">
+        <test-method signature="verifyRegPage()[pri:0, instance:com.qa.TestCases.VerifyRegistration@f415a95]" started-at="2026-07-26T22:43:36 IST" name="verifyRegPage" finished-at="2026-07-26T22:43:37 IST" duration-ms="701" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.qa.TestCases.VerifyRegistration.verifyRegPage(VerifyRegistration.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyRegistrationWithValidData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData@766653e6]" started-at="2026-07-24T22:51:37 IST" name="tearDown" finished-at="2026-07-24T22:51:37 IST" duration-ms="336" status="PASS">
+        </test-method> <!-- verifyRegPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.TestCases.VerifyRegistration@f415a95]" started-at="2026-07-26T22:43:37 IST" name="tearDown" finished-at="2026-07-26T22:43:37 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa_002_registrationForm.TC001_VerifyWithAddAllValidData -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.qa.TestCases.VerifyRegistration -->
+    </test> <!-- AutomationP002Test -->
+    <test started-at="2026-07-26T22:43:29 IST" name="AutomationP001Test" finished-at="2026-07-26T22:43:39 IST" duration-ms="9376">
+      <class name="com.qa.TestCases.VerifyRegistration">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.TestCases.VerifyRegistration@6d8792db]" started-at="2026-07-26T22:43:29 IST" name="setUp" finished-at="2026-07-26T22:43:37 IST" duration-ms="8105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegPage()[pri:0, instance:com.qa.TestCases.VerifyRegistration@6d8792db]" started-at="2026-07-26T22:43:37 IST" name="verifyRegPage" finished-at="2026-07-26T22:43:38 IST" duration-ms="639" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.qa.TestCases.VerifyRegistration.verifyRegPage(VerifyRegistration.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.TestCases.VerifyRegistration@6d8792db]" started-at="2026-07-26T22:43:38 IST" name="tearDown" finished-at="2026-07-26T22:43:39 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.TestCases.VerifyRegistration -->
+    </test> <!-- AutomationP001Test -->
+  </suite> <!-- AutomationPSuite -->
 </testng-results>

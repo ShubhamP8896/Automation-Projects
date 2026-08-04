@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.FillPatternType;
 import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -12,202 +14,302 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import com.qa.exceptions.FrameworkException;
+
 public class ExcelUtility 
 {
-	public static FileInputStream fis;
-	public static FileOutputStream fos;
-    public static XSSFWorkbook workbook;
-    public static XSSFSheet sheet;
-    public static XSSFRow row;
-    public static XSSFCell cell;
-    public static XSSFCellStyle style;
-    
-  /// To get the Row Count : Need to pass File path and Sheet name
-    public synchronized static int getLastRowCount(String filePath, String sheetName)
-    {
-    	try
-    	{
-    	fis =  new FileInputStream(filePath);
-    	workbook = new XSSFWorkbook(fis);
-    	sheet = workbook.getSheet(sheetName);
-    	int lastRowNum = sheet.getLastRowNum();
-    	
-    	if(workbook != null) workbook.close();
-    	if(fis != null)	fis.close();
-    	
-    	return lastRowNum;
-    	}
-    	catch(IOException e)
-    	{
-    		throw new ExceptionUtility("Row is not Found");
-    	} 	
-    }
-    
-  /// To get the Cell Count : Need to pass in the argument file path, sheet name, and row Number for that specific cell count we want.
-    public static synchronized int getLastCellNum(String filePath, String sheetName, int rowNum)
-    {
-    	try
-    	{
-    		fis = new FileInputStream(filePath);
-    		workbook = new XSSFWorkbook(fis);
-    		sheet = workbook.getSheet(sheetName);
-    		row = sheet.getRow(rowNum);
-    		int lastCellNum = row.getLastCellNum();
-    		
-    		if(workbook != null) workbook.close();
-    		if(fis != null) fis.close();
-    		
-    		return lastCellNum;
-    	}
-    	catch(IOException e)
-    	{
-    		throw new ExceptionUtility("Cell is not Found");
-    	}
-    }
-    
-  /// To get the specific cell data  : Method is static so we are able to call this with the class name 
-    public static synchronized String getCellData(String filePath, String sheetName, int rowNum, int cellNum)
-    {
-    	try
-    	{
-    		fis = new FileInputStream(filePath);
-    		workbook = new XSSFWorkbook(fis);
-    		sheet = workbook.getSheet(sheetName);
-    		row = sheet.getRow(rowNum);
-    		cell = row.getCell(cellNum);
-    		String data = cell.toString();
-    		
-    		if(workbook != null) workbook.close();
-    		if(fis != null) fis.close();
-    		
-    		return data;
-    	}
-    	catch(IOException e)
-    	{
-    		throw new ExceptionUtility("Data is not found in the given cell");
-    	}
-    }
-    
-    public static synchronized void setDataIntoCell(String filePath, String sheetName, int rowNum, int cellNum, String setData)
-    {
-    	try
-    	{
-    		fis = new FileInputStream(filePath);
-    		workbook = new XSSFWorkbook(fis);
-    		sheet = workbook.getSheet(sheetName);
-    		if(sheet == null) sheet =workbook.createSheet(sheetName);
-    		row = sheet.getRow(rowNum);
-    		if(row == null) row = sheet.createRow(rowNum);
-    		cell = row.getCell(cellNum);
-    		if(cell == null) cell = row.createCell(cellNum);
-    		
-    		cell.setCellValue(setData);
-    		fos = new FileOutputStream(filePath);
-    		workbook.write(fos);
-    		
-    		if(workbook != null) workbook.close();
-    		if(fis != null) fis.close();
-    		if(fos != null) fos.close();
-    	}
-    	catch(IOException e)
-    	{
-    		e.printStackTrace();
-    	}
-    }
-    
-    public static synchronized void fillGreenColor(String filePath, String sheetName, int rowNum, int cellNum)
-    {
-    	try
-    	{
-    		fis = new FileInputStream(filePath);
-    		workbook = new XSSFWorkbook(fis);
-    		sheet = workbook.getSheet(sheetName);
-    		row = sheet.getRow(rowNum);
-    		
-    		style = workbook.createCellStyle();
-    		style.setFillForegroundColor(IndexedColors.GREEN.getIndex());
-    		style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-    		
-    		cell = row.getCell(cellNum);
-    		cell.setCellStyle(style);
-    		 fos = new FileOutputStream(filePath);
-             workbook.write(fos);
+	private static FileInputStream fis;
+	private static FileOutputStream fos;
+	private static XSSFWorkbook workbook;
+	private static XSSFSheet sheet;
+	private static XSSFRow row;
+	private static XSSFCell cell;
+	private static XSSFCellStyle style;
+	private static final Logger logger = LogManager.getLogger(ExcelUtility.class);
 
-            if (workbook != null) workbook.close();
- 			if (fis != null) fis.close();
- 			if (fos != null) fos.close();
-    	}
-    	catch(IOException e)
-    	{
-    		throw new ExceptionUtility("Not Able to add the Green Colour into given cell");
-    	}
-    	
-    }
-    
-    public static synchronized void fillRedColor(String filePath, String sheetName, int rowNum, int cellNum)
-    {
-    	try
-    	{
-    		fis = new FileInputStream(filePath);
-    		workbook = new XSSFWorkbook(fis);
-    		sheet = workbook.getSheet(sheetName);
-    		row = sheet.getRow(rowNum);
-    		
-    		style = workbook.createCellStyle();
-    		style.setFillBackgroundColor(IndexedColors.GREEN.getIndex());
-    		style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-    		cell = row.getCell(cellNum);
-    		cell.setCellStyle(style);
-    		 fos = new FileOutputStream(filePath);
-             workbook.write(fos);
-
-            if (workbook != null) workbook.close();
- 			if (fis != null) fis.close();
- 			if (fos != null) fos.close();
-    		
-    	}
-    	catch(IOException e)
-    	{
-    		throw new ExceptionUtility("Not able to fill Red Color into given cell");
-    	}
-    }	
-    
-//  Get the row number By test case ID
-    
-  public synchronized static int getRowNumberByTestCaseID(String path, String sheetName, String TestCaseID)
-  {
-  	try 
-  	{
-			fis = new FileInputStream(path);
+	/**
+	 * 
+	 * @param filePath
+	 * @param SheetName
+	 * @return
+	 */
+	public synchronized static int getLastRowNum(String filePath, String SheetName)
+	{
+		try 
+		{
+			fis = new FileInputStream(filePath);
 			workbook = new XSSFWorkbook(fis);
-			sheet = workbook.getSheet(sheetName);
+			sheet = workbook.getSheet(SheetName);
+			int lastRowNum = sheet.getLastRowNum();
 			
-			int totalRows = sheet.getLastRowNum();
+			 if (workbook != null) workbook.close();
+				if (fis != null) fis.close();
+				logger.info(
+					    "Fetching last row from sheet '{}'",
+					    SheetName);
+			return lastRowNum;
 			
-			for(int i = 1; i <= totalRows; i++  )
+		} catch (IOException e) 
+		{
+			logger.error("Excel File is not load");
+			throw new FrameworkException("Excel File is not found, Please check the file path" , e);
+		}
+	}
+	
+	/**
+	 * 
+	 * @param filePath
+	 * @param SheetName
+	 * @param rowNum
+	 * @return
+	 */
+	public synchronized static int getLastCellNum(String filePath, String SheetName, int rowNum)
+	{
+		try 
+		{
+			fis = new FileInputStream(filePath);
+			workbook = new XSSFWorkbook(fis);
+			sheet = workbook.getSheet(SheetName);
+			row = sheet.getRow(rowNum);
+			int lastCellNum = row.getLastCellNum();
+			
+			 if (workbook != null) workbook.close();
+				if (fis != null) fis.close();
+				logger.info("Fetching the last row Number");
+			return lastCellNum;
+			
+		} catch (IOException e) 
+		{
+			logger.error("Excel File is not load");
+			throw new FrameworkException("Excel File is not found, Please check the file path" , e);
+		}
+	}
+	
+	/**
+	 * 
+	 * @param filePath
+	 * @param SheetName
+	 * @param rowNum
+	 * @param cellNum
+	 * @return
+	 */
+	public synchronized static String getCellStringData(String filePath, String SheetName, int rowNum, int cellNum)
+	{
+		try 
+		{
+			fis = new FileInputStream(filePath);
+			workbook = new XSSFWorkbook(fis);
+			sheet = workbook.getSheet(SheetName);
+			row = sheet.getRow(rowNum);
+			cell = row.getCell(cellNum);
+			String data = cell.toString();
+			
+			 if (workbook != null) workbook.close();
+				if (fis != null) fis.close();
+				logger.info("Fetching the String data from an Excel File");
+			return data;
+			
+		} catch (IOException e) 
+		{
+			logger.error("Excel File is not load");
+			throw new FrameworkException("Excel File is not found, Please check the file path" , e);
+		}
+	}
+	
+	/**
+	 * 
+	 * @param filePath
+	 * @param SheetName
+	 * @param rowNum
+	 * @param cellNum
+	 * @return
+	 */
+	public synchronized static long getCellNumericData(String filePath, String SheetName, int rowNum, int cellNum)
+	{
+		try 
+		{
+			fis = new FileInputStream(filePath);
+			workbook = new XSSFWorkbook(fis);
+			sheet = workbook.getSheet(SheetName);
+			row = sheet.getRow(rowNum);
+			cell = row.getCell(cellNum);
+			long data = (long) cell.getNumericCellValue();
+			
+			 if (workbook != null) workbook.close();
+				if (fis != null) fis.close();
+				logger.info("Fetching the Numeric data from an Excel file");
+			return data;
+			
+		} catch (IOException e) 
+		{
+			logger.error("Excel File is not load");
+			throw new FrameworkException("Excel File is not found, Please check the file path" , e);
+		}
+	}
+	
+	/**
+	 * 
+	 * @param filePath
+	 * @param SheetName
+	 * @param rowNum
+	 * @param cellNum
+	 * @return
+	 */
+	public synchronized static double getCellFloatData(String filePath, String SheetName, int rowNum, int cellNum)
+	{
+		try 
+		{
+			fis = new FileInputStream(filePath);
+			workbook = new XSSFWorkbook(fis);
+			sheet = workbook.getSheet(SheetName);
+			row = sheet.getRow(rowNum);
+			cell = row.getCell(cellNum);
+			double data = cell.getNumericCellValue();
+			logger.info("Fetching the floating data from an Excel file");
+			 if (workbook != null) workbook.close();
+				if (fis != null) fis.close();
+			
+			return data;
+			
+		} catch (IOException e) 
+		{
+			logger.error("Excel File is not load");
+			throw new FrameworkException("Excel File is not found, Please check the file path" , e);
+		}
+	}
+	
+	/**
+	 * 
+	 * @param filePath
+	 * @param SheetName
+	 * @param rowNum
+	 * @param cellNum
+	 * @param value
+	 */
+	public synchronized static void setDataIntoExcel(String filePath, String SheetName, int rowNum, int cellNum, String value)
+	{
+		try 
+		{
+			fis = new FileInputStream(filePath);
+			workbook = new XSSFWorkbook(fis);
+			sheet = workbook.getSheet(SheetName);
+			if(sheet == null)
 			{
-				String cellValue = sheet.getRow(i).getCell(1).toString();
-				
-				if(cellValue.equalsIgnoreCase(TestCaseID))
-				{
-					workbook.close();
-					fis.close();
-					return i;
-				}
+				sheet = workbook.createSheet(SheetName);
+			}
+			row = sheet.getRow(rowNum);
+			if(row == null)
+			{
+				row = sheet.createRow(rowNum);
+			}
+			cell = row.getCell(cellNum);
+			if(cell == null)
+			{
+				cell = row.createCell(cellNum);
 			}
 			
-			workbook.close();
-	        fis.close();
-
-	        return -1;
+			cell.setCellValue(value);
 			
-		} 
-  	catch (Exception e) 
-  	{
-			e.printStackTrace();
-			return -1;
+			fos= new FileOutputStream(filePath);
+			workbook.write(fos);
+			logger.info("Added the data into Excel file");
+			if (workbook != null) workbook.close();
+			if (fis != null) fis.close();
+			if (fos != null) fos.close();
+			
+			
+		} catch (IOException e) 
+		{
+			logger.error("Excel File is not load");
+			throw new FrameworkException("Excel File is not found, Please check the file path" , e);
 		}
-  	
-  }
+	}
+	
+/**
+ *  
+ * @param filePath
+ * @param sheetName
+ * @param rowNum
+ * @param colNum
+ */
+    public synchronized static void fillGreenColor(String filePath, String sheetName, int rowNum, int colNum) 
+    {
+        try 
+        {
+            fis = new FileInputStream(filePath);
+            workbook = new XSSFWorkbook(fis);
+            sheet = workbook.getSheet(sheetName);
+
+            row = sheet.getRow(rowNum);
+            if (row == null)
+                row = sheet.createRow(rowNum);
+            
+// This code is important for fill the color in the cell           
+            style = workbook.createCellStyle();
+            style.setFillForegroundColor(IndexedColors.GREEN.getIndex());
+            style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+
+            cell = row.getCell(colNum);
+//            if (cell == null)
+//                cell = row.createCell(colNum);
+
+            cell.setCellStyle(style);
+
+            fos = new FileOutputStream(filePath);
+            workbook.write(fos);
+
+            if (workbook != null) workbook.close();
+			if (fis != null) fis.close();
+			if (fos != null) fos.close();
+        } 
+        catch (Exception e) 
+        {
+            e.printStackTrace();
+        }
+    }
     
+/**
+ * 
+ * @param filePath
+ * @param sheetName
+ * @param rowNum
+ * @param colNum
+ */
+    public synchronized static void fillRedColor(String filePath, String sheetName, int rowNum, int colNum) 
+    {
+        try 
+        {
+            fis = new FileInputStream(filePath);
+            workbook = new XSSFWorkbook(fis);
+            sheet = workbook.getSheet(sheetName);
+
+            row = sheet.getRow(rowNum);
+//            if (row == null)
+//                row = sheet.createRow(rowNum);
+            
+// This code is important for fill the color in the cell           
+            style = workbook.createCellStyle();
+            style.setFillForegroundColor(IndexedColors.RED.getIndex());
+            style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+
+            cell = row.getCell(colNum);
+//            if (cell == null)
+//                cell = row.createCell(colNum);
+
+            cell.setCellStyle(style);
+
+            fos = new FileOutputStream(filePath);
+            workbook.write(fos);
+
+            if (workbook != null) workbook.close();
+			if (fis != null) fis.close();
+			if (fos != null) fos.close();
+        } 
+        catch (Exception e) 
+        {
+            e.printStackTrace();
+        }
+    }  
+
+	
 }

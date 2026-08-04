@@ -4,6 +4,10 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="true"/>
 		<list key="findhistory">
+			<item value="NumericCell"/>
+			<item value="getNumericCellValue"/>
+			<item value="log4"/>
+			<item value="log"/>
 			<item value="JavascriptExecutor js = (JavascriptExecutor) getDriver();"/>
 			<item value="js."/>
 			<item value="java"/>
@@ -15,10 +19,6 @@
 			<item value="test"/>
 			<item value="extent"/>
 			<item value="testNG"/>
-			<item value="Extent"/>
-			<item value="snap"/>
-			<item value="select"/>
-			<item value="alert"/>
 		</list>
 		<list key="replacehistory">
 			<item value="getJsExecutor()."/>

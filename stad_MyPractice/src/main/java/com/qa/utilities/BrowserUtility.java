@@ -1,88 +1,100 @@
 package com.qa.utilities;
 
-import java.time.Duration;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
 import com.qa.driverFactory.DriverFactory;
+import com.qa.exceptions.FrameworkException;
 
-public class BrowserUtility 
+public final class BrowserUtility 
 {
-	public WebDriver getDriver()
+	private static final Logger logger = LogManager.getLogger(BrowserUtility.class);
+//	To get the Webdriver instance
+	private WebDriver getDriver()
 	{
-		WebDriver driver = DriverFactory.getDriver();
-
-	    if (driver == null) {
-	        throw new ExceptionUtility(
-	            "WebDriver is not initialized. Please launch the browser first."
-	        );
-	    }
-
-	    return driver;
-	}
-
-	public void launchUrl(String url)
-	{
-		if(url == null || url.isEmpty() || !(url.startsWith("http://") || url.startsWith("https://")))
-		{
-			throw new ExceptionUtility("Url is Invalid: " + url + ", Please provide valid Url");
-		}	
-		getDriver().get(url);
-		System.out.println("Url launched Successfully");
+		return DriverFactory.getDriver();
 	}
 	
-	public String getTitle()
+//	Launch the url
+	public void launchUrl(String url)
+	{
+		if(url == null || url.trim().isEmpty() || (!url.startsWith("http")))
+		{
+			logger.error("Provided url is not valid");
+			throw new FrameworkException("Invalid URL: " + url + " | Please check and provide valid url");
+		}
+		logger.info("Launching URL: {}", url);
+		getDriver().get(url);
+	}
+	
+//	Delete cookies
+	public void deleteCookies()
+	{
+		getDriver().manage().deleteAllCookies();
+	}
+	
+//	Maximize the screen
+	public void maximizeWindow()
+	{	
+		logger.info("Maximizing the window");
+		getDriver().manage().window().maximize();
+	}
+	
+//	Minimize the Screen
+	public void minimizeWindow()
+	{
+		logger.info("Minimizing the window");
+		getDriver().manage().window().minimize();
+	}
+	
+//	to get page title
+	public String getPageTitle()
 	{
 		return getDriver().getTitle();
 	}
 	
-	public String getUrl()
+//	to get current page url
+	public String getCurrentUrl()
 	{
 		return getDriver().getCurrentUrl();
 	}
 	
+//	to get page Source
 	public String getPageSource()
 	{
 		return getDriver().getPageSource();
 	}
 	
-	public void maximizeWindow()
+/**
+ * Navigate to methods : 1} naviagte().to() : Redirected to new url
+ * 2} Refresh the page 3} Forward 4} Backward 
+ */
+	public void navigateTo(String url)
 	{
-		getDriver().manage().window().maximize();
-	}
-	
-	public void minimizeWindow()
-	{
-		getDriver().manage().window().minimize();
-	}
-	
-	public void implicitWait(int timeInterval)
-	{
-		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(timeInterval));
-	}
-	
-	public void navigateGo(String url)
-	{
-		if(url == null || url.isEmpty() || !(url.contains("http")))
+		if(url == null || url.trim().isEmpty() || (!url.startsWith("http")))
 		{
-			throw new ExceptionUtility("Url is Invalid: " + url + ", Please provide valid Url");
-		}	
+			logger.error("Provided url is not valid");
+			throw new FrameworkException("Invalid URL: " + url + " | Please check and provide valid url");
+		}
+		
+		logger.info("Navigating to given url: " + url);
 		getDriver().navigate().to(url);
 	}
-	
-	public void navigateForward()
-	{
-		getDriver().navigate().forward();
-	}
-	
-	public void navigateBackward()
-	{
-		getDriver().navigate().back();
-	}
-	
 	public void navigateRefresh()
 	{
-	    getDriver().navigate().refresh();
+		logger.info("Refreshing the page");
+		getDriver().navigate().refresh();
 	}
-	
+	public void navigateForward()
+	{
+		logger.info("Navigating to forward");
+		getDriver().navigate().forward();
+	}
+	public void navigateBackward()
+	{
+		logger.info("Navigating to backward");
+		getDriver().navigate().back();
+	}
+
 }
